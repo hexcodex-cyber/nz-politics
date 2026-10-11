@@ -1,0 +1,2288 @@
+{
+ "meta": {
+  "title": "NZ Politics 2026: What they actually said",
+  "last_updated": "2026-10-11",
+  "timezone": "Pacific/Auckland",
+  "election": {
+   "date": "Saturday 7 November 2026",
+   "facts": [
+    [
+     "Election day",
+     "Saturday 7 November 2026. Prime Minister Christopher Luxon announced the date on 21 January 2026.",
+     "https://www.rnz.co.nz/news/politics/584623/christopher-luxon-announces-election-date-for-7-november"
+    ],
+    [
+     "Advance voting",
+     "Runs from Monday 26 October to Friday 6 November 2026. Voting is in person (online voting only for overseas voters).",
+     "https://www.govt.nz/browse/engaging-with-government/enrol-and-vote-in-an-election/vote-in-an-election/"
+    ],
+    [
+     "Enrolment",
+     "Reported to close at midnight on Sunday 25 October 2026, and you cannot enrol at a voting place. <em>Uncertain:</em> the Vote.nz key-dates page blocked our fetch, so please check it at vote.nz.",
+     "https://vote.nz/2026-general-election/about/overview/key-dates"
+    ],
+    [
+     "Parliament",
+     "The 54th Parliament was dissolved on 1 October 2026. Ministers stay in office until a new government is formed.",
+     "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+    ],
+    [
+     "Four-year term referendum",
+     "This will <strong>not</strong> be held with the 2026 election. The government dropped the planned referendum on 18 February 2026 (secondary source: Wikipedia).",
+     "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"
+    ]
+   ]
+  },
+  "context": [
+   "The current government is the <strong>Sixth National Government</strong>, formed in November 2023. National leads it with two separate coalition agreements, one with ACT and one with NZ First. Winston Peters was Deputy Prime Minister until 31 May 2025, when David Seymour took over under the agreed rotation.",
+   "<strong>Seats at dissolution:</strong> National 49, ACT 11 and NZ First 8 (government total 68). Labour 34, Greens 15, Te Pāti Māori 4 and two independents (both former Te Pāti Māori MPs). That is 123 seats in total.",
+   "<strong>Polls in the final month</strong> show both major parties well below their 2023 results. The 6 October RNZ–Reid Research poll put National and Labour together at 56.7%, down from 64.9% at the 2023 election. Neither the current coalition nor a Labour–Green–Te Pāti Māori bloc has a clear majority in these polls, and the <strong>Opportunity Party</strong> (outside Parliament) is often the kingmaker. Luxon has ruled out working with Opportunity.",
+   "<strong>Big issues of 2026:</strong> the cost of living (made worse by a fuel-price spike linked to the 2026 Middle East conflict); tax (Labour's capital gains tax, the Greens' wealth taxes, National's 'no new taxes' pledge); two challenges to Luxon's leadership inside National (April and August); the law replacing the RMA, passed in September; Treaty and Waitangi Tribunal policy; immigration; and turmoil inside Te Pāti Māori."
+  ],
+  "polls": [
+   {
+    "poll": "1News–Verian",
+    "fieldwork": "1–5 Oct 2026",
+    "published": "6 Oct 2026",
+    "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/",
+    "verified_against_publisher": true,
+    "party_vote": {
+     "national": 29,
+     "labour": 28,
+     "greens": 16,
+     "act": 9,
+     "nzfirst": 10,
+     "tpm": 0.6,
+     "opportunity": 7
+    }
+   },
+   {
+    "poll": "RNZ–Reid Research",
+    "fieldwork": "24 Sep–1 Oct 2026",
+    "published": "6 Oct 2026",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker",
+    "verified_against_publisher": true,
+    "party_vote": {
+     "national": 25.9,
+     "labour": 30.8,
+     "greens": 14.8,
+     "act": 9,
+     "nzfirst": 10.6,
+     "tpm": 2,
+     "opportunity": 5.5
+    }
+   },
+   {
+    "poll": "Taxpayers' Union–Curia",
+    "fieldwork": "1–5 Oct 2026",
+    "published": "Oct 2026",
+    "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
+    "verified_against_publisher": false,
+    "party_vote": {
+     "national": 28.5,
+     "labour": 28.2,
+     "greens": 13.3,
+     "act": 9.2,
+     "nzfirst": 12,
+     "tpm": 1.4,
+     "opportunity": 4.8
+    }
+   },
+   {
+    "poll": "Roy Morgan",
+    "fieldwork": "31 Aug–27 Sep 2026",
+    "published": "Sep/Oct 2026",
+    "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
+    "verified_against_publisher": false,
+    "party_vote": {
+     "national": 31,
+     "labour": 23.5,
+     "greens": 16,
+     "act": 11,
+     "nzfirst": 10,
+     "tpm": 2,
+     "opportunity": 6.5
+    }
+   }
+  ],
+  "other_parties_note": "<strong>Te Tai Tokerau Party</strong> was founded in May 2026 by Mariameno Kapa-Kingi, the sitting MP for Te Tai Tokerau, after her split from Te Pāti Māori. Its list has two names (Kyla Campbell-Kamariera and Kapa-Kingi). It is not profiled in depth here. It is listed because 1News counts it in the left bloc's seat projections if Kapa-Kingi holds her seat."
+ },
+ "parties": [
+  {
+   "id": "national",
+   "name": "New Zealand National Party",
+   "short": "National",
+   "colour": "#00529F",
+   "status": "Government (leads coalition)",
+   "leaders": [
+    "luxon"
+   ],
+   "top": [
+    "willis",
+    "bishop",
+    "brown",
+    "stanford"
+   ],
+   "selection": "The leader plus list places 2 to 5 on National's 2026 list (released 8 August 2026): deputy leader Nicola Willis (2), Chris Bishop (3), Simeon Brown (4) and Erica Stanford (5). All four are senior Cabinet ministers.",
+   "history": "Founded in 1936 from a merger of the United and Reform parties. It is New Zealand's main centre-right party and has led governments under Holland, Holyoake, Muldoon, Bolger/Shipley and Key/English. It won the most votes in 2023 and formed the current government with ACT and NZ First.",
+   "ideology": "Centre-right. Liberal-conservative, pro-market, and focused on fiscal restraint, law and order, and 'getting the basics right'.",
+   "role": "Leads the Sixth National Government (since 27 November 2023) under separate coalition agreements with ACT and NZ First. Christopher Luxon is Prime Minister and Nicola Willis is Minister of Finance.",
+   "policies": [
+    [
+     "'No new taxes': on 23 August 2026 Luxon widened the pledge from 'no new taxes on working people' and ruled out a bank tax and a bed (accommodation) tax.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected"
+    ],
+    [
+     "Welfare: Jobseeker changes announced 8 October 2026, including random drug testing ('If you can work, you should').",
+     "https://x.com/chrisluxonmp/status/2107949741086765497"
+    ],
+    [
+     "Education: NCEA to be replaced by new qualifications (NZCE at Year 12, NZACE at Year 13). Details were confirmed in May 2026.",
+     "https://www.rnz.co.nz/news/politics/595424/government-confirms-ncea-replacement-details"
+    ],
+    [
+     "Planning: the Planning Act and Natural Environment Act replacing the RMA passed on 22 September 2026. The full system is intended to be running by 2030.",
+     "https://www.national.org.nz/news/260922-chrisbishop"
+    ],
+    [
+     "Social media: a bill to ban under-16s from most social media platforms was introduced as a National Party bill in August 2026. ACT and NZ First oppose it (secondary source).",
+     "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"
+    ],
+    [
+     "Aid: a plan to cut aid outside the Pacific to fund health spending. Coalition partner NZ First publicly criticised it.",
+     "https://x.com/winstonpeters/status/2107229536366850450"
+    ]
+   ],
+   "events": [
+    [
+     "April 2026: after media reports of caucus discontent, Luxon called a confidence vote on his own leadership and won it (21 April). A reshuffle earlier that month moved the campaign-chair role from Chris Bishop to Simeon Brown.",
+     "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
+    ],
+    [
+     "August 2026: Chris Penk challenged Luxon. Luxon survived a second confidence vote on 12 August and stripped Penk of his portfolios. Penk later withdrew as a candidate.",
+     "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+    ],
+    [
+     "September 2026: the Advertising Standards Authority partly upheld a complaint that a National attack ad on Labour's capital gains tax was misleading.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1311337/asa-partly-upholds-complaint-against-misleading-national-attack-ad"
+    ],
+    [
+     "Budget 2026 (28 May) was billed as restrained. Willis said she had not convinced coalition partners to raise the NZ Super age.",
+     "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
+    ],
+    [
+     "Luxon has ruled out working with the Opportunity Party, and has called strategic vote-splitting 'insanely stupid'.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/New_Zealand_National_Party",
+    "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "labour",
+   "name": "New Zealand Labour Party",
+   "short": "Labour",
+   "colour": "#D82A20",
+   "status": "Opposition (Official Opposition)",
+   "leaders": [
+    "hipkins"
+   ],
+   "top": [
+    "sepuloni",
+    "edmonds",
+    "jackson",
+    "woods"
+   ],
+   "selection": "The leader plus list places 2 to 5 on Labour's list (released 8 June 2026): deputy leader Carmel Sepuloni, finance spokesperson Barbara Edmonds, Willie Jackson and Megan Woods.",
+   "history": "Founded in 1916 and New Zealand's oldest current party. It built the welfare state under Savage (1935) and has led governments under Fraser, Nash, Kirk, Lange, Clark and Ardern/Hipkins. It lost power in 2023 after two terms.",
+   "ideology": "Centre-left. Social democratic.",
+   "role": "Official Opposition. Chris Hipkins (Prime Minister January to November 2023) is leader and is seeking to form a government with the Greens and, potentially, Te Pāti Māori and/or Opportunity.",
+   "policies": [
+    [
+     "A capital gains tax on property only (28%, excluding the family home and farms, from July 2027) to fund three free GP visits a year for everyone through a 'Medicard'.",
+     "https://www.rnz.co.nz/news/politics/577021/labour-to-campaign-on-narrow-capital-gains-tax-no-wealth-tax"
+    ],
+    [
+     "An 'NZ Future Fund' modelled on Singapore's Temasek, announced October 2025 (secondary source).",
+     "https://en.wikipedia.org/wiki/New_Zealand_Labour_Party"
+    ],
+    [
+     "A 10% write-off of eligible student loan balances, announced at the 27 September campaign launch.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
+    ],
+    [
+     "A $160m 'SolarSaver' package with subsidies and loans for rooftop and plug-in solar.",
+     "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"
+    ],
+    [
+     "Visa-waiver travel for Pacific Islands Forum citizens.",
+     "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"
+    ]
+   ],
+   "events": [
+    [
+     "Reversal on capital gains tax: in July 2023 Hipkins ruled out a CGT 'End of story'. In October 2025 Labour adopted a property CGT.",
+     "https://www.rnz.co.nz/news/politics/493596/hipkins-rules-out-capital-gains-tax-wealth-tax-if-labour-re-elected"
+    ],
+    [
+     "National and Labour co-sponsored modern slavery legislation (January 2026), over ACT's opposition. Labour also backed the NZ–India FTA, which NZ First opposed (secondary source).",
+     "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"
+    ],
+    [
+     "Labour's costings were attacked by National ('the least credible fiscal plan… in living memory'). Labour says its plan is fully costed.",
+     "https://www.national.org.nz/news/261004-nicolawillis"
+    ],
+    [
+     "22 September 2026: list-only candidate Warrick Cleine withdrew after controversy over the fact that he does not live in New Zealand (secondary source).",
+     "https://en.wikipedia.org/wiki/Party_lists_in_the_2026_New_Zealand_general_election"
+    ],
+    [
+     "Labour is contesting the Māori seats hard against Te Pāti Māori, and has criticised TPM's candidate-vote-only strategy.",
+     "https://www.rnz.co.nz/news/politics/1052259/te-pati-maori-warned-election-strategy-could-put-maori-seats-at-risk"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/New_Zealand_Labour_Party"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "greens",
+   "name": "Green Party of Aotearoa New Zealand",
+   "short": "Greens",
+   "colour": "#098137",
+   "status": "Opposition",
+   "leaders": [
+    "davidson",
+    "swarbrick"
+   ],
+   "top": [
+    "tuiono",
+    "paul",
+    "genter",
+    "pham"
+   ],
+   "selection": "Both co-leaders plus the next four places on the final members-ranked list (released 22 April 2026): Teanau Tuiono (3), Tamatha Paul (4), Julie Anne Genter (5) and Lan Pham (6).",
+   "history": "Formed in 1990, with roots in the Values Party (1972). It was part of the Alliance until 1997 and has had MPs in its own right since 1999. It was in a cooperation agreement with Labour from 2017 to 2023. Chlöe Swarbrick became female co-leader in March 2024, alongside Marama Davidson.",
+   "ideology": "Left. Environmentalist, with a focus on social and economic justice and Te Tiriti.",
+   "role": "Opposition. The Greens have said 'very clearly' they want to form a government with Labour. Their best-ever polls came in late September and October 2026 (up to 16% in 1News–Verian).",
+   "policies": [
+    [
+     "A tax package with a wealth tax, an inheritance tax and higher corporate tax, paired with income-tax cuts the party says would benefit 96% of people.",
+     "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"
+    ],
+    [
+     "Free public transport for children and students and a $2 adult fare. A $4b plan to restore intercity passenger rail.",
+     "https://www.1news.co.nz/2026/10/04/greens-pledge-free-buses-trains-for-kids-students-2-adult-fare-cap/"
+    ],
+    [
+     "A National Electrification Plan announced during the 2026 fuel crisis.",
+     "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    ],
+    [
+     "A $30,000 cap on political donations, with donations from people only.",
+     "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"
+    ],
+    [
+     "Revoking mining consents approved under fast-track. A bill to protect conservation land from new mining.",
+     "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"
+    ]
+   ],
+   "events": [
+    [
+     "Benjamin Doyle resigned from Parliament effective 3 October 2025, citing safety concerns. Mike Davidson replaced them (secondary source).",
+     "https://en.wikipedia.org/wiki/Green_Party_of_Aotearoa_New_Zealand"
+    ],
+    [
+     "July 2026: Green MP Lawrence Xu-Nan was the target of Winston Peters' 'Go back to your own country' remark in Parliament. The Greens called it racist, and the Prime Minister criticised Peters.",
+     "https://www.rnz.co.nz/news/politics/882545/winston-peters-refuses-to-apologise-for-racist-comments-after-meeting-with-pm"
+    ],
+    [
+     "Labour and the Greens held a joint press conference at Waitangi in February 2026 to signal they would work together.",
+     "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Green_Party_of_Aotearoa_New_Zealand"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "act",
+   "name": "ACT New Zealand",
+   "short": "ACT",
+   "colour": "#E5B800",
+   "status": "Government (coalition partner)",
+   "leaders": [
+    "seymour"
+   ],
+   "top": [
+    "mckee",
+    "hoggard",
+    "henry",
+    "chhour"
+   ],
+   "selection": "The leader plus list places 2 to 5 (list released 13 September 2026): deputy leader Nicole McKee, Andrew Hoggard, broadcaster Paul Henry (a first-time candidate, not a current MP) and Karen Chhour.",
+   "history": "Founded in 1993–94 by Roger Douglas and Derek Quigley, architects of 1980s economic reform. It has held Epsom since 2008. It grew from one MP to ten in 2020 and won 11 seats (8.64%) in 2023.",
+   "ideology": "Right. Classical liberal and libertarian-leaning: smaller government, lower taxes, deregulation, and 'equal rights' (opposing race-based policy).",
+   "role": "Coalition partner in government. David Seymour has been Deputy Prime Minister since 31 May 2025 and is Minister for Regulation. The Regulatory Standards Act passed in November 2025.",
+   "policies": [
+    [
+     "Finish Treaty settlements and wind up the Waitangi Tribunal.",
+     "https://x.com/dbseymour/status/2097828606579970429"
+    ],
+    [
+     "Three Strikes for burglary, with a minimum three years' prison on a third strike.",
+     "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"
+    ],
+    [
+     "Let teachers remove disruptive students and use 'reasonable force'.",
+     "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"
+    ],
+    [
+     "A 'Working with Children Card' with continuous vetting. A Rural Workforce Visa.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1044039/act-proposes-working-with-children-card-to-ensure-continual-vetting"
+    ],
+    [
+     "Backs drug testing of beneficiaries, and says its energy policy overlaps with National's.",
+     "https://x.com/dbseymour/status/2107983272773145067"
+    ]
+   ],
+   "events": [
+    [
+     "NZ First voted for ACT's Regulatory Standards Act at its third reading (13 November 2025), then vowed a week later to repeal it. Seymour accused Peters of bad faith.",
+     "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"
+    ],
+    [
+     "ACT used 'agree to disagree' clauses on National's under-16 social media ban and opposed National–Labour modern slavery legislation (secondary source).",
+     "https://en.wikipedia.org/wiki/ACT_New_Zealand"
+    ],
+    [
+     "Candidate Paul Henry's 'little shits in classrooms' remark when launching ACT's school-discipline policy drew criticism from Labour.",
+     "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"
+    ],
+    [
+     "Nicole McKee became deputy leader at ACT's AGM in late June 2026 (secondary source).",
+     "https://en.wikipedia.org/wiki/ACT_New_Zealand"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/ACT_New_Zealand"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "nzfirst",
+   "name": "New Zealand First",
+   "short": "NZ First",
+   "colour": "#000000",
+   "status": "Government (coalition partner)",
+   "leaders": [
+    "peters"
+   ],
+   "top": [
+    "jones",
+    "costello",
+    "patterson",
+    "ngaro"
+   ],
+   "selection": "The leader plus list places 2 to 5 (list released 7 October 2026): deputy leader Shane Jones, Casey Costello, Mark Patterson and Alfred Ngaro (a former National minister, not a current MP).",
+   "history": "Founded by Winston Peters in 1993 after he left National. It has been in government with National (1996–98, 2023–) and Labour (2005–08 confidence and supply; 2017–20 coalition). It was out of Parliament in 2008–11 and 2020–23, and returned in 2023 with 8 seats.",
+   "ideology": "Nationalist and populist. Socially conservative and economically interventionist in places ('common sense'). Opposes what it calls race-based policy and 'woke' policy.",
+   "role": "Coalition partner in government. Peters is Minister of Foreign Affairs (and was Deputy PM until May 2025). Shane Jones holds Resources, Regional Development and Oceans and Fisheries.",
+   "policies": [
+    [
+     "A referendum on capping resident visas at 20,000 a year, and 'substantially' reducing non-essential immigration.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
+    ],
+    [
+     "Abolish the Waitangi Tribunal within 100 days of the next government.",
+     "https://x.com/winstonpeters/status/2103959022206672976"
+    ],
+    [
+     "Buy back BNZ (Luxon: 'absolute madness'). Split the big power companies (secondary source).",
+     "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
+    ],
+    [
+     "Repeal the Regulatory Standards Act. Give ministers the final say on fast-track approvals.",
+     "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"
+    ],
+    [
+     "A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.",
+     "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"
+    ]
+   ],
+   "events": [
+    [
+     "July 2026: Peters told Green MP Lawrence Xu-Nan in Parliament 'Go back to your own country'. China's embassy lodged representations with MFAT, Luxon criticised the remark, and Peters refused to apologise.",
+     "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+    ],
+    [
+     "Napier candidate Stuart Nash resigned after sexist comments, according to 1News.",
+     "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+    ],
+    [
+     "NZ First voted for the Regulatory Standards Act in November 2025, then pledged to repeal it.",
+     "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"
+    ],
+    [
+     "Shane Jones became deputy leader on 17 September 2025. Alfred Ngaro (NewZeal) aligned with NZ First in March 2026.",
+     "https://en.wikipedia.org/wiki/New_Zealand_First"
+    ],
+    [
+     "NZ First used its 'agree to disagree' clause against the NZ–India free trade agreement (secondary source).",
+     "https://en.wikipedia.org/wiki/New_Zealand_First"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/New_Zealand_First"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "tpm",
+   "name": "Te Pāti Māori",
+   "short": "Te Pāti Māori",
+   "colour": "#B2001A",
+   "status": "Opposition",
+   "leaders": [
+    "waititi",
+    "ngarewa-packer"
+   ],
+   "top": [
+    "maipi-clarke",
+    "kaipara",
+    "tamihere",
+    "norman"
+   ],
+   "selection": "Both co-leaders plus the party's other two sitting MPs (Hana-Rāwhiti Maipi-Clarke and Oriini Kaipara), party president John Tamihere, and general secretary Lance Norman, who is the <em>only</em> name on TPM's 2026 party list. Tamihere and Norman are not MPs.",
+   "history": "Founded in 2004 (as the Māori Party) after the foreshore and seabed controversy. It supported National-led governments in 2008–17, was out of Parliament in 2017–20, and returned in 2020. In 2023 it won 6 of the 7 Māori electorates.",
+   "ideology": "Kaupapa Māori. Tino rangatiratanga, Te Tiriti o Waitangi, and generally left-leaning on economic policy.",
+   "role": "Opposition. It is running a candidate-vote-only strategy: it asks Māori-roll voters for their electorate vote in all seven Māori seats, aims to create an overhang, and submitted a one-person party list.",
+   "policies": [
+    [
+     "Candidate-vote ('one tick') strategy across the seven Māori electorates, with a one-person list.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1715173/te-pati-maori-announces-one-person-party-list-for-2026-election"
+    ],
+    [
+     "Tax: no tax on the first $30,000 of income.",
+     "https://www.1news.co.nz/2026/10/09/tamaki-makaurau-meet-two-candidates-vying-for-the-smallest-maori-seat/"
+    ],
+    [
+     "Housing: 50% of new public housing builds ring-fenced for Māori.",
+     "https://www.1news.co.nz/2026/10/09/tamaki-makaurau-meet-two-candidates-vying-for-the-smallest-maori-seat/"
+    ],
+    [
+     "A permanent ban on seabed mining (Ngarewa-Packer's member's bill).",
+     "https://www.scoop.co.nz/stories/PA2602/S00040/seabed-mining-banned-in-aotearoa-under-reintroduced-members-bill.htm"
+    ]
+   ],
+   "events": [
+    [
+     "2025: the Privileges Committee punished the co-leaders (21 days' suspension) and Maipi-Clarke (7 days) over the November 2024 haka in the Treaty Principles Bill vote. Parliament confirmed this on 5 June 2025 (secondary source).",
+     "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+    ],
+    [
+     "November 2025: MPs Mariameno Kapa-Kingi and Tākuta Ferris were expelled. The High Court reinstated Kapa-Kingi in December 2025. In May 2026 she left to found the Te Tai Tokerau Party. Court evidence about the party's handling was heavily reported.",
+     "https://thespinoff.co.nz/atea/11-03-2026/kapa-kingi-reinstated-where-to-now-for-te-pati-maori"
+    ],
+    [
+     "Waitangi 2026: Waititi publicly apologised to the Kapa-Kingi whānau and Ngāpuhi ('If I have done you wrong, I offer you my head').",
+     "https://www.rnz.co.nz/news/politics/586273/maori-leaders-reflect-on-political-powhiri-at-waitangi"
+    ],
+    [
+     "Oriini Kaipara won the Tāmaki Makaurau by-election (September 2025). In May 2026 she denied a report that she was considering leaving.",
+     "https://www.rnz.co.nz/news/politics/594890/oriini-kaipara-confirms-loyalty-to-te-pati-maori-after-conflicting-reports"
+    ],
+    [
+     "A Whakaata Māori–Curia poll (21 Sep–1 Oct) had Waititi on 42% in Waiariki (52% excluding undecided). In the same poll the party vote was Labour 24%, TPM 23% and Greens 22%.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1781734/rawiri-waititi-dominates-waiariki-in-new-poll"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Te_P%C4%81ti_M%C4%81ori",
+    "https://en.wikipedia.org/wiki/54th_New_Zealand_Parliament"
+   ],
+   "in_parliament": true
+  },
+  {
+   "id": "opportunity",
+   "name": "The Opportunity Party (formerly TOP)",
+   "short": "Opportunity",
+   "colour": "#14B8A6",
+   "status": "Not in Parliament. Polling around or above 5%",
+   "leaders": [
+    "wong"
+   ],
+   "top": [
+    "eb"
+   ],
+   "selection": "Leader Qiulae Wong and deputy leader Daniel Eb (list places 1 and 2). As a party outside Parliament it gets a shorter profile.",
+   "history": "Founded in 2016 by economist Gareth Morgan as The Opportunities Party (TOP). It has never won a seat (2.22% in 2023). Qiulae Wong became leader in November 2025 and the party rebranded as The Opportunity Party.",
+   "ideology": "Self-described centrist, 'evidence-based' and radical centrist. Wong says supporters are 'politically homeless'. A Talbot Mills analysis found about a third of its supporters came from the left and a third from the right (secondary source).",
+   "role": "Outside Parliament. Several polls put it above the 5% threshold, which would make it a potential kingmaker. Luxon has ruled out working with it. Wong says it won't support a government with Winston Peters as foreign minister.",
+   "policies": [
+    [
+     "Five post-election bottom lines: a stronger Commerce Commission; lobbying regulation and donation caps; a 10-year health plan; phasing out bottom trawling; and recommitting to the Paris Agreement with an independent Climate Change Commission.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
+    ],
+    [
+     "A land value tax (not one of the bottom lines), citizens' assemblies, and a methane ETS (secondary source).",
+     "https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)"
+    ]
+   ],
+   "events": [
+    [
+     "Luxon ruled out Opportunity in July 2026 and reaffirmed this at the 6 October debate. Wong says she does not believe him.",
+     "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
+    ],
+    [
+     "Peters called the party's candidates 'communists' and its bottom lines a 'wrinkly derrière'. Shane Jones called its policies 'not rational'.",
+     "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"
+    ]
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)"
+   ],
+   "in_parliament": false
+  }
+ ],
+ "people": [
+  {
+   "id": "luxon",
+   "name": "Christopher Luxon",
+   "party": "national",
+   "role": "Prime Minister; Leader of the National Party; Minister for National Security and Intelligence",
+   "seat": "MP for Botany (since 2020); contesting Botany",
+   "background": "Former chief executive of Air New Zealand and a former Unilever executive. Entered Parliament in 2020, became National leader in November 2021 and Prime Minister in November 2023.",
+   "positions": [
+    "'No new taxes' (no bank tax, no bed tax); tough welfare obligations, including drug testing for Jobseekers.",
+    "Has ruled out working with the Opportunity Party because of its land value tax; calls vote-splitting 'insanely stupid'.",
+    "Campaigns on economic 'turnaround' and 'fixing the basics'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Christopher_Luxon",
+   "reversals": [
+    [
+     "National's tax pledge was originally 'no new taxes on working people'. In August 2026 Luxon widened it to 'no new taxes', dropping a bank tax and bed tax that ministers (including Willis) had floated earlier in the year.",
+     "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+    ]
+   ],
+   "note": null,
+   "quotes": [
+    {
+     "text": "If you can work, you should. Welfare should be firm, fair and affordable. A safety net for Kiwis who need it, not a system that gets abused at taxpayers' expense.",
+     "date": "2026-10-08",
+     "context": "X post announcing National's Jobseeker changes, including random drug testing (posted 8 Oct NZT).",
+     "source": "X post",
+     "url": "https://x.com/chrisluxonmp/status/2107949741086765497"
+    },
+    {
+     "text": "It's absolute madness.",
+     "date": "2026-09-28",
+     "context": "On RNZ Morning Report, responding to NZ First's policy of buying back BNZ (said 'that's just not going to happen').",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
+    },
+    {
+     "text": "He can't find a pathway to get into government without those four radical parties and six leaders, that's going to be chaos.",
+     "date": "2026-09-28",
+     "context": "On Chris Hipkins' likely coalition partners (Greens, Te Pāti Māori, Opportunity), RNZ Morning Report.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
+    },
+    {
+     "text": "This is about no new taxes, and I can't be clearer, this is the fundamental choice of this election.",
+     "date": "2026-08-23",
+     "context": "Upgrading National's pledge from 'no new taxes on working people' to 'no new taxes', ruling out a bed tax and bank tax.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected"
+    },
+    {
+     "text": "There was a confidence vote in my leadership this morning at our caucus meeting, and I have the full support of our caucus. And our caucus is united, and it is determined to win this election.",
+     "date": "2026-08-12",
+     "context": "After surviving a second caucus confidence vote in four months, triggered by Chris Penk's challenge.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+    },
+    {
+     "text": "I have the support of my caucus as their leader. Caucus has answered clearly and decisively. It has backed my leadership, and that matter is now closed.",
+     "date": "2026-04-21",
+     "context": "After forcing a caucus confidence vote on his own leadership amid media reports of discontent.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
+    },
+    {
+     "text": "Kiwis expect the media to ask us the tough questions about our policies... They are not interested in the media soap opera.",
+     "date": "2026-04-21",
+     "context": "Same statement after the April confidence vote.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
+    },
+    {
+     "text": "We've been doing a big turnaround, we've been fixing a lot of the basics. We now have an opportunity, as this recovery comes through, not just to watch it come through but to actually shape the future of this country...",
+     "date": "2026-01-21",
+     "context": "Election-date announcement; pitching National's economic record.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/584623/christopher-luxon-announces-election-date-for-7-november"
+    }
+   ]
+  },
+  {
+   "id": "willis",
+   "name": "Nicola Willis",
+   "party": "national",
+   "role": "Deputy Leader of the National Party; Minister of Finance; Minister for Economic Growth; Minister for Social Investment",
+   "seat": "List MP; list rank 2 (not contesting an electorate)",
+   "background": "Entered Parliament on the list in 2018 after a career as a political adviser and corporate lobbyist. Deputy leader since December 2021; Finance Minister since 2023; delivered Budget 2026 on 28 May.",
+   "positions": [
+    "Fiscal restraint in an election year. Calls Labour's fiscal plan 'the least credible… in living memory'.",
+    "Personally favours raising the NZ Super age, but says she has not convinced coalition partners.",
+    "Floated taxing banks 'fairly' in May 2026, then dropped it under the 'no new taxes' pledge."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Nicola_Willis",
+   "reversals": [
+    [
+     "In May 2026 she said 'We've got to make sure the banks are taxed fairly…'. On 23 August 2026 she explained why National would not pursue a bank tax.",
+     "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+    ]
+   ],
+   "note": null,
+   "quotes": [
+    {
+     "text": "This is the least credible fiscal plan released by a major party in living memory.",
+     "date": "2026-10-04",
+     "context": "National press release titled 'Labour's fiscal plan a fraud'. Labour says its plan is fully costed and funded.",
+     "source": "National Party",
+     "url": "https://www.national.org.nz/news/261004-nicolawillis"
+    },
+    {
+     "text": "I have looked at what the banks are being taxed at now and measures for changing that, and there are no other measures that I can see won't result in additional costs for Kiwis.",
+     "date": "2026-08-23",
+     "context": "Explaining why National dropped a bank tax under its 'no new taxes' pledge.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+    },
+    {
+     "text": "It's a Budget that does what's right for the country... this is not a time to be getting us further into the hock, to be whacking another set of bills on the credit card.",
+     "date": "2026-05-29",
+     "context": "RNZ Morning Report, asked whether a restrained Budget was risky in election year.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
+    },
+    {
+     "text": "I will go to the campaign trail as the National Party finance spokesperson with my view on what would be appropriate, well signalled, fair, transparent, gradual, gradual changes to New Zealand superannuation.",
+     "date": "2026-05-29",
+     "context": "Post-Budget, on NZ Super costs rising; she added: \"I haven't been able to convince my coalition partners yet, but I retain hope.\"",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
+    },
+    {
+     "text": "New Zealand is digging its way out of the post-Covid hole.",
+     "date": "2026-05-28",
+     "context": "Delivering Budget 2026.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/business/596612/budget-2026-new-zealand-digging-its-way-out-of-the-post-covid-hole-finance-minister-says"
+    },
+    {
+     "text": "Kiwis can look forward with confidence, they just need to choose it, they just need to vote for it.",
+     "date": "2026-05-28",
+     "context": "Closing line of her Budget 2026 speech.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
+    },
+    {
+     "text": "We've got to make sure the banks are taxed fairly... As a minister in this Government, I am still actively considering the taxation of banks and what that looks like.",
+     "date": "2026-05",
+     "context": "May 2026 comments (exact day not given in source), as quoted by 1News when she later dropped the idea.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+    },
+    {
+     "text": "One for all, all for one. And when the caucus, by majority, have confidence in the leader, then we all stand together, backing the leader.",
+     "date": "2026-04-21",
+     "context": "As deputy leader, after Luxon survived the April caucus confidence vote.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
+    }
+   ]
+  },
+  {
+   "id": "bishop",
+   "name": "Chris Bishop",
+   "party": "national",
+   "role": "Attorney-General (since April 2026); Minister of Housing; Infrastructure; Transport; RMA Reform",
+   "seat": "MP for Hutt South; contesting Hutt South",
+   "background": "First entered Parliament as a list MP in 2014. Leader of the House until April 2026, and campaign chair until the April reshuffle, when he became Attorney-General. Led the RMA replacement and the first National Infrastructure Plan.",
+   "positions": [
+    "Planning reform: says the new system should make fast-track unnecessary within five years.",
+    "Backed Luxon in the April confidence vote, describing the caucus discussion as 'good, honest and robust'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Bishop_(politician)",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "I will consider the reforms to have failed.",
+     "date": "2026-09-25",
+     "context": "Newsroom interview: if, in five years, the new planning system has not made the fast-track regime unnecessary.",
+     "source": "Newsroom",
+     "url": "https://newsroom.co.nz/2026/09/25/bishop-sees-the-end-of-the-road-for-fast-track/"
+    },
+    {
+     "text": "Today is a major milestone. After 35 years of the RMA, Parliament has passed legislation for a fundamentally different way of planning for New Zealand's future.",
+     "date": "2026-09-22",
+     "context": "Press release as the Planning Bill and Natural Environment Bill (RMA replacement) passed third reading.",
+     "source": "National Party",
+     "url": "https://www.national.org.nz/news/260922-chrisbishop"
+    },
+    {
+     "text": "Passing these Bills is not the end of the job. The next task is making sure the new system works in practice.",
+     "date": "2026-09-22",
+     "context": "Same release; the full new system is intended to operate by 2030.",
+     "source": "National Party",
+     "url": "https://www.national.org.nz/news/260922-chrisbishop"
+    },
+    {
+     "text": "I think what the Prime Minister was saying, which I would broadly agree with, is that the country has very difficult challenges ahead of it and we should spend our time focused on those challenges.",
+     "date": "2026-04-21",
+     "context": "After voting in support of Luxon in the April caucus confidence vote; he described the caucus discussion as \"good, honest and robust\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
+    },
+    {
+     "text": "Obviously I love being the campaign chair, and it's a role I enjoy doing, but it's fine - I've got plenty of things to do.",
+     "date": "2026-04-02",
+     "context": "After losing the campaign-chair and Leader of the House roles in the April reshuffle while becoming Attorney-General.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/591342/prime-minister-christopher-luxon-announces-election-year-cabinet-reshuffle"
+    }
+   ]
+  },
+  {
+   "id": "brown",
+   "name": "Simeon Brown",
+   "party": "national",
+   "role": "Minister of Health; Minister for Energy; State Owned Enterprises; National campaign chair (since April 2026)",
+   "seat": "MP for Pakuranga (since 2017); contesting Pakuranga",
+   "background": "Elected in 2017. Minister of Energy, Transport and Local Government from 2023. Moved to Health in January 2025. Regained Energy and became campaign chair in the April 2026 reshuffle.",
+   "positions": [
+    "Campaigns hard against Labour's record and its capital gains tax (including the ASA-reviewed ad).",
+    "As Health Minister, paused new puberty-blocker prescriptions for gender dysphoria in November 2025, pending a UK trial."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Simeon_Brown",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "The Advertising Standards Authority has not said KiwiSaver wouldn't be affected by Labour's capital gains tax - it has only suggested that KiwiSaver may not be impacted to the same extent as rental properties, baches and businesses.",
+     "date": "2026-09-09",
+     "context": "Responding after the ASA partly upheld a complaint that a National attack ad on Labour's CGT was misleading.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1311337/asa-partly-upholds-complaint-against-misleading-national-attack-ad"
+    },
+    {
+     "text": "With this reshuffle, I'm pleased to be taking on the role of Energy Minister and to have been appointed campaign chair for the National Party.",
+     "date": "2026-04-02",
+     "context": "Statement after Luxon's April reshuffle, which moved the campaign-chair role from Chris Bishop to Brown.",
+     "source": "Times (Auckland)",
+     "url": "https://www.times.co.nz/news/simeon-brown-prime-minister-announces-cabinet-reshuffle/"
+    },
+    {
+     "text": "Kiwis remember what life was like under Labour – inflation peaking, crime soaring, and public services like health and education going backwards.",
+     "date": "2026-04-02",
+     "context": "LinkedIn post on becoming campaign chair.",
+     "source": "LinkedIn (Simeon Brown)",
+     "url": "https://www.linkedin.com/posts/simeon-brown-37625621_im-pleased-to-be-taking-on-the-role-of-energy-activity-7445602094629142528-nCNJ"
+    },
+    {
+     "text": "I'm focused on making sure that we win in November and making sure that we deliver a National-led government.",
+     "date": "2026-04-02",
+     "context": "On taking over as campaign chair; asked his experience, he replied \"winning elections\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/591342/prime-minister-christopher-luxon-announces-election-year-cabinet-reshuffle"
+    },
+    {
+     "text": "I have never been part of a conversation where that has been said to our prime minister.",
+     "date": "2026-04-02",
+     "context": "Asked repeatedly whether he had been in a conversation telling Luxon he was losing caucus support.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/591342/prime-minister-christopher-luxon-announces-election-year-cabinet-reshuffle"
+    },
+    {
+     "text": "These changes are about ensuring treatments are safe and carefully managed, while maintaining access to care for those who need it.",
+     "date": "2025-11-20",
+     "context": "As Health Minister, announcing a pause on new puberty-blocker prescriptions for gender dysphoria pending a UK trial.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/579385/new-zealand-pushes-pause-on-puberty-blockers-pending-uk-trial"
+    }
+   ]
+  },
+  {
+   "id": "stanford",
+   "name": "Erica Stanford",
+   "party": "national",
+   "role": "Minister of Education; Minister of Immigration; lead minister on the Royal Commission (abuse in care) response",
+   "seat": "MP for East Coast Bays (since 2017); contesting East Coast Bays",
+   "background": "Elected in 2017. Leads the replacement of NCEA and the school curriculum changes. Widely named in media as a possible alternative leader during the August 2026 challenge, which she denied any part in.",
+   "positions": [
+    "Replacing NCEA with new qualifications ('clear, rigorous and widely understood').",
+    "Says she did not challenge for, or count numbers for, the leadership."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Erica_Stanford",
+   "reversals": [],
+   "note": "Labour's Willie Jackson publicly said 'Nobody believes her' about her denial. That is his claim; it is recorded on his profile.",
+   "quotes": [
+    {
+     "text": "I didn't challenge for the leadership.",
+     "date": "2026-08-16",
+     "context": "First media appearance after the failed Penk leadership challenge, amid speculation she was the alternative leader.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011589/i-didn-t-challenge-for-the-leadership-erica-stanford-says-in-first-media-appearance-of-week"
+    },
+    {
+     "text": "I want to be the minister of Education and Immigration - mostly education - for the next nine years. I love my job, and I've got so much more to do.",
+     "date": "2026-08-16",
+     "context": "Same appearance, ruling herself out of leadership ambitions.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011589/i-didn-t-challenge-for-the-leadership-erica-stanford-says-in-first-media-appearance-of-week"
+    },
+    {
+     "text": "I didn't do any numbers at all. I can categorically tell you, I don't know if anyone did do any numbers. I certainly didn't.",
+     "date": "2026-08-16",
+     "context": "Denying she counted caucus votes for Chris Penk's challenge.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011589/i-didn-t-challenge-for-the-leadership-erica-stanford-says-in-first-media-appearance-of-week"
+    },
+    {
+     "text": "This qualification rewards hard work and is designed to encourage young people to strive to do their very best, and ultimately to feel proud of what they achieved.",
+     "date": "2026-05-16",
+     "context": "Confirming details of the qualification replacing NCEA (NZCE at Year 12, NZACE at Year 13).",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/595424/government-confirms-ncea-replacement-details"
+    },
+    {
+     "text": "We want young people leaving school with qualifications that are clear, rigorous and widely understood by parents, employers, tertiary providers and students themselves.",
+     "date": "2026-05-15",
+     "context": "National Party release on the NCEA replacement.",
+     "source": "National Party",
+     "url": "https://www.national.org.nz/news/20260516-honericastanford"
+    }
+   ]
+  },
+  {
+   "id": "hipkins",
+   "name": "Chris Hipkins",
+   "party": "labour",
+   "role": "Leader of the Labour Party; Leader of the Opposition",
+   "seat": "MP for Remutaka (since 2008); contesting Remutaka",
+   "background": "Was Education Minister and Covid-19 Response Minister in the Ardern government, and Prime Minister from January to November 2023. Has led Labour since January 2023.",
+   "positions": [
+    "Election framed as being 'about the cost of living'.",
+    "A property-only capital gains tax to fund three free GP visits a year; a 10% student-loan write-off.",
+    "Says talks with Opportunity are 'conversations to be had after the election'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Hipkins",
+   "reversals": [
+    [
+     "In July 2023 he said: \"under a government I lead there will be no wealth or capital gains tax after the election. End of story.\" In October 2025 Labour adopted a 28% CGT on property. After the 2023 loss he put tax options back on the table, and he says the CGT is narrow and targeted.",
+     "https://www.rnz.co.nz/news/politics/493596/hipkins-rules-out-capital-gains-tax-wealth-tax-if-labour-re-elected"
+    ],
+    [
+     "RNZ background on the 2025 decision and earlier ruling-out.",
+     "https://www.rnz.co.nz/news/politics/577021/labour-to-campaign-on-narrow-capital-gains-tax-no-wealth-tax"
+    ]
+   ],
+   "note": null,
+   "quotes": [
+    {
+     "text": "This election is about the cost of living. This election is about your cost of living.",
+     "date": "2026-09-27",
+     "context": "Opening of his campaign launch speech in Manukau.",
+     "source": "Labour Party (speech text)",
+     "url": "https://www.labour.org.nz/news/speech-labour-party-campaign-launch-2026-chris-hipkins/"
+    },
+    {
+     "text": "Christopher Luxon promised to fix the cost of living. He's had three years. He's failed.",
+     "date": "2026-09-27",
+     "context": "Campaign launch speech; he also called National's claims about Labour's tax policy \"bullshit\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
+    },
+    {
+     "text": "Neo-liberal, trickledown economics does not work.",
+     "date": "2026-09-27",
+     "context": "Campaign launch, announcing a 10% write-off of eligible student loan balances.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
+    },
+    {
+     "text": "Backstabbing and infighting just means more delay and more distraction for New Zealand. If National can't govern itself, how can New Zealanders trust it to govern the country?",
+     "date": "2026-08-12",
+     "context": "Media release after Luxon survived the Penk leadership challenge.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+    },
+    {
+     "text": "We want to send a really clear message that... you can work constructively with people, still have disagreements, without getting into abuse.",
+     "date": "2026-02-03",
+     "context": "RNZ Morning Report, ahead of the joint Labour–Greens press conference at Waitangi.",
+     "source": "Otago Daily Times (via RNZ)",
+     "url": "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"
+    },
+    {
+     "text": "They're in court. That's really where their focus should be.",
+     "date": "2026-02-03",
+     "context": "On Te Pāti Māori, which was in the High Court over the expulsion of MP Mariameno Kapa-Kingi.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/585778/labour-leader-chris-hipkins-sets-sights-on-maori-seats"
+    },
+    {
+     "text": "Here's what is exempt from our simple, targeted capital gains tax: the family home, farms, inheritances, KiwiSaver, shares, businesses, and personal items.",
+     "date": "2025-11-13",
+     "context": "X post defending Labour's proposed capital gains tax on property.",
+     "source": "X post",
+     "url": "https://x.com/chrishipkins/status/1988720678040928430"
+    },
+    {
+     "text": "#BREAKING: Labour will provide three free doctor's visits a year for everyone, delivered via a brand new Medicard and funded by a targeted tax on property profits, excluding the family home.",
+     "date": "2025-10-28",
+     "context": "X post announcing Labour's flagship health/tax policy.",
+     "source": "X post",
+     "url": "https://x.com/chrishipkins/status/1982889545592197383"
+    }
+   ]
+  },
+  {
+   "id": "sepuloni",
+   "name": "Carmel Sepuloni",
+   "party": "labour",
+   "role": "Deputy Leader of the Labour Party",
+   "seat": "Electorate MP (Kelston); contesting the new Glendene electorate",
+   "background": "List MP 2008–11, MP for Kelston since 2014. Social Development Minister throughout the Ardern government, Deputy Prime Minister in 2023, and Labour deputy leader since 2023. First MP of Tongan descent.",
+   "positions": [
+    "Visa-waiver travel for Pacific Islands Forum citizens, while 'the rules still apply' on overstaying.",
+    "Opposed the move-on orders bill as 'purely ideological'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Carmel_Sepuloni",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "We're talking about seamless travel between Pacific countries and New Zealand … and a recognition of the cost and burden that the current system puts on New Zealand Pacific families.",
+     "date": "2026-09-17",
+     "context": "Announcing Labour's pledge to extend visa-waiver travel to Pacific Islands Forum citizens.",
+     "source": "Asia Pacific Report",
+     "url": "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"
+    },
+    {
+     "text": "Our relationship has matured enough for us to be able to move to a place that they have access to the same electronic system that 60 other countries have. It's the right thing to do.",
+     "date": "2026-09-17",
+     "context": "Same announcement.",
+     "source": "Asia Pacific Report",
+     "url": "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"
+    },
+    {
+     "text": "The expectation is that the rules still apply … and our expectation is that people will follow them.",
+     "date": "2026-09-17",
+     "context": "Responding to concerns about rising overstayer rates.",
+     "source": "Asia Pacific Report",
+     "url": "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"
+    },
+    {
+     "text": "It's not nice, and it's hard when you have to explain it to your kids, but it's even worse for the people that are actually living as homeless people, because they have nowhere to lay down with a roof over their heads at night time.",
+     "date": "2026-05-21",
+     "context": "First-reading debate on the move-on orders bill, which she called \"purely ideological\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/595944/move-on-orders-bill-passes-first-reading-following-heated-debate"
+    }
+   ]
+  },
+  {
+   "id": "edmonds",
+   "name": "Barbara Edmonds",
+   "party": "labour",
+   "role": "Finance spokesperson",
+   "seat": "Electorate MP (Mana); contesting the new Kenepuru electorate",
+   "background": "MP for Mana since 2020. Minister of Revenue, Internal Affairs and Pacific Peoples in the final year of the Labour government (2023). Now Labour's finance spokesperson.",
+   "positions": [
+    "Defends the CGT revenue assumptions (about 3% house-price growth) as 'conservative'.",
+    "Says income-tax cuts should come 'as the fiscal and economic environment allows'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Barbara_Edmonds",
+   "reversals": [],
+   "note": "Only 3 verified 2025–26 quotes were captured.",
+   "quotes": [
+    {
+     "text": "We get about 3.1% on average over the forecast period. So we believe the 3% is conservative, and we think is prudent given that the forecasts do change...",
+     "date": "2026-10-07",
+     "context": "interest.co.nz interview defending the house-price growth assumption behind Labour's CGT revenue.",
+     "source": "interest.co.nz",
+     "url": "https://www.interest.co.nz/public-policy/140564/labour-finance-spokesperson-barbara-edmonds-wants-stable-house-prices-and"
+    },
+    {
+     "text": "I don't want it going heaps over or heaps under. For me, [it] is just making sure there is... steady and stable house prices.",
+     "date": "2026-10-07",
+     "context": "Same interview, asked what Labour wants for house prices.",
+     "source": "interest.co.nz",
+     "url": "https://www.interest.co.nz/public-policy/140564/labour-finance-spokesperson-barbara-edmonds-wants-stable-house-prices-and"
+    },
+    {
+     "text": "Tax cuts need to be allowed as the fiscal and economic environment allows for it.",
+     "date": "2026-10-07",
+     "context": "Same interview, on whether income-tax changes are possible once in surplus.",
+     "source": "interest.co.nz",
+     "url": "https://www.interest.co.nz/public-policy/140564/labour-finance-spokesperson-barbara-edmonds-wants-stable-house-prices-and"
+    }
+   ]
+  },
+  {
+   "id": "jackson",
+   "name": "Willie Jackson",
+   "party": "labour",
+   "role": "Senior MP; Māori development spokesperson (as reported)",
+   "seat": "List MP; list rank 4 (not contesting an electorate)",
+   "background": "Former unionist, broadcaster and urban Māori leader. Alliance MP 1999–2002 and Labour MP since 2017. Minister for Māori Development in the Labour government. Leads Labour's campaign for the Māori electorates.",
+   "positions": [
+    "Critical of Te Pāti Māori's overhang and candidate-vote strategy.",
+    "Concedes that unseating Māori-seat incumbents is hard."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Willie_Jackson_(politician)",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "I'm not a fool in terms of how hard it is to knock out incumbents.",
+     "date": "2026-08-20",
+     "context": "RNZ interview on Labour's chances of winning all seven Māori electorates.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1062576/willie-jackson-expresses-doubt-labour-can-win-all-seven-maori-seats"
+    },
+    {
+     "text": "We weren't talking about voting for an overhang. We weren't talking about voting for people who had different politics from us, all we were talking about was using the system to get more Māori through Labour into the Parliament.",
+     "date": "2026-08-20",
+     "context": "Responding to Debbie Ngarewa-Packer's charge that Labour used a similar strategy in 2017.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1062576/willie-jackson-expresses-doubt-labour-can-win-all-seven-maori-seats"
+    },
+    {
+     "text": "You can buy into that strategy if every everything's working well, but they're not even voting for themselves.",
+     "date": "2026-08-18",
+     "context": "Criticising Te Pāti Māori's electorate-vote-only strategy, which he warned could invite a backlash against the Māori seats.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1052259/te-pati-maori-warned-election-strategy-could-put-maori-seats-at-risk"
+    },
+    {
+     "text": "Nobody believes her. No one who is aware of the situation, who followed the situation, believes her.",
+     "date": "2026-08-16",
+     "context": "On Erica Stanford's denial of involvement in the National leadership challenge.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011589/i-didn-t-challenge-for-the-leadership-erica-stanford-says-in-first-media-appearance-of-week"
+    }
+   ]
+  },
+  {
+   "id": "woods",
+   "name": "Megan Woods",
+   "party": "labour",
+   "role": "Senior MP; energy spokesperson (per 2026 releases)",
+   "seat": "List-only in 2026; list rank 5 (formerly MP for Wigram)",
+   "background": "MP for Wigram from 2011. A Cabinet minister in the 2017–23 Labour government (including Energy and Housing). List-only in 2026.",
+   "positions": [
+    "Pro-renewables: SolarSaver subsidies and loans; would legalise plug-in solar for renters."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Megan_Woods",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "There's nothing complicated about these costings.",
+     "date": "2026-07-08",
+     "context": "Launching Labour's $160m SolarSaver policy; asked if confident in the costings she said \"we have our numbers right\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"
+    },
+    {
+     "text": "We don't have enough of the plug-in systems because they're illegal in New Zealand at the moment - the first step is making them legal.",
+     "date": "2026-07-08",
+     "context": "Same launch, on plug-in solar for renters.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"
+    },
+    {
+     "text": "Solar is the future and an important part of our energy security, so anything that makes it easier and cheaper to install is welcome.",
+     "date": "2026-06-25",
+     "context": "Labour release responding to National's home-energy loans policy.",
+     "source": "Labour Party",
+     "url": "https://www.labour.org.nz/news/release-election-year-promises-cant-hide-nationals-record/"
+    },
+    {
+     "text": "Labour has and will always back renewable energy while National has spent three years making New Zealand's energy problems worse.",
+     "date": "2026-06-25",
+     "context": "Same release.",
+     "source": "Labour Party",
+     "url": "https://www.labour.org.nz/news/release-election-year-promises-cant-hide-nationals-record/"
+    }
+   ]
+  },
+  {
+   "id": "davidson",
+   "name": "Marama Davidson",
+   "party": "greens",
+   "role": "Green Party co-leader",
+   "seat": "List MP; list rank 1 (not contesting an electorate)",
+   "background": "List MP since 2015 and co-leader since 2018. Minister for the Prevention of Family and Sexual Violence in 2020–23.",
+   "positions": [
+    "Frames the Middle East conflict as 'a human catastrophe'; supports a rules-based international order.",
+    "Supports taxing wealth to fund essential services. Would revoke fast-track mining consents."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Marama_Davidson",
+   "reversals": [],
+   "note": "Only 4 verified quotes were captured.",
+   "quotes": [
+    {
+     "text": "Essential services like healthcare, education, and infrastructure could be funded if the super-rich and mega-corporates like the supermarkets duopoly, banks, and power companies contribute fairly to the society they profit from.",
+     "date": "2026-06-21",
+     "context": "Greens' tax package launch.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"
+    },
+    {
+     "text": "What is happening in the Middle East is, first and foremost, a human catastrophe. Civilians are being killed and injured, livelihoods are being destroyed, international law is being broken.",
+     "date": "2026-04-19",
+     "context": "State of the Planet address, on the 2026 Iran war.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    },
+    {
+     "text": "The cost of food, of energy, of rent keeps climbing, while wages stay flat. Communities that were already struggling are being hit hardest by rising price, by wars they did not start...",
+     "date": "2026-04-19",
+     "context": "Same address.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    },
+    {
+     "text": "We believe in building an international rules-based order that protects the environment, upholds human rights and supports enduring peace-building work.",
+     "date": "2026-04-19",
+     "context": "Same address, on foreign policy.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    }
+   ]
+  },
+  {
+   "id": "swarbrick",
+   "name": "Chlöe Swarbrick",
+   "party": "greens",
+   "role": "Green Party co-leader",
+   "seat": "MP for Auckland Central (since 2020); contesting Auckland Central",
+   "background": "Entered Parliament in 2017 as a list MP, won Auckland Central in 2020, and became co-leader in March 2024.",
+   "positions": [
+    "Wealth, inheritance and corporate taxes, with income-tax cuts for most people.",
+    "Electrify 'everything we can'. Will work with Labour to form a government."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Chl%C3%B6e_Swarbrick",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "The polls are going to continue to bounce around at the margins over the next few weeks, and this is why it's really important to understand that nothing is set in stone.",
+     "date": "2026-10-06",
+     "context": "Reacting to a 1News–Verian poll with the Greens on 16%; she said the Greens would \"very clearly\" work with Labour.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+    },
+    {
+     "text": "Someone would have to pay their taxes fairly. That is the case with all New Zealanders who have income taxes that they have to pay.",
+     "date": "2026-06-22",
+     "context": "1News Breakfast, asked whether someone could be forced to sell an inherited asset to pay the proposed inheritance tax.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/22/chloe-swarbrick-pressed-on-how-wealth-inheritance-taxes-would-work/"
+    },
+    {
+     "text": "Congratulations, they are incredibly lucky to be an individual that is inheriting an excess of $2 million.",
+     "date": "2026-06-22",
+     "context": "Same interview, on a hypothetical heir to a $2m investment property.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/22/chloe-swarbrick-pressed-on-how-wealth-inheritance-taxes-would-work/"
+    },
+    {
+     "text": "People aren't dumb. They know that while their cost of living has gone through the roof, corporate profits have skyrocketed and the wealthiest 150 rich listers now own more than half of the country.",
+     "date": "2026-06-21",
+     "context": "Launching the Greens' tax package (wealth, inheritance and corporate taxes; income-tax cuts for 96%).",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"
+    },
+    {
+     "text": "We must electrify everything we can. We need homegrown, sustainable resilience in our energy system, powering everything we do.",
+     "date": "2026-04-19",
+     "context": "Greens' State of the Planet address calling for a National Electrification Plan during the fuel crisis.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    },
+    {
+     "text": "No-one is hoarding, attacking, or starting wars over sun, wind, water and geothermal energy. They don't come through the Strait of Hormuz.",
+     "date": "2026-04-19",
+     "context": "Same address.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
+    }
+   ]
+  },
+  {
+   "id": "tuiono",
+   "name": "Teanau Tuiono",
+   "party": "greens",
+   "role": "Senior MP (list rank 3)",
+   "seat": "List MP; contesting Palmerston North",
+   "background": "List MP since 2020, of Māori and Cook Islands descent.",
+   "positions": [
+    "Get 'big money out of politics' ($30k donation cap, no corporate donations).",
+    "Against 'militarisation of the Pacific'. Union membership as the default for new employees."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Teanau_Tuiono",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "We need to get big money out of politics. The donation should only be by people, not by company.",
+     "date": "2026-09-23",
+     "context": "Pacific Media Network interview on the Greens' $30,000 donation-cap policy.",
+     "source": "PMN",
+     "url": "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"
+    },
+    {
+     "text": "Here we have the US trying to find a way to get into the Cook Islands, but is this heading towards a military base? That would be something that I would not be in favour of.",
+     "date": "2026-09-23",
+     "context": "Same interview, on Pacific security.",
+     "source": "PMN",
+     "url": "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"
+    },
+    {
+     "text": "We don't need more militarisation of the Pacific, for the Pacific to become a more contested space.",
+     "date": "2026-09-23",
+     "context": "Same interview.",
+     "source": "PMN",
+     "url": "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"
+    },
+    {
+     "text": "Individuals will still have the right to opt out if they choose to. The only difference is that workers would be opting out rather than opting in. The default should be that workers are represented and backed, not the other way around.",
+     "date": "2026-07-16",
+     "context": "Green release on his member's bill to make union membership the default for new employees.",
+     "source": "Green Party",
+     "url": "https://www.greens.org.nz/green_party_calls_for_union_membership_as_default_setting_for_new_employees"
+    }
+   ]
+  },
+  {
+   "id": "paul",
+   "name": "Tamatha Paul",
+   "party": "greens",
+   "role": "Housing spokesperson; list rank 4",
+   "seat": "MP for Wellington Central (since 2023); contesting the new Wellington North electorate",
+   "background": "Former Wellington city councillor. Won Wellington Central in 2023.",
+   "positions": [
+    "Opposed move-on orders. Says homelessness is at historic levels."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Tamatha_Paul",
+   "reversals": [],
+   "note": "Only 3 verified 2025–26 quotes were captured.",
+   "quotes": [
+    {
+     "text": "This is the worst homelessness in our history, with 57,000 women homeless and half of all homeless people under the age of 24. The Government's response has been a drop in the bucket to meaningfully address this crisis.",
+     "date": "2026-06-18",
+     "context": "Green release as housing spokesperson.",
+     "source": "Green Party",
+     "url": "https://www.greens.org.nz/homelessness_at_historic_levels_in_new_zealand"
+    },
+    {
+     "text": "If they comply and go home, they're not going to be charged. The minister realises they don't have a home, right? Where exactly are they supposed to move on? Should they go to your house?",
+     "date": "2026-05-21",
+     "context": "First-reading debate on the move-on orders bill.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/595944/move-on-orders-bill-passes-first-reading-following-heated-debate"
+    },
+    {
+     "text": "Where exactly are these kids meant to go? Would you like them to go sleep in a bush? Would you like them to go sleep under a bridge?",
+     "date": "2026-05-21",
+     "context": "Same debate, objecting that the orders (as introduced) applied to people as young as 14. The final law applies to those 18 and over.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/595944/move-on-orders-bill-passes-first-reading-following-heated-debate"
+    }
+   ]
+  },
+  {
+   "id": "genter",
+   "name": "Julie Anne Genter",
+   "party": "greens",
+   "role": "Transport spokesperson; list rank 5",
+   "seat": "MP for Rongotai (since 2023); contesting the new Wellington Bays electorate",
+   "background": "List MP from 2011 and a former Associate Transport Minister (2017–20). Won Rongotai in 2023.",
+   "positions": [
+    "Restore intercity passenger rail ($4b). Free public transport for children and students, and a $2 adult fare."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Julie_Anne_Genter",
+   "reversals": [],
+   "note": "Only 3 verified 2025–26 quotes were captured.",
+   "quotes": [
+    {
+     "text": "Years of underinvestment in public transport have left our cities harder to get around without a car.",
+     "date": "2026-10-04",
+     "context": "Announcing free public transport for children, students and others and a $2 adult fare.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/04/greens-pledge-free-buses-trains-for-kids-students-2-adult-fare-cap/"
+    },
+    {
+     "text": "Restoring commuter rail will give smaller regions and towns the benefits of more travellers stopping at their town stations, creating more economic opportunities and connecting them to main centres and other towns.",
+     "date": "2026-10-03",
+     "context": "Announcing the Greens' $4b intercity passenger-rail plan as transport spokesperson.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1701879/green-party-announces-plan-for-passenger-rail-between-major-nz-cities"
+    },
+    {
+     "text": "The train journey from Auckland to Wellington is long, which makes it perfect for an overnight service. All that is needed is new, comfortable sleeper trains and operating funding.",
+     "date": "2026-10-03",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1701879/green-party-announces-plan-for-passenger-rail-between-major-nz-cities"
+    }
+   ]
+  },
+  {
+   "id": "pham",
+   "name": "Lan Pham",
+   "party": "greens",
+   "role": "Environment spokesperson; list rank 6",
+   "seat": "List MP (since 2023); standing list-only in Kenepuru",
+   "background": "Ecologist. Environment Canterbury regional councillor for six years. List MP since 2023.",
+   "positions": [
+    "Opposes mining on conservation land. Strongly opposes the RMA replacement laws."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Lan_Pham",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "With the passing of these bills, Aotearoa is in a new era of environmental exploitation at the hands of polluting industries.",
+     "date": "2026-09-23",
+     "context": "Green release after the Planning Bill and Natural Environment Bill (RMA replacement) passed",
+     "source": "Green Party release via newswire.nz",
+     "url": "https://newswire.nz/a/gyYSE6XfLgyrpPsKbSfFdaj7kP/green_party_environment_spokesperson_lan_pham_says_new_laws_replacing_the_rma_were_copied_from_industry_lobbying_documents_and_will_allow_untold_harm_to_human_health_and_the_environment.html"
+    },
+    {
+     "text": "New Zealanders expect and deserve their laws to protect and restore the environment. Instead, the Luxon Government has chosen to act on industry demands and embed climate denialism and environmental destruction into planning and environmental law.",
+     "date": "2026-09-23",
+     "context": "Same release",
+     "source": "Green Party release via newswire.nz",
+     "url": "https://newswire.nz/a/gyYSE6XfLgyrpPsKbSfFdaj7kP/green_party_environment_spokesperson_lan_pham_says_new_laws_replacing_the_rma_were_copied_from_industry_lobbying_documents_and_will_allow_untold_harm_to_human_health_and_the_environment.html"
+    },
+    {
+     "text": "on November 7, the Government will understand that nature may not have a voice, but voters certainly do.",
+     "date": "2026-09-23",
+     "context": "Same release",
+     "source": "Green Party release via newswire.nz",
+     "url": "https://newswire.nz/a/gyYSE6XfLgyrpPsKbSfFdaj7kP/green_party_environment_spokesperson_lan_pham_says_new_laws_replacing_the_rma_were_copied_from_industry_lobbying_documents_and_will_allow_untold_harm_to_human_health_and_the_environment.html"
+    },
+    {
+     "text": "Conservation land belongs to all of us. It is set aside to protect native plants, wildlife and the places New Zealanders love, not to be dug up for private profit.",
+     "date": "2026-05-21",
+     "context": "Green release on a bill to ban new mining on public conservation land",
+     "source": "Green Party release",
+     "url": "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"
+    },
+    {
+     "text": "New Zealanders do not want mining companies let loose on our national parks and reserves. They expect conservation land to actually be conserved.",
+     "date": "2026-05-21",
+     "context": "Same release",
+     "source": "Green Party release",
+     "url": "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"
+    }
+   ]
+  },
+  {
+   "id": "seymour",
+   "name": "David Seymour",
+   "party": "act",
+   "role": "Leader of ACT; Deputy Prime Minister (since 31 May 2025); Minister for Regulation",
+   "seat": "MP for Epsom (since 2014); contesting Epsom",
+   "background": "ACT leader since 2014 and the sponsor of the End of Life Choice Act. Led the Treaty Principles Bill (defeated in 2025) and the Regulatory Standards Act (passed November 2025).",
+   "positions": [
+    "Wind up the Waitangi Tribunal once settlements are finished.",
+    "Welfare obligations, including drug testing. Says 'both votes belong to the voter' on vote-splitting."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/David_Seymour",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "If you're on a benefit you have an obligation to those paying taxes to fund it. You must be work ready, like they are. Many New Zealanders face random drug testing as a condition of work, so should the beneficiaries they fund.",
+     "date": "2026-10-08",
+     "context": "X post backing drug testing of beneficiaries after National's welfare policy release.",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2107983272773145067"
+    },
+    {
+     "text": "National's energy policy has near perfect overlap with ours released last week. It bodes well for a re-elected coalition acting together to make energy abundant and affordable.",
+     "date": "2026-10-02",
+     "context": "X post on National's energy plan.",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2105765794701561867"
+    },
+    {
+     "text": "In my experience, voters are often busy, but they're not stupid, and it's never wise to talk down to them.",
+     "date": "2026-09-28",
+     "context": "Responding to Luxon calling strategic vote-splitting \"insanely stupid\"; he said \"both votes belong to the voter\".",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1631392/act-nz-first-hit-back-at-national-s-warning-against-strategic-voting"
+    },
+    {
+     "text": "Labour's promise to forgive 10 per cent of student loan debt will sound attractive to loan holders at first, but it is an accounting switch that should be attractive to nobody.",
+     "date": "2026-09-27",
+     "context": "X post responding to Labour's campaign-launch student-loan policy.",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2104060276324901352"
+    },
+    {
+     "text": "If someone wants to decide how ratepayer money is spent, they can run for council in an election like anyone else.",
+     "date": "2026-09-17",
+     "context": "X post after Parliament passed a law ending voting rights for unelected members of council committees.",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2100322493441716449"
+    },
+    {
+     "text": "ACT will finish the settlements and wind up the Waitangi Tribunal. The Waitangi Tribunal has been part of New Zealand's constitutional landscape for more than fifty years. It has made an important contribution, particularly in helping address historical grievances.",
+     "date": "2026-09-10",
+     "context": "X post announcing ACT's policy to dissolve the Tribunal once historical claims are settled (post continues).",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2097828606579970429"
+    }
+   ]
+  },
+  {
+   "id": "mckee",
+   "name": "Nicole McKee",
+   "party": "act",
+   "role": "Deputy Leader of ACT (since June 2026); Minister for Courts; Associate Justice (firearms)",
+   "seat": "List MP (since 2020); contesting Wellington Bays",
+   "background": "Former firearms-safety instructor and spokesperson for the Council of Licensed Firearms Owners. Rewriting the Arms Act.",
+   "positions": [
+    "Three Strikes for burglary, which she says needs no consultation with coalition partners first."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Nicole_McKee",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "Judges keep using their leeway to give burglars more chances, and the burglars keep reoffending.",
+     "date": "2026-07-08",
+     "context": "Announcing ACT's policy to add burglary to a Three Strikes regime (minimum three years' prison on a third strike).",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"
+    },
+    {
+     "text": "Imprisoning repeat burglars will protect New Zealanders from a small group of offenders who have shown, time after time, that they have no respect for other people's homes or property. They will not be able to victimise us from a jail cell.",
+     "date": "2026-07-08",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"
+    },
+    {
+     "text": "When someone does the right thing, gets up and goes to work to unlock their own potential, they shouldn't have to worry about some deadbeat invading their home and taking their hard-earned property.",
+     "date": "2026-07-08",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"
+    },
+    {
+     "text": "It's a campaign election policy but I would feel that our coalition would get in behind this because they have gotten behind ACT's ideas throughout this term of government.",
+     "date": "2026-07-08",
+     "context": "Saying there was \"no need\" to consult coalition partners first.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"
+    }
+   ]
+  },
+  {
+   "id": "hoggard",
+   "name": "Andrew Hoggard",
+   "party": "act",
+   "role": "Minister for Biosecurity; Minister for Food Safety; Associate Agriculture",
+   "seat": "List MP (since 2023); contesting Rangitīkei",
+   "background": "Dairy farmer and former national president of Federated Farmers.",
+   "positions": [
+    "Rural Workforce Visa. A 'science-based' split-gas approach to farm emissions."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Andrew_Hoggard",
+   "reversals": [
+    [
+     "The coalition (via the ACT agreement) promised to reverse the live-animal-export ban. In March 2026 Hoggard said Cabinet had 'not agreed any final decisions', and exporters called this a backtrack.",
+     "https://www.rnz.co.nz/news/business/589276/live-animal-exporters-disappointed-by-backtrack-on-government-commitment"
+    ]
+   ],
+   "note": null,
+   "quotes": [
+    {
+     "text": "Farmers deserve a massive thank you. While politicians in Wellington talk about prosperity, rural New Zealand goes out and earns it.",
+     "date": "2026-06-11",
+     "context": "ACT release on record forecast primary-sector exports ($64.3b).",
+     "source": "Scoop (ACT release)",
+     "url": "https://www.scoop.co.nz/stories/PA2606/S00084/andrew-hoggard-farmers-deliver-for-new-zealand.htm"
+    },
+    {
+     "text": "Punishing them with ideological targets while overseas competitors produce food less efficiently is bad for farmers, bad for consumers, and bad for the climate.",
+     "date": "2026-06-11",
+     "context": "Same release, on ACT's 'science-based' (split-gas) climate approach for agriculture.",
+     "source": "Scoop (ACT release)",
+     "url": "https://www.scoop.co.nz/stories/PA2606/S00084/andrew-hoggard-farmers-deliver-for-new-zealand.htm"
+    },
+    {
+     "text": "New Zealand's farms, orchards, and fishing fleets generate $60 billion in exports every year. Right now, they can't find enough capable workers to do the job, held back by a chronic labour shortage that the current immigration system simply isn't equipped to solve.",
+     "date": "2026-06-09",
+     "context": "Announcing ACT's Rural Workforce Visa at Fieldays.",
+     "source": "Scoop (ACT release)",
+     "url": "https://www.scoop.co.nz/stories/PA2606/S00063/act-unveils-rural-workforce-visa-to-solve-farm-worker-shortage.htm"
+    },
+    {
+     "text": "While discussions are ongoing, Cabinet has not agreed any final decisions.",
+     "date": "2026-03-10",
+     "context": "On the coalition's stalled pledge to reverse the live-animal-export ban, which he said he could not get Cabinet agreement on this term.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/business/589276/live-animal-exporters-disappointed-by-backtrack-on-government-commitment"
+    }
+   ]
+  },
+  {
+   "id": "henry",
+   "name": "Paul Henry",
+   "party": "act",
+   "role": "ACT candidate, list rank 4 (not an MP)",
+   "seat": "List-only candidate",
+   "background": "Veteran broadcaster (TVNZ Breakfast, his own TV and radio shows).",
+   "positions": [
+    "Let teachers remove disruptive students and use 'reasonable force'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Henry_(broadcaster)",
+   "reversals": [],
+   "note": "Only 3 verified quotes, all from his August 2026 policy launch.",
+   "quotes": [
+    {
+     "text": "Let's be honest, there are a lot of little shits in classrooms, and we need to address that if we're going to lift education standards.",
+     "date": "2026-08-02",
+     "context": "Announcing ACT's policy to let teachers remove disruptive students and use 'reasonable force'. Labour's education spokesperson called the language unacceptable.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"
+    },
+    {
+     "text": "We can't have the situation where that line is blurred. This has nothing to do with corporal punishment. This has nothing to do with punishing the child who is the problem.",
+     "date": "2026-08-02",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"
+    },
+    {
+     "text": "The ambiguity that exists at the moment means many teachers just can't even face the prospect of doing it.",
+     "date": "2026-08-02",
+     "context": "Same announcement, on current guidance for physical restraint.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"
+    }
+   ]
+  },
+  {
+   "id": "chhour",
+   "name": "Karen Chhour",
+   "party": "act",
+   "role": "Minister for Children; Minister for the Prevention of Family and Sexual Violence",
+   "seat": "List MP (since 2020); contesting North Shore",
+   "background": "Grew up in state care, which she cites as shaping her views.",
+   "positions": [
+    "A Working with Children Card. Criminalise using pets to coerce family-violence victims."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Karen_Chhour",
+   "reversals": [],
+   "note": "Only 4 verified quotes were captured.",
+   "quotes": [
+    {
+     "text": "The Working with Children Card would give parents confidence that their children are in safe hands.",
+     "date": "2026-08-18",
+     "context": "Announcing ACT's proposed continuous-vetting card as children's spokesperson.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1044039/act-proposes-working-with-children-card-to-ensure-continual-vetting"
+    },
+    {
+     "text": "The system ensures that cardholders are safe the whole time they work with children, not just up until a check was last completed.",
+     "date": "2026-08-18",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1044039/act-proposes-working-with-children-card-to-ensure-continual-vetting"
+    },
+    {
+     "text": "Nobody should have to stay in a violent home because they're worried about what will happen to their pet.",
+     "date": "2026-07-05",
+     "context": "Announcing ACT's policy to criminalise using pets to coerce family-violence victims.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/673624/act-policy-aims-to-stop-abusers-weaponising-pets-to-control-victims"
+    },
+    {
+     "text": "Family violence isn't just about physical abuse. Perpetrators use threats against beloved pets as another way to intimidate and trap their victims.",
+     "date": "2026-07-05",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/673624/act-policy-aims-to-stop-abusers-weaponising-pets-to-control-victims"
+    }
+   ]
+  },
+  {
+   "id": "peters",
+   "name": "Winston Peters",
+   "party": "nzfirst",
+   "role": "Leader of NZ First; Minister of Foreign Affairs; Racing; Rail",
+   "seat": "List MP; list rank 1 (not contesting an electorate)",
+   "background": "In Parliament on and off since 1978. Founded NZ First in 1993. Three times Deputy PM, most recently from November 2023 to 31 May 2025.",
+   "positions": [
+    "Cut 'non-essential' immigration (20,000 resident visa cap by referendum). Abolish the Waitangi Tribunal.",
+    "Repeal the Regulatory Standards Act. Hostile to the Opportunity Party and the 'mainstream media'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Winston_Peters",
+   "reversals": [
+    [
+     "All eight NZ First MPs voted for the Regulatory Standards Act at third reading (13 November 2025). On 20 November he vowed to repeal it, saying NZ First had always opposed it but was bound by ACT's deal with National.",
+     "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"
+    ]
+   ],
+   "note": null,
+   "quotes": [
+    {
+     "text": "We need to double the size of the economy and we cannot do that if we neglect the very markets we need to be in.",
+     "date": "2026-10-06",
+     "context": "X post criticising National's plan to cut aid outside the Pacific to fund health spending.",
+     "source": "X post",
+     "url": "https://x.com/winstonpeters/status/2107229536366850450"
+    },
+    {
+     "text": "They're the mainstream media's party, and you guys are no good at politics.",
+     "date": "2026-10-06",
+     "context": "Predicting the Opportunity Party would fall short of 5%, after a 1News–Verian poll put it on 7%.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+    },
+    {
+     "text": "The Treaty of Waitangi Tribunal has become a make-work organisation – now hearing any and all claims that in a former time would've been dismissed on application as being inappropriate.",
+     "date": "2026-09-27",
+     "context": "X post after announcing NZ First would abolish the Waitangi Tribunal within 100 days of the next government.",
+     "source": "X post",
+     "url": "https://x.com/winstonpeters/status/2103959022206672976"
+    },
+    {
+     "text": "New Zealand First will substantially reduce non-essential immigration and restore the principle that immigration is a privilege, not a right.",
+     "date": "2026-09-11",
+     "context": "Unveiling NZ First's immigration platform, including a referendum on capping resident visas at 20,000 a year.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
+    },
+    {
+     "text": "After days of speculation and distraction it has boiled down to 'much ado about nothing'.",
+     "date": "2026-08-12",
+     "context": "On Luxon surviving the Penk leadership challenge.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+    },
+    {
+     "text": "I'm defending our democracy, and I'm proud of it.",
+     "date": "2026-07-30",
+     "context": "Ahead of Question Time, rejecting accusations of racism over the Xu-Nan remark (which he called \"drivel\")",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+    },
+    {
+     "text": "I know you just came here five minutes ago. Go back to your own country.",
+     "date": "2026-07-28",
+     "context": "In Parliament, to Green MP Lawrence Xu-Nan after Xu-Nan interjected during Peters' speech (date approximate: 1News on 30 July says 'this week'). The Speaker called the remark 'inappropriate'; China's embassy lodged representations with MFAT.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+    },
+    {
+     "text": "It was their deal, the ACT Party's deal with the National Party. We were opposed to this from the word go but you've only got so many cards you can play.",
+     "date": "2025-11-20",
+     "context": "Vowing to repeal the Regulatory Standards Act a week after all eight NZ First MPs voted for its third reading.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"
+    }
+   ]
+  },
+  {
+   "id": "jones",
+   "name": "Shane Jones",
+   "party": "nzfirst",
+   "role": "Deputy Leader of NZ First (since September 2025); Minister for Resources; Regional Development; Oceans and Fisheries",
+   "seat": "List MP; contesting Northland",
+   "background": "Former Labour MP and minister (2005–14) who joined NZ First in 2017. Champion of mining and the fast-track regime.",
+   "positions": [
+    "Ministers, not expert panels, should have the final say on fast-track. Urged miners to apply before the election.",
+    "Defended Peters over the Xu-Nan remark; wants migrants to be long-term citizens before becoming politicians."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Shane_Jones_(New_Zealand_politician)",
+   "reversals": [],
+   "note": "He acknowledges he is bound by Cabinet collective responsibility on fast-track, even though he 'always wanted' ministers to decide.",
+   "quotes": [
+    {
+     "text": "[Xu-Nan] should know his place.",
+     "date": "2026-07-30",
+     "context": "Defending Peters over the Xu-Nan remark; Jones said NZ First would campaign on migrants being long-term citizens before becoming politicians",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+    },
+    {
+     "text": "Providing they're not breaking the law, I feel that they should make the most of the opportunity. I don't feel that I'm being reckless.",
+     "date": "2026-05-18",
+     "context": "As Resources Minister, urging mining companies to \"get your applications in ASAP\" for fast-track before the election.",
+     "source": "Newsroom",
+     "url": "https://newsroom.co.nz/2026/05/18/jones-urges-mining-bosses-to-apply-for-fast-track-before-election/"
+    },
+    {
+     "text": "My honest view, and I have to be bound by the collective decision, I always wanted ministers to be making the decisions.",
+     "date": "2026-02-10",
+     "context": "Announcing NZ First would campaign on giving ministers the final say on fast-track approvals.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"
+    },
+    {
+     "text": "I just can't get my head around why four individuals...[are] more morally fit to make those calls than politicians and I'm going to campaign on that.",
+     "date": "2026-02-10",
+     "context": "Same event, on expert panels deciding fast-track applications.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"
+    },
+    {
+     "text": "When the government was formed in 2023, the Prime Minister met with Winston and myself. I kinda got hōhā and went for a holiday to the Gold Coast so if there's anything wrong with the coalition agreement you might want to blame me.",
+     "date": "2026-02-10",
+     "context": "Joking remark at the same event.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"
+    }
+   ]
+  },
+  {
+   "id": "costello",
+   "name": "Casey Costello",
+   "party": "nzfirst",
+   "role": "Minister of Customs; Minister for Seniors; Associate Health (tobacco)",
+   "seat": "List MP (since 2023); contesting Port Waikato",
+   "background": "Former police officer and lobbyist. Elected in 2023. Health experts raised concerns about her 2026 comments on tobacco excise.",
+   "positions": [
+    "Retirement village reform (rejects Labour's three-month buy-back). Says she does not intend to cut tobacco tax."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Casey_Costello",
+   "reversals": [],
+   "note": "Only 4 verified quotes were captured.",
+   "quotes": [
+    {
+     "text": "Seniors need more choice and more security. New Zealand First will deliver legislation that protects residents where needed, supports more housing options, and recognises the sector's role in aged care.",
+     "date": "2026-09-18",
+     "context": "On the Retirement Villages Amendment Bill being deferred to next term.",
+     "source": "Scoop (NZ First release)",
+     "url": "https://community.scoop.co.nz/2026/09/common-sense-must-prevail-for-retirement-village-reform/"
+    },
+    {
+     "text": "Three-month buy-backs are political posturing. They would damage the sector and make residents more vulnerable.",
+     "date": "2026-09-18",
+     "context": "Same release, rejecting Labour's policy that villages repay departing residents within three months.",
+     "source": "Scoop (NZ First release)",
+     "url": "https://community.scoop.co.nz/2026/09/common-sense-must-prevail-for-retirement-village-reform/"
+    },
+    {
+     "text": "I'm considering a review of the excise, and that's what we took forward to cabinet, that it's time that we started to consider a review on how our excise structure is for all of these products.",
+     "date": "2026-07-07",
+     "context": "As Associate Health Minister (tobacco); health experts raised concerns, and she said she did not intend to reduce tobacco tax.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/health/684128/casey-costello-s-tobacco-tax-comments-concerns-experts-minister-says-no-reduction"
+    },
+    {
+     "text": "I want to see policies in place that stop people smoking and stop the supply of illicit cigarettes and tobacco.",
+     "date": "2026-07-07",
+     "context": "Same interview.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/health/684128/casey-costello-s-tobacco-tax-comments-concerns-experts-minister-says-no-reduction"
+    }
+   ]
+  },
+  {
+   "id": "patterson",
+   "name": "Mark Patterson",
+   "party": "nzfirst",
+   "role": "Minister for Rural Communities; Associate Agriculture; Associate Regional Development",
+   "seat": "List MP (2017–20, 2023–); contesting Taieri",
+   "background": "Sheep and beef farmer from Otago.",
+   "positions": [
+    "Regional water storage (Tukituki). Backs the Fonterra 'Use It or Lose It' policy."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Mark_Patterson_(New_Zealand_politician)",
+   "reversals": [],
+   "note": "Only 3 verified quotes. He has a low media profile.",
+   "quotes": [
+    {
+     "text": "National adopted most of our other policies so there's still hope.",
+     "date": "2026-09-30",
+     "context": "Federated Farmers rural debate, asked why NZ First backs its 'Use It or Lose It' Fonterra milk-access policy when no other party does.",
+     "source": "Farmers Weekly",
+     "url": "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"
+    },
+    {
+     "text": "The water storage project [will] help unlock economic potential – boost food production and create jobs.",
+     "date": "2026-04-07",
+     "context": "As Associate Regional Development Minister, announcing an $18.13m Regional Infrastructure Fund loan for the Tukituki water project.",
+     "source": "Farmers Weekly",
+     "url": "https://www.farmersweekly.co.nz/news/water-storage-funding-to-unlock-regional-growth-says-patterson/"
+    },
+    {
+     "text": "As a key food-producing region, Hawke's Bay has the potential for expansion with reliable long-term water supplies.",
+     "date": "2026-04-07",
+     "context": "Same announcement.",
+     "source": "Farmers Weekly",
+     "url": "https://www.farmersweekly.co.nz/news/water-storage-funding-to-unlock-regional-growth-says-patterson/"
+    }
+   ]
+  },
+  {
+   "id": "ngaro",
+   "name": "Alfred Ngaro",
+   "party": "nzfirst",
+   "role": "NZ First candidate, list rank 5 (not a current MP)",
+   "seat": "Contesting Glendene",
+   "background": "National list MP from 2011 to 2020 and a former minister. Led NewZeal, which aligned with NZ First in March 2026.",
+   "positions": [
+    "Christian-conservative values. 'National sovereignty'."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Alfred_Ngaro",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "One of the things about a bigger party is that sometimes they use this phrase, 'We're a broad church'. When you try to be all things to all people, you tend to at times compromise on the big issues.",
+     "date": "2026-06-28",
+     "context": "1News interview on why he chose NZ First rather than returning to National.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/28/ex-national-minister-returns-but-this-time-for-nz-first/"
+    },
+    {
+     "text": "We had people giving us confidence, but not enough to get us over the threshold.",
+     "date": "2026-06-28",
+     "context": "Same interview, on NewZeal's 2023 result; asked if the switch was pragmatism he said \"realism too\".",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/28/ex-national-minister-returns-but-this-time-for-nz-first/"
+    },
+    {
+     "text": "New Zealand First has consistently advocated for national sovereignty, the protection of democratic institutions, and policies that put New Zealanders first.",
+     "date": "2026-03-22",
+     "context": "NewZeal release announcing he would stand for NZ First.",
+     "source": "NewZeal",
+     "url": "https://newzeal.org.nz/press-releases/for-immediate-release-alfred-ngaro-announces-alignment-with-new-zealand-first"
+    },
+    {
+     "text": "My values remain unchanged... This is not a departure from those convictions, it is an transition in how they maybe carried forward.",
+     "date": "2026-03-22",
+     "context": "Same release (wording as published).",
+     "source": "NewZeal",
+     "url": "https://newzeal.org.nz/press-releases/for-immediate-release-alfred-ngaro-announces-alignment-with-new-zealand-first"
+    }
+   ]
+  },
+  {
+   "id": "waititi",
+   "name": "Rawiri Waititi",
+   "party": "tpm",
+   "role": "Co-leader of Te Pāti Māori",
+   "seat": "MP for Waiariki (since 2020); contesting Waiariki",
+   "background": "Co-leader since 2020, after winning Waiariki from Labour. Suspended from Parliament for 21 days in 2025 over the Treaty Principles Bill haka.",
+   "positions": [
+    "Candidate-vote strategy aiming for an overhang. Refuses to tell voters where to put their party vote."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Rawiri_Waititi",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "This list proves we are putting our money where our mouth is.",
+     "date": "2026-10-04",
+     "context": "On the party's one-person list",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1715173/te-pati-maori-announces-one-person-party-list-for-2026-election"
+    },
+    {
+     "text": "We made a deliberate decision to put collective Māori representation ahead of building a long party list.",
+     "date": "2026-10-04",
+     "context": "On the party's one-person list",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1715173/te-pati-maori-announces-one-person-party-list-for-2026-election"
+    },
+    {
+     "text": "You give your candidate vote to Aperehama, [and] Willow-Jean Prime - who is at seven on her party list - and Huhana Lyndon - who is also on seven on her party list - you get three... and so on and so forth, and that's how you work it out.",
+     "date": "2026-08-16",
+     "context": "Campaign launch, explaining the candidate-vote strategy using Te Tai Tokerau as an example",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011909/te-pati-maori-reveals-election-strategy-as-campaign-launches-in-gisborne"
+    },
+    {
+     "text": "suggestion is not ours to make",
+     "date": "2026-08-16",
+     "context": "Asked by media which party Māori voters should give their party vote to",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011909/te-pati-maori-reveals-election-strategy-as-campaign-launches-in-gisborne"
+    },
+    {
+     "text": "I can hear the anger and feel the pain.",
+     "date": "2026-02-09",
+     "context": "Responding at Waitangi pōwhiri to Eru Kapa-Kingi's criticism of the party's expulsion of his mother (date shown is publication date of the report)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/586273/maori-leaders-reflect-on-political-powhiri-at-waitangi"
+    },
+    {
+     "text": "If I have done you wrong, I offer you my head.",
+     "date": "2026-02-09",
+     "context": "Same Waitangi pōwhiri, offering an apology and suggesting another meeting with Ngāpuhi (date shown is publication date of the report)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/586273/maori-leaders-reflect-on-political-powhiri-at-waitangi"
+    }
+   ]
+  },
+  {
+   "id": "ngarewa-packer",
+   "name": "Debbie Ngarewa-Packer",
+   "party": "tpm",
+   "role": "Co-leader of Te Pāti Māori",
+   "seat": "MP for Te Tai Hauāuru (since 2023); contesting Te Tai Hauāuru",
+   "background": "Co-leader since 2020 (list MP 2020–23). Chief executive of Ngāti Ruanui. A long-time opponent of Taranaki seabed mining.",
+   "positions": [
+    "Ban seabed mining permanently. 'One plan, two votes', focused on candidate votes."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Debbie_Ngarewa-Packer",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "We said this election is bigger than any one party. Our list reflects that commitment.",
+     "date": "2026-10-04",
+     "context": "On the party's one-person list",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1715173/te-pati-maori-announces-one-person-party-list-for-2026-election"
+    },
+    {
+     "text": "There's one plan, two votes; our plan has to be to focus on the candidate votes. We trust you with the party vote we trust and we see your love for our people, for our taiao. We trust that you will choose what is right.",
+     "date": "2026-08-16",
+     "context": "Speech at Te Pāti Māori campaign launch, Te Poho o Rāwiri Marae, Gisborne",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011909/te-pati-maori-reveals-election-strategy-as-campaign-launches-in-gisborne"
+    },
+    {
+     "text": "You have the power to bring this government to its knees.",
+     "date": "2026-08-16",
+     "context": "Campaign launch speech, Gisborne",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011909/te-pati-maori-reveals-election-strategy-as-campaign-launches-in-gisborne"
+    },
+    {
+     "text": "It's our whānau on the ground. It's not the corporate exploiters, it's not the Federated Farmers, it's not the Fonterras, it's not the BPs, it's not all the mates they're bending to - it's you.",
+     "date": "2026-08-16",
+     "context": "Campaign launch speech, Gisborne",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1011909/te-pati-maori-reveals-election-strategy-as-campaign-launches-in-gisborne"
+    },
+    {
+     "text": "Even under fast-track legislation designed to push projects through, seabed mining has been found to cause unacceptable harm to the environment, to taonga species, and to tikanga Māori.",
+     "date": "2026-02-08",
+     "context": "Press release reintroducing her member's bill to ban seabed mining, after the fast-track panel rejected Trans-Tasman Resources' application",
+     "source": "Te Pāti Māori release via Scoop",
+     "url": "https://www.scoop.co.nz/stories/PA2602/S00040/seabed-mining-banned-in-aotearoa-under-reintroduced-members-bill.htm"
+    },
+    {
+     "text": "Protecting our moana and standing with coastal iwi and hapū is why I got into politics in the first place. This Bill is about finishing what we started and making sure these protections are finally locked in for future generations.",
+     "date": "2026-02-08",
+     "context": "Same seabed-mining release",
+     "source": "Te Pāti Māori release via Scoop",
+     "url": "https://www.scoop.co.nz/stories/PA2602/S00040/seabed-mining-banned-in-aotearoa-under-reintroduced-members-bill.htm"
+    }
+   ]
+  },
+  {
+   "id": "maipi-clarke",
+   "name": "Hana-Rāwhiti Maipi-Clarke",
+   "party": "tpm",
+   "role": "MP; youngest member of the 54th Parliament",
+   "seat": "MP for Hauraki-Waikato (since 2023); contesting Hauraki-Waikato",
+   "background": "Defeated Nanaia Mahuta in 2023. Her maiden-speech haka and the 2024 Treaty Principles Bill haka drew global attention. Suspended for 7 days in 2025.",
+   "positions": [
+    "Wants Waikato River co-management and co-governance honoured. Criticises 'tribalism' in politics."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Hana-R%C4%81whiti_Maipi-Clarke",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "Iwi and hapuu voices matter. Decisions about our whenua and communities must be made with the people who whakapapa to those places.",
+     "date": "2026-08-24",
+     "context": "Statement on Waikato and Waipā river commitments",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/08/24/hana-rawhiti-maipi-clarke-calls-on-govt-to-honour-waikato-and-waipa-awa-commitments/"
+    },
+    {
+     "text": "We call on the Government to honour its commitments and enter into a new era of co-management and co-governance with Waikato-Tainui, as set out in the Waikato-Tainui Raupatu Claims (Waikato River) Settlement Act 2010.",
+     "date": "2026-08-24",
+     "context": "Same statement",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/08/24/hana-rawhiti-maipi-clarke-calls-on-govt-to-honour-waikato-and-waipa-awa-commitments/"
+    },
+    {
+     "text": "He was the reason why I was inspired to come into politics.",
+     "date": "2026-06-19",
+     "context": "On co-leader Rawiri Waititi, TVNZ interview with Scotty Morrison confirming she is standing again for Te Pāti Māori",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/19/hana-rawhiti-maipi-clarke-confirms-party-decries-tribalism/"
+    },
+    {
+     "text": "you're going up against the 115 people who are against you",
+     "date": "2026-06-19",
+     "context": "Describing debating in Parliament, same TVNZ interview",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/19/hana-rawhiti-maipi-clarke-confirms-party-decries-tribalism/"
+    },
+    {
+     "text": "I think you have this really naive energy engine room in your soul when you're so young, you think you can solve all the world's problems, especially when you've got a grandfather and grandparents like mine, and you just use that energy while you can.",
+     "date": "2026-06-19",
+     "context": "Same TVNZ interview",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/06/19/hana-rawhiti-maipi-clarke-confirms-party-decries-tribalism/"
+    }
+   ]
+  },
+  {
+   "id": "kaipara",
+   "name": "Oriini Kaipara",
+   "party": "tpm",
+   "role": "MP",
+   "seat": "MP for Tāmaki Makaurau (since the September 2025 by-election); contesting Tāmaki Makaurau",
+   "background": "Former broadcaster, and the first newsreader with moko kauae on a mainstream New Zealand news bulletin. Won the by-election after the death of Takutai Tarsh Kemp.",
+   "positions": [
+    "Te Tiriti is 'absolutely' non-negotiable. Supports the tax-free first $30,000 and Māori-targeted public housing."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Oriini_Kaipara",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "We have been very open about our strategy which is the one candidate. We want one-tick, candidate vote, for the person that we've put up as Te Pati Māori in each of the seven Māori electorates.",
+     "date": "2026-10-09",
+     "context": "Tāmaki Makaurau candidates' debate (Marae)",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/09/tamaki-makaurau-meet-two-candidates-vying-for-the-smallest-maori-seat/"
+    },
+    {
+     "text": "All our policies have been designed by Māori for Māori to Māori, and it really does give weight to, and rise to, the fact that what's good for Māori is good for all of Aotearoa.",
+     "date": "2026-10-09",
+     "context": "Same debate, on the party's tax policy",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/09/tamaki-makaurau-meet-two-candidates-vying-for-the-smallest-maori-seat/"
+    },
+    {
+     "text": "There's no more emergency housing to catch those who are homeless at the moment, we're just moving them on, round and round in circles, creating more deprivation, punching down on the pōhara instead of creating real viable solutions.",
+     "date": "2026-10-09",
+     "context": "Same debate, on housing",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/09/tamaki-makaurau-meet-two-candidates-vying-for-the-smallest-maori-seat/"
+    },
+    {
+     "text": "I confirm that the comments claiming to be mine are not. I did not and have not spoken with any reporter on this matter.",
+     "date": "2026-05-12",
+     "context": "Social media post rejecting a Stuff report that she was 'considering options' outside the party",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/594890/oriini-kaipara-confirms-loyalty-to-te-pati-maori-after-conflicting-reports"
+    },
+    {
+     "text": "committed member of Te Pāti Māori, committed to Tāmaki Makaurau, and committed to making this a one term government.",
+     "date": "2026-05-12",
+     "context": "Same social media post",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/594890/oriini-kaipara-confirms-loyalty-to-te-pati-maori-after-conflicting-reports"
+    }
+   ]
+  },
+  {
+   "id": "tamihere",
+   "name": "John Tamihere",
+   "party": "tpm",
+   "role": "President of Te Pāti Māori (not an MP)",
+   "seat": "Not a candidate for Parliament in 2026 (not on list)",
+   "background": "Labour MP 1999–2005 (Cabinet minister 2002–04). Briefly TPM co-leader in 2020, and party president since June 2022, including during the 2025–26 expulsions.",
+   "positions": [
+    "Says a change of government is impossible without TPM MPs. Defends the candidate-vote strategy."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/John_Tamihere",
+   "reversals": [],
+   "note": "During the Kapa-Kingi court case, Kapa-Kingi alleged that Tamihere made threats. These are allegations reported by The Spinoff, not findings against him, and we have not quoted them here.",
+   "quotes": [
+    {
+     "text": "It's clear to our people that if they want an unapologetic voice, if they want more Māori in parliament, and they want to get this government out, this is the strategy.",
+     "date": "2026-10-05",
+     "context": "On the candidate-vote-only strategy",
+     "source": "The Spinoff",
+     "url": "https://thespinoff.co.nz/atea/06-10-2026/why-are-so-many-maori-voters-turning-to-the-greens"
+    },
+    {
+     "text": "It's not untoward where political parties have dissension and difficulty. It's a matter of growing through that, and it's where we are at the moment.",
+     "date": "2026-05-01",
+     "context": "Interview with Te Ao Māori News on party turmoil",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/05/01/general-elections-2026-john-tamihere-on-the-future-of-te-pati-maori/"
+    },
+    {
+     "text": "Debbie and Rawiri built the brand out of nothing between 2020 and 2023.",
+     "date": "2026-05-01",
+     "context": "Same interview, on the co-leaders",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/05/01/general-elections-2026-john-tamihere-on-the-future-of-te-pati-maori/"
+    },
+    {
+     "text": "You can't have a change of government unless Te Pāti Māori's MPs are there. This is just the mathematical fact.",
+     "date": "2026-05-01",
+     "context": "Same interview, on Labour and Green challenges in Māori seats",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/05/01/general-elections-2026-john-tamihere-on-the-future-of-te-pati-maori/"
+    },
+    {
+     "text": "So a vote for Labour or a vote for the Greens is a vote for New Zealand First.",
+     "date": "2026-05-01",
+     "context": "Same interview, immediately following the previous remark, in the context of Labour/Green candidates contesting Māori electorates",
+     "source": "Te Ao Māori News",
+     "url": "https://www.teaonews.co.nz/2026/05/01/general-elections-2026-john-tamihere-on-the-future-of-te-pati-maori/"
+    }
+   ]
+  },
+  {
+   "id": "norman",
+   "name": "Lance Norman",
+   "party": "tpm",
+   "role": "General Secretary of Te Pāti Māori; sole list candidate",
+   "seat": "List rank 1 (the only name on TPM's list)",
+   "background": "Party secretary/treasurer. Chosen 'unanimously' as the only list candidate in October 2026.",
+   "positions": [
+    "Has spoken publicly mainly in his administrative role."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Te_P%C4%81ti_M%C4%81ori",
+   "reversals": [],
+   "note": "Gap: only two short quoted fragments (from a letter) could be verified. No dedicated biography was found. The link goes to the party page.",
+   "quotes": [
+    {
+     "text": "by multiple rangatira of Te Tai Tokerau not to attend",
+     "date": "2025-11-24",
+     "context": "Letter explaining why party leaders would not attend a Te Tai Tokerau hui about the expulsions (fragment as quoted by 1News)",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2025/11/24/exclusive-former-te-pati-maori-leaders-not-prepared-to-walk-away/"
+    },
+    {
+     "text": "our attendance may be seen as interfering with that process",
+     "date": "2025-11-24",
+     "context": "Same letter, citing legal proceedings",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2025/11/24/exclusive-former-te-pati-maori-leaders-not-prepared-to-walk-away/"
+    }
+   ]
+  },
+  {
+   "id": "wong",
+   "name": "Qiulae Wong",
+   "party": "opportunity",
+   "role": "Leader of the Opportunity Party (since November 2025)",
+   "seat": "Contesting Mt Albert",
+   "background": "Businesswoman. Former sustainable-business adviser at KPMG and former director of B Lab's New Zealand branch.",
+   "positions": [
+    "Negotiate with either major party, but not with a government that has Peters as foreign minister.",
+    "Five bottom lines on competition, clean politics, health, bottom trawling and climate."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)",
+   "reversals": [],
+   "note": null,
+   "quotes": [
+    {
+     "text": "No, I don't believe him. Because he would rather be in government than in opposition. I assume. I can't say that for him.",
+     "date": "2026-10-09",
+     "context": "Responding to Christopher Luxon ruling out working with Opportunity at TVNZ's leaders' debate",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
+    },
+    {
+     "text": "It demonstrates some of the really corrosive nature of politics at the moment, that that caused such an uproar amongst some groups of people. Of course we've all voted across the political spectrum, particularly in a party like Opportunity, where we are a party of people that have historically been politically homeless.",
+     "date": "2026-10-09",
+     "context": "On controversy about candidates' past votes for other parties",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
+    },
+    {
+     "text": "We're really encouraged that the general trend is up, and most polls have us well clear of the 5 percent. But obviously, we take nothing for granted and we're out working hard to shore up as many votes as possible",
+     "date": "2026-10-09",
+     "context": "On polling",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
+    },
+    {
+     "text": "We've said very clearly there are lots of things that we could work with National on... this is just old school politics at play, and come election night, they might change their tune.",
+     "date": "2026-10-06",
+     "context": "Reacting to Luxon ruling out Opportunity",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+    },
+    {
+     "text": "We will not support a government that walks away from our international obligations or undermines the independent Climate Change Commission.",
+     "date": "2026-09-29",
+     "context": "Same announcement (Paris Agreement bottom line)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
+    },
+    {
+     "text": "We are here for unity, innovation and nature, not for the next three years but for generations to come.",
+     "date": "2026-09-29",
+     "context": "Same announcement",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
+    },
+    {
+     "text": "I think I represent the views of a lot of people in that electorate who are young families that are worried about the future and they want somebody with fresh ideas to inject something new into our politics.",
+     "date": "2026-09-11",
+     "context": "On her Mt Albert electorate campaign",
+     "source": "Newsroom",
+     "url": "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"
+    },
+    {
+     "text": "We are on track to stand candidates in over thirty electorates this election, because local voices matter.",
+     "date": "2026-03-20",
+     "context": "Party release announcing first candidates",
+     "source": "Opportunity release via Scoop",
+     "url": "https://www.scoop.co.nz/stories/PO2603/S00121/the-next-generation-of-leaders-first-opportunity-candidates-announced.htm"
+    }
+   ]
+  },
+  {
+   "id": "eb",
+   "name": "Daniel Eb",
+   "party": "opportunity",
+   "role": "Deputy Leader of the Opportunity Party (since March 2026)",
+   "seat": "Contesting Kaipara ki Mahurangi",
+   "background": "Has worked on food-system and farming issues for about a decade, by his own account.",
+   "positions": [
+    "'Transformative, system-change' reform."
+   ],
+   "wiki": "https://en.wikipedia.org/wiki/Opportunity_Party_(New_Zealand)",
+   "reversals": [],
+   "note": "Gap: only one verified quote, from his launch announcement.",
+   "quotes": [
+    {
+     "text": "After almost 10 years working towards a more just, resilient and nature-positive food system in Aotearoa New Zealand, it's become clear to me that our national-level settings need to change. That's why I'm proud to stand for Opportunity, a party that is ready to lead the transformative, system-change reforms we need now",
+     "date": "2026-03-20",
+     "context": "Announced as deputy leader and Kaipara ki Mahurangi candidate",
+     "source": "Opportunity release via Scoop",
+     "url": "https://www.scoop.co.nz/stories/PO2603/S00121/the-next-generation-of-leaders-first-opportunity-candidates-announced.htm"
+    }
+   ]
+  }
+ ]
+}

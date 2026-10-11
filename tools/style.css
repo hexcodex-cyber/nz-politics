@@ -1,0 +1,55 @@
+:root{--ink:#1b1f24;--muted:#5a6370;--bg:#fbfaf7;--card:#fff;--line:#e3e0d8;--accent:#0b5c6b;--pc:#0b5c6b}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+a{color:var(--accent)}a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid #f2a900;outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:.5rem;z-index:9}
+.wrap{max-width:1100px;margin:0 auto;padding:0 1.1rem}
+header.site{background:#102a33;color:#fff}
+header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem;padding:.7rem 1.1rem}
+.brand{color:#fff;text-decoration:none;font-weight:700;font-size:1.05rem}.brand span{font-weight:400;opacity:.8;font-size:.85rem;margin-left:.35rem}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .9rem}
+nav a{color:#dff3f6;text-decoration:none;font-size:.9rem}nav a:hover{text-decoration:underline}
+main{padding:1.5rem 1.1rem 3rem}
+h1{font-size:2rem;line-height:1.15;margin:.4rem 0}
+h2{font-size:1.3rem;margin:1.8rem 0 .6rem;border-bottom:2px solid var(--line);padding-bottom:.25rem}
+aside h2,.box h2{font-size:1.05rem;margin-top:0}
+.hero{padding:1.5rem 0 .5rem}.hero h1{font-size:2.6rem}
+.kicker{text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-size:.8rem;margin:0}
+.lede{font-size:1.15rem;max-width:46rem}
+.muted{color:var(--muted)}.small{font-size:.85rem}
+.src{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.facts li{margin:.35rem 0}
+.grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}
+.party a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-top:6px solid var(--pc);border-radius:8px;padding:.9rem 1rem;color:inherit;text-decoration:none}
+.party a:hover{box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.party h3{margin:.1rem 0 .2rem;font-size:1.2rem}.party p{margin:.25rem 0}
+.status{font-weight:600;color:var(--muted);margin:.2rem 0}
+.note{background:#fff7e0;border-left:4px solid #e0a800;padding:.6rem .8rem;border-radius:4px}
+.flag{display:inline-block;background:#fde8e8;color:#8a1c1c;border-radius:999px;padding:.15rem .7rem;font-size:.85rem;font-weight:600}
+.phead{border-left:8px solid var(--pc);padding:.2rem 0 .2rem 1rem;margin:.5rem 0 1rem}
+.crumbs{font-size:.88rem;color:var(--muted);margin:0}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:2rem}
+@media (max-width:860px){.cols{grid-template-columns:1fr}.hero h1{font-size:2rem}}
+.box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:1rem;margin-bottom:1rem}
+.kv dt{font-weight:700;margin-top:.6rem}.kv dd{margin:.15rem 0 0}
+.box .kv dt:first-child{margin-top:0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;background:var(--card)}
+caption{text-align:left;font-weight:600;padding:.3rem 0}
+th,td{border-bottom:1px solid var(--line);padding:.4rem .5rem;text-align:left;vertical-align:top}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+.people{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.8rem}
+.pcard a{display:flex;gap:.8rem;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.8rem;color:inherit;text-decoration:none;height:100%}
+.pcard a:hover{border-color:var(--accent)}
+.avatar{flex:none;width:2.8rem;height:2.8rem;border-radius:50%;background:var(--pc);color:#fff;display:grid;place-items:center;font-weight:700}
+.tag{display:inline-block;font-size:.78rem;background:#eef4f5;border-radius:4px;padding:.05rem .4rem;margin-top:.2rem}
+.quotes{list-style:none;padding:0}
+.quote{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--pc);border-radius:6px;padding:.7rem 1rem;margin:.8rem 0}
+.quote blockquote{margin:0;font-size:1.05rem}.quote blockquote p{margin:0}
+.meta{margin:.45rem 0 0;font-size:.85rem;color:var(--muted)}
+.srclist{font-size:.85rem;word-break:break-all}
+footer.site{border-top:1px solid var(--line);background:#f1efe9;font-size:.85rem;color:var(--muted)}
+footer.site .wrap{padding:1rem 1.1rem}
+@media print{header.site nav,footer.site{display:none}a{color:inherit}}
