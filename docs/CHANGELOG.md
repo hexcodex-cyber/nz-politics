@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-12 — Daily update (NZ time)
+
+- Added two new Chris Hipkins quotes from 11 Oct 2026: his ODT leader interview on running on his own platform, and his Birkenhead remark that he privately backed campaigning on a capital gains tax in 2020 (1News).
+- No new published polls since the last update; the polling table is unchanged.
+
 ## 2026-10-11 — Initial release (NZ time)
 
 - First public version of the site, published to GitHub Pages.

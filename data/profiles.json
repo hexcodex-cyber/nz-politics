@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "NZ Politics 2026: What they actually said",
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "timezone": "Pacific/Auckland",
   "election": {
    "date": "Saturday 7 November 2026",
@@ -898,11 +898,18 @@
    "note": null,
    "quotes": [
     {
-     "text": "This election is about the cost of living. This election is about your cost of living.",
-     "date": "2026-09-27",
-     "context": "Opening of his campaign launch speech in Manukau.",
-     "source": "Labour Party (speech text)",
-     "url": "https://www.labour.org.nz/news/speech-labour-party-campaign-launch-2026-chris-hipkins/"
+     "text": "I've had three years to prepare. I am running on a platform that I believe in. I'm campaigning to make changes that I passionately believe in.",
+     "date": "2026-10-11",
+     "context": "Otago Daily Times leader interview with political editor Mike Houlahan",
+     "source": "Otago Daily Times",
+     "url": "https://www.odt.co.nz/news/national/hipkins-20-campaigning-on-his-own-platform-m2cgqbbj"
+    },
+    {
+     "text": "Internally, I was in favour of campaigning on a CGT in 2020. We didn't do that, obviously. We've always been clear that we will only make changes to the tax system that we have a public mandate for.",
+     "date": "2026-10-11",
+     "context": "Answering an audience question at a Birkenhead campaign meeting, the day Labour announced locally made school lunches from 2028",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/11/hipkins-promises-end-to-slop-lunches-reveals-2020-tax-support/"
     },
     {
      "text": "Christopher Luxon promised to fix the cost of living. He's had three years. He's failed.",
@@ -931,13 +938,6 @@
      "context": "RNZ Morning Report, ahead of the joint Labour–Greens press conference at Waitangi.",
      "source": "Otago Daily Times (via RNZ)",
      "url": "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"
-    },
-    {
-     "text": "They're in court. That's really where their focus should be.",
-     "date": "2026-02-03",
-     "context": "On Te Pāti Māori, which was in the High Court over the expulsion of MP Mariameno Kapa-Kingi.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/585778/labour-leader-chris-hipkins-sets-sights-on-maori-seats"
     },
     {
      "text": "Here's what is exempt from our simple, targeted capital gains tax: the family home, farms, inheritances, KiwiSaver, shares, businesses, and personal items.",
