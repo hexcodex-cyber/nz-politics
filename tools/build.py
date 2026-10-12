@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Monday 12 October 2026 (NZDT)"
+UPDATED = "Tuesday 13 October 2026 (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -110,7 +110,7 @@ ptable = "<table><caption>Party vote in the four most recent polls (%)</caption>
     "".join(f"<th scope='col' class='num'>{e(p['short'])}</th>" for p in ALLPARTIES) + "</tr></thead><tbody>"
 for name, fw, pub, u, ver, d in POLLS:
     ptable += f"<tr><td>{link(u, name)}{'' if ver else ' †'}</td><td>{e(fw)}</td>" + "".join(f"<td class='num'>{d[p['id']]:g}</td>" for p in ALLPARTIES) + "</tr>"
-ptable += "</tbody></table><p class='muted small'>† Figures taken from the Wikipedia polling table and not independently checked against the pollster's release. 1News–Verian and RNZ–Reid figures were checked against the publishers' articles. The 5% threshold (or one electorate seat) is needed for list seats. Te Pāti Māori relies on electorate seats.</p>"
+ptable += "</tbody></table><p class='muted small'>All four polls were checked against the publisher's or pollster's release (Taxpayers' Union–Curia via RNZ's report). † would mark figures taken only from the Wikipedia polling table. The 5% threshold (or one electorate seat) is needed for list seats. Te Pāti Māori relies on electorate seats.</p>"
 body = f"""<section class="hero"><p class="kicker">General election</p><h1>{ELECTION['date']}</h1>
 <p class="lede">A plain-language catch-up on New Zealand's parties and their leading figures. It is built on what politicians have <em>actually said</em> in 2025–26, with every quote dated and linked to its source.</p></section>
 <section aria-labelledby="k"><h2 id="k">Key dates</h2><ul class="facts">{facts}</ul></section>
@@ -137,7 +137,7 @@ for p in ALLPARTIES:
 <section><h2>Notable 2025–26 events and controversies</h2>{items(p['events'])}</section>
 </div><aside>
 <section class="box"><h2>Recent polling</h2><table><thead><tr><th scope="col">Poll</th><th scope="col">Fieldwork</th><th scope="col" class="num">Vote</th></tr></thead><tbody>{rows}</tbody></table>
-<p class="small muted">† from the Wikipedia polling table and not independently checked.</p></section>
+<p class="small muted">Figures checked against the publisher or pollster. † would mark figures taken only from Wikipedia.</p></section>
 <section class="box"><h2>Who's profiled and why</h2><p>{p['selection']}</p></section>
 <section class="box"><h2>Background sources</h2><ul>{''.join(f'<li>{link(u, u.split("/wiki/")[-1].replace("_"," ") + " (Wikipedia)")}</li>' for u in p['sources'])}</ul></section>
 </aside></div>
@@ -187,13 +187,13 @@ body = f"""<h1>Sources &amp; methodology</h1>
 <li>Where a list doesn't tell you who matters (Te Pāti Māori's list has only one name), we used the other sitting MPs plus key party officers.</li></ol>
 <p>This means some people profiled are <strong>not current MPs</strong>: Paul Henry (ACT, rank 4), Alfred Ngaro (NZ First, rank 5), John Tamihere and Lance Norman (Te Pāti Māori officers), and Opportunity's leaders. The reasoning for each party is on its page.</p></section>
 <section><h2>Quote rules</h2><ul>
-<li>Every quote comes from a page we actually retrieved during research (8–12 October 2026). Wording is as published by that source, including the source's own transcription.</li>
+<li>Every quote comes from a page we actually retrieved during research (8–13 October 2026). Wording is as published by that source, including the source's own transcription.</li>
 <li>Where a quote is relayed by a news outlet, we link that outlet. Where a release was republished (for example via Scoop), we say so.</li>
 <li>X posts link to the post itself. Dates are converted to NZ time. Some long posts were only partly returned by the X API, so we quote the opening text.</li>
 <li>Up to 8 quotes per person, newest first, from 2025–26. If fewer than 4 could be verified, the page says so. We did not pad with weak or uncertain material.</li>
 <li>Context lines are our neutral description. We give no commentary on whether claims are true. 'Reversals' lists only cases where a source documents a statement and a later, different statement or action.</li>
 <li>Dates are publication or post dates (NZ time). Where an event date was approximate, the context says so.</li></ul></section>
-<section><h2>Polling</h2><p>1News–Verian (1–5 Oct) and RNZ–Reid Research (24 Sep–1 Oct) figures were checked against the publishers' articles. Taxpayers' Union–Curia and Roy Morgan figures (marked †) come from the Wikipedia polling table and were not checked against the pollster releases.</p></section>
+<section><h2>Polling</h2><p>All four polls in the table were checked against the publishers: 1News–Verian (1–5 Oct) and RNZ–Reid Research (24 Sep–1 Oct) against their own articles, Taxpayers' Union–Curia (1–5 Oct) against RNZ's 8 October report, and Roy Morgan (31 Aug–27 Sep) against Roy Morgan's 6 October release (checked 13 Oct 2026).</p></section>
 <section><h2>Known gaps and uncertainties</h2><ul>
 <li>People with fewer than 4 verified quotes: {', '.join(P[k]['name']+' ('+str(len(Q.get(k,[])))+')' for k in P if len(Q.get(k,[]))<4)}.</li>
 <li>Background facts (careers, years elected) are summarised from Wikipedia and general knowledge of the public record, and each links to its Wikipedia page. Some party-level facts are marked 'secondary source' where only Wikipedia was used.</li>
@@ -204,7 +204,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-12", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-13", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],

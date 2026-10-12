@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "NZ Politics 2026: What they actually said",
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "timezone": "Pacific/Auckland",
   "election": {
    "date": "Saturday 7 November 2026",
@@ -75,9 +75,9 @@
    {
     "poll": "Taxpayers' Union–Curia",
     "fieldwork": "1–5 Oct 2026",
-    "published": "Oct 2026",
-    "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
-    "verified_against_publisher": false,
+    "published": "8 Oct 2026",
+    "url": "https://www.rnz.co.nz/news/politics_election-2026/1795546/nz-first-surge-extends-coalition-lead-latest-taxpayers-union-curia-poll-shows",
+    "verified_against_publisher": true,
     "party_vote": {
      "national": 28.5,
      "labour": 28.2,
@@ -91,9 +91,9 @@
    {
     "poll": "Roy Morgan",
     "fieldwork": "31 Aug–27 Sep 2026",
-    "published": "Sep/Oct 2026",
-    "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
-    "verified_against_publisher": false,
+    "published": "6 Oct 2026",
+    "url": "https://www.roymorgan.com/findings/10351-nz-national-voting-intention-september-2026",
+    "verified_against_publisher": true,
     "party_vote": {
      "national": 31,
      "labour": 23.5,
@@ -147,6 +147,14 @@
     [
      "Social media: a bill to ban under-16s from most social media platforms was introduced as a National Party bill in August 2026. ACT and NZ First oppose it (secondary source).",
      "https://en.wikipedia.org/wiki/Sixth_National_Government_of_New_Zealand"
+    ],
+    [
+     "Fiscal plan (12 October 2026): tax relief only once the books are back in surplus (not forecast before 2029); a commitment to an independent election policy-costing unit by the 2029 election; $451.8m to extend the school lunch programme to the next election.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1858565/national-hints-at-tax-cuts-after-2029-as-fiscal-plan-released"
+    ],
+    [
+     "Superannuation: National confirmed its fiscal plan is its super policy. It still proposes raising the age gradually but sets no date, and commits to cross-party talks within 100 days of a new government.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1860419/politicians-can-t-dance-alone-on-superannuation-nicola-willis"
     ],
     [
      "Aid: a plan to cut aid outside the Pacific to fund health spending. Coalition partner NZ First publicly criticised it.",
@@ -218,6 +226,10 @@
      "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"
     ],
     [
+     "Cheaper school uniforms (limits on compulsory branded items and generic alternatives allowed), announced 12 October, alongside locally made school lunches from Term 1 2028 and restoring 43 cancelled rural school bus routes 'where possible'.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1857589/labour-plans-to-cut-school-uniform-costs-and-allow-affordable-generic-options"
+    ],
+    [
      "Visa-waiver travel for Pacific Islands Forum citizens.",
      "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"
     ]
@@ -283,6 +295,10 @@
      "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
     ],
     [
+     "Regulating artificial intelligence (12 October): no fully automated decisions in public services that make a substantive difference to people's lives, explicit consent standards for AI training data, and environmental impact assessments for hyperscale data centres.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"
+    ],
+    [
      "A $30,000 cap on political donations, with donations from people only.",
      "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"
     ],
@@ -331,6 +347,10 @@
    "role": "Coalition partner in government. David Seymour has been Deputy Prime Minister since 31 May 2025 and is Minister for Regulation. The Regulatory Standards Act passed in November 2025.",
    "policies": [
     [
+     "Fiscal plan (11 October 2026): return to 2017 per-capita spending; raise the NZ Super age by three months a year to 67 by 2035; cut disability benefits by $653m over four years via independent medical certification; abolish 'demographic' ministries; cut foreign aid (Pacific and Ukraine excluded).",
+     "https://www.rnz.co.nz/news/politics_election-2026/1839100/act-sets-out-plan-to-raise-retirement-age-cut-debt-spending-and-disability-benefits"
+    ],
+    [
      "Finish Treaty settlements and wind up the Waitangi Tribunal.",
      "https://x.com/dbseymour/status/2097828606579970429"
     ],
@@ -359,6 +379,10 @@
     [
      "ACT used 'agree to disagree' clauses on National's under-16 social media ban and opposed National–Labour modern slavery legislation (secondary source).",
      "https://en.wikipedia.org/wiki/ACT_New_Zealand"
+    ],
+    [
+     "12 October 2026: the Mental Health Foundation called ACT's proposed disability benefit cuts 'poorly researched' and 'based in bigotry'. Seymour says people who are genuinely disabled 'should be looked after well'.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"
     ],
     [
      "Candidate Paul Henry's 'little shits in classrooms' remark when launching ACT's school-discipline policy drew criticism from Labour.",
@@ -409,6 +433,10 @@
     [
      "Repeal the Regulatory Standards Act. Give ministers the final say on fast-track approvals.",
      "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"
+    ],
+    [
+     "Replace the Accredited Employer Work Visa with a 'shortage-led' Skilled Work Visa tied to occupation, region and 'demonstrated need' (announced 11 October in Dunedin).",
+     "https://www.rnz.co.nz/news/politics_election-2026/1839805/nz-first-promises-to-implement-shortage-led-skilled-work-visas"
     ],
     [
      "A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.",
@@ -568,16 +596,27 @@
     [
      "National's tax pledge was originally 'no new taxes on working people'. In August 2026 Luxon widened it to 'no new taxes', dropping a bank tax and bed tax that ministers (including Willis) had floated earlier in the year.",
      "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+    ],
+    [
+     "In early May 2026 Luxon said National would 'go to the election with another election policy around superannuation and lifting the retirement age for sure'. Its 12 October fiscal plan set no date for raising the age and committed to cross-party talks instead. National says its stance has not changed.",
+     "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     ]
    ],
    "note": null,
    "quotes": [
     {
-     "text": "If you can work, you should. Welfare should be firm, fair and affordable. A safety net for Kiwis who need it, not a system that gets abused at taxpayers' expense.",
-     "date": "2026-10-08",
-     "context": "X post announcing National's Jobseeker changes, including random drug testing (posted 8 Oct NZT).",
-     "source": "X post",
-     "url": "https://x.com/chrisluxonmp/status/2107949741086765497"
+     "text": "It requires a political consensus, and we don't have that currently.",
+     "date": "2026-10-13",
+     "context": "Explaining why National's superannuation policy is cross-party talks rather than a set date for raising the age (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
+    },
+    {
+     "text": "We want to work with parties that want no new taxes. It's as simple as that.",
+     "date": "2026-10-06",
+     "context": "Holding to his rule-out of working with the Opportunity Party, citing its land value tax.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
      "text": "It's absolute madness.",
@@ -587,18 +626,11 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
     },
     {
-     "text": "He can't find a pathway to get into government without those four radical parties and six leaders, that's going to be chaos.",
-     "date": "2026-09-28",
-     "context": "On Chris Hipkins' likely coalition partners (Greens, Te Pāti Māori, Opportunity), RNZ Morning Report.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
-    },
-    {
-     "text": "This is about no new taxes, and I can't be clearer, this is the fundamental choice of this election.",
-     "date": "2026-08-23",
-     "context": "Upgrading National's pledge from 'no new taxes on working people' to 'no new taxes', ruling out a bed tax and bank tax.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected"
+     "text": "I just wrapped up my campaign launch speech, and my message was simple: Where do you want your hard-earned money going, to you and your family, or to Labour and their mates? Party Vote National for no new taxes.",
+     "date": "2026-09-27",
+     "context": "X post after National's campaign launch at the Auckland Convention Centre.",
+     "source": "X post",
+     "url": "https://x.com/chrisluxonmp/status/2104023400876576938"
     },
     {
      "text": "There was a confidence vote in my leadership this morning at our caucus meeting, and I have the full support of our caucus. And our caucus is united, and it is determined to win this election.",
@@ -639,7 +671,8 @@
    "background": "Entered Parliament on the list in 2018 after a career as a political adviser and corporate lobbyist. Deputy leader since December 2021; Finance Minister since 2023; delivered Budget 2026 on 28 May.",
    "positions": [
     "Fiscal restraint in an election year. Calls Labour's fiscal plan 'the least credible… in living memory'.",
-    "Personally favours raising the NZ Super age, but says she has not convinced coalition partners.",
+    "Personally favours raising the NZ Super age gradually. National's 2026 policy is cross-party talks within 100 days rather than a set date.",
+    "Tax relief only once the books are back in surplus (not forecast before 2029).",
     "Floated taxing banks 'fairly' in May 2026, then dropped it under the 'no new taxes' pledge."
    ],
    "wiki": "https://en.wikipedia.org/wiki/Nicola_Willis",
@@ -652,11 +685,18 @@
    "note": null,
    "quotes": [
     {
-     "text": "This is the least credible fiscal plan released by a major party in living memory.",
-     "date": "2026-10-04",
-     "context": "National press release titled 'Labour's fiscal plan a fraud'. Labour says its plan is fully costed and funded.",
-     "source": "National Party",
-     "url": "https://www.national.org.nz/news/261004-nicolawillis"
+     "text": "While our fiscal plan shows a pathway to potential tax relief for working New Zealanders, now is not the time to cut taxes.",
+     "date": "2026-10-12",
+     "context": "Releasing National's fiscal plan with Christopher Luxon",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1858565/national-hints-at-tax-cuts-after-2029-as-fiscal-plan-released"
+    },
+    {
+     "text": "What is needed is for political parties to be honest and upfront about what their proposals are for ensuring that this entitlement can remain consistent into the future.",
+     "date": "2026-10-12",
+     "context": "On NZ Super, the day National confirmed its fiscal plan was its superannuation policy (cross-party talks, no set date for raising the age)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1860419/politicians-can-t-dance-alone-on-superannuation-nicola-willis"
     },
     {
      "text": "I have looked at what the banks are being taxed at now and measures for changing that, and there are no other measures that I can see won't result in additional costs for Kiwis.",
@@ -685,13 +725,6 @@
      "context": "Delivering Budget 2026.",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/business/596612/budget-2026-new-zealand-digging-its-way-out-of-the-post-covid-hole-finance-minister-says"
-    },
-    {
-     "text": "Kiwis can look forward with confidence, they just need to choose it, they just need to vote for it.",
-     "date": "2026-05-28",
-     "context": "Closing line of her Budget 2026 speech.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
     },
     {
      "text": "We've got to make sure the banks are taxed fairly... As a minister in this Government, I am still actively considering the taxation of banks and what that looks like.",
@@ -898,6 +931,13 @@
    "note": null,
    "quotes": [
     {
+     "text": "Cost should never be a barrier to a good education. We're focused on making life more affordable for families.",
+     "date": "2026-10-12",
+     "context": "Announcing Labour's policy to cut school uniform costs",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1857589/labour-plans-to-cut-school-uniform-costs-and-allow-affordable-generic-options"
+    },
+    {
      "text": "I've had three years to prepare. I am running on a platform that I believe in. I'm campaigning to make changes that I passionately believe in.",
      "date": "2026-10-11",
      "context": "Otago Daily Times leader interview with political editor Mike Houlahan",
@@ -905,23 +945,16 @@
      "url": "https://www.odt.co.nz/news/national/hipkins-20-campaigning-on-his-own-platform-m2cgqbbj"
     },
     {
-     "text": "Internally, I was in favour of campaigning on a CGT in 2020. We didn't do that, obviously. We've always been clear that we will only make changes to the tax system that we have a public mandate for.",
-     "date": "2026-10-11",
-     "context": "Answering an audience question at a Birkenhead campaign meeting, the day Labour announced locally made school lunches from 2028",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/11/hipkins-promises-end-to-slop-lunches-reveals-2020-tax-support/"
+     "text": "This election is about the cost of living. This election is about your cost of living.",
+     "date": "2026-09-27",
+     "context": "Opening of his campaign launch speech in Manukau.",
+     "source": "Labour Party (speech text)",
+     "url": "https://www.labour.org.nz/news/speech-labour-party-campaign-launch-2026-chris-hipkins/"
     },
     {
      "text": "Christopher Luxon promised to fix the cost of living. He's had three years. He's failed.",
      "date": "2026-09-27",
      "context": "Campaign launch speech; he also called National's claims about Labour's tax policy \"bullshit\".",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
-    },
-    {
-     "text": "Neo-liberal, trickledown economics does not work.",
-     "date": "2026-09-27",
-     "context": "Campaign launch, announcing a 10% write-off of eligible student loan balances.",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
     },
@@ -1013,8 +1046,15 @@
    ],
    "wiki": "https://en.wikipedia.org/wiki/Barbara_Edmonds",
    "reversals": [],
-   "note": "Only 3 verified 2025–26 quotes were captured.",
+   "note": null,
    "quotes": [
+    {
+     "text": "You need to have the strong mandate to do it. They wanted the mandate to do it, they could have put it in their policy ... that conversation still continues, even if they're in government, [or] we're in government.",
+     "date": "2026-10-13",
+     "context": "Responding to National's superannuation stance; Labour would keep the age at 65 (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
+    },
     {
      "text": "We get about 3.1% on average over the forecast period. So we believe the 3% is conservative, and we think is prudent given that the forecasts do change...",
      "date": "2026-10-07",
@@ -1187,6 +1227,20 @@
    "reversals": [],
    "note": null,
    "quotes": [
+    {
+     "text": "We can afford to ensure that everybody retires with dignity, and that means that we have to fix the tax system.",
+     "date": "2026-10-13",
+     "context": "Responding to National's fiscal plan and superannuation stance (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
+    },
+    {
+     "text": "Nothing about this technology is inevitable, neither the claims of existential destruction by tech billionaires nor the devastation of the financial bubble bursting forecast by economists.",
+     "date": "2026-10-12",
+     "context": "Announcing the Greens' policy to regulate artificial intelligence",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"
+    },
     {
      "text": "The polls are going to continue to bounce around at the margins over the next few weeks, and this is why it's really important to understand that nothing is set in stone.",
      "date": "2026-10-06",
@@ -1416,6 +1470,20 @@
    "reversals": [],
    "note": null,
    "quotes": [
+    {
+     "text": "But the reason we need an ACT party is to take these hard positions when nobody else will.",
+     "date": "2026-10-13",
+     "context": "On National not setting a date to raise the superannuation age (ACT would lift it three months a year to 67 by 2035)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
+    },
+    {
+     "text": "Now, there's one of two failings: either New Zealand has become a much sicker place in the last seven years, or we have got a lot worse at managing and helping people who could be working. And I suspect it's the latter.",
+     "date": "2026-10-12",
+     "context": "Defending ACT's fiscal-plan proposal to cut disability benefit spending through independent medical certification",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"
+    },
     {
      "text": "If you're on a benefit you have an obligation to those paying taxes to fund it. You must be work ready, like they are. Many New Zealanders face random drug testing as a condition of work, so should the beneficiaries they fund.",
      "date": "2026-10-08",
@@ -1655,11 +1723,11 @@
    "note": null,
    "quotes": [
     {
-     "text": "We need to double the size of the economy and we cannot do that if we neglect the very markets we need to be in.",
-     "date": "2026-10-06",
-     "context": "X post criticising National's plan to cut aid outside the Pacific to fund health spending.",
-     "source": "X post",
-     "url": "https://x.com/winstonpeters/status/2107229536366850450"
+     "text": "We can afford it, but we can't afford it with them because they can't run a sound economy. We in New Zealand First can.",
+     "date": "2026-10-13",
+     "context": "On whether NZ Super is affordable, responding to National's fiscal plan (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
      "text": "They're the mainstream media's party, and you guys are no good at politics.",
@@ -1669,11 +1737,11 @@
      "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
-     "text": "The Treaty of Waitangi Tribunal has become a make-work organisation – now hearing any and all claims that in a former time would've been dismissed on application as being inappropriate.",
-     "date": "2026-09-27",
-     "context": "X post after announcing NZ First would abolish the Waitangi Tribunal within 100 days of the next government.",
+     "text": "The Opportunist Party \"bottom lines\" are more like a \"wrinkly derrière\".",
+     "date": "2026-09-29",
+     "context": "X post responding to the Opportunity Party's five non-negotiable policies.",
      "source": "X post",
-     "url": "https://x.com/winstonpeters/status/2103959022206672976"
+     "url": "https://x.com/winstonpeters/status/2104679977593774519"
     },
     {
      "text": "New Zealand First will substantially reduce non-essential immigration and restore the principle that immigration is a privilege, not a right.",
@@ -1683,11 +1751,11 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
     },
     {
-     "text": "After days of speculation and distraction it has boiled down to 'much ado about nothing'.",
-     "date": "2026-08-12",
-     "context": "On Luxon surviving the Penk leadership challenge.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+     "text": "We need immigration to New Zealand. We always have. It has been an essential part of our history...",
+     "date": "2026-09-11",
+     "context": "Same announcement.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
     },
     {
      "text": "I'm defending our democracy, and I'm proud of it.",
@@ -1697,9 +1765,9 @@
      "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
     },
     {
-     "text": "I know you just came here five minutes ago. Go back to your own country.",
-     "date": "2026-07-28",
-     "context": "In Parliament, to Green MP Lawrence Xu-Nan after Xu-Nan interjected during Peters' speech (date approximate: 1News on 30 July says 'this week'). The Speaker called the remark 'inappropriate'; China's embassy lodged representations with MFAT.",
+     "text": "If that offends the pearl clutchers and the communist shills labelling it as 'dangerous' — welcome to New Zealand.",
+     "date": "2026-07-30",
+     "context": "Facebook post responding to China's ambassador",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
     },
@@ -2204,16 +2272,16 @@
    "note": null,
    "quotes": [
     {
+     "text": "It is always politically difficult, but I think New Zealanders are ready for an honest conversation about superannuation.",
+     "date": "2026-10-13",
+     "context": "Responding to National's fiscal plan (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
+    },
+    {
      "text": "No, I don't believe him. Because he would rather be in government than in opposition. I assume. I can't say that for him.",
      "date": "2026-10-09",
      "context": "Responding to Christopher Luxon ruling out working with Opportunity at TVNZ's leaders' debate",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
-    },
-    {
-     "text": "It demonstrates some of the really corrosive nature of politics at the moment, that that caused such an uproar amongst some groups of people. Of course we've all voted across the political spectrum, particularly in a party like Opportunity, where we are a party of people that have historically been politically homeless.",
-     "date": "2026-10-09",
-     "context": "On controversy about candidates' past votes for other parties",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
     },
@@ -2232,16 +2300,16 @@
      "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
-     "text": "We will not support a government that walks away from our international obligations or undermines the independent Climate Change Commission.",
+     "text": "New Zealanders deserve to know who is trying to influence their government, and no one should be able to buy disproportionate political influence.",
      "date": "2026-09-29",
-     "context": "Same announcement (Paris Agreement bottom line)",
+     "context": "Releasing Opportunity's five post-election bottom lines (lobbying regulation and donation caps)",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
     },
     {
-     "text": "We are here for unity, innovation and nature, not for the next three years but for generations to come.",
+     "text": "We will not support a government that walks away from our international obligations or undermines the independent Climate Change Commission.",
      "date": "2026-09-29",
-     "context": "Same announcement",
+     "context": "Same announcement (Paris Agreement bottom line)",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
     },

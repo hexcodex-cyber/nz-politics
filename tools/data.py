@@ -25,9 +25,9 @@ POLLS = [
    {"national":29,"labour":28,"greens":16,"act":9,"nzfirst":10,"tpm":0.6,"opportunity":7}),
   ("RNZ–Reid Research", "24 Sep–1 Oct 2026", "6 Oct 2026", "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker", True,
    {"national":25.9,"labour":30.8,"greens":14.8,"act":9,"nzfirst":10.6,"tpm":2,"opportunity":5.5}),
-  ("Taxpayers' Union–Curia", "1–5 Oct 2026", "Oct 2026", W+"Opinion_polling_for_the_2026_New_Zealand_general_election", False,
+  ("Taxpayers' Union–Curia", "1–5 Oct 2026", "8 Oct 2026", "https://www.rnz.co.nz/news/politics_election-2026/1795546/nz-first-surge-extends-coalition-lead-latest-taxpayers-union-curia-poll-shows", True,
    {"national":28.5,"labour":28.2,"greens":13.3,"act":9.2,"nzfirst":12,"tpm":1.4,"opportunity":4.8}),
-  ("Roy Morgan", "31 Aug–27 Sep 2026", "Sep/Oct 2026", W+"Opinion_polling_for_the_2026_New_Zealand_general_election", False,
+  ("Roy Morgan", "31 Aug–27 Sep 2026", "6 Oct 2026", "https://www.roymorgan.com/findings/10351-nz-national-voting-intention-september-2026", True,
    {"national":31,"labour":23.5,"greens":16,"act":11,"nzfirst":10,"tpm":2,"opportunity":6.5}),
 ]
 
@@ -44,6 +44,8 @@ PARTIES = [
    ("Education: NCEA to be replaced by new qualifications (NZCE at Year 12, NZACE at Year 13). Details were confirmed in May 2026.", "https://www.rnz.co.nz/news/politics/595424/government-confirms-ncea-replacement-details"),
    ("Planning: the Planning Act and Natural Environment Act replacing the RMA passed on 22 September 2026. The full system is intended to be running by 2030.", "https://www.national.org.nz/news/260922-chrisbishop"),
    ("Social media: a bill to ban under-16s from most social media platforms was introduced as a National Party bill in August 2026. ACT and NZ First oppose it (secondary source).", W+"Sixth_National_Government_of_New_Zealand"),
+   ("Fiscal plan (12 October 2026): tax relief only once the books are back in surplus (not forecast before 2029); a commitment to an independent election policy-costing unit by the 2029 election; $451.8m to extend the school lunch programme to the next election.", "https://www.rnz.co.nz/news/politics_election-2026/1858565/national-hints-at-tax-cuts-after-2029-as-fiscal-plan-released"),
+   ("Superannuation: National confirmed its fiscal plan is its super policy. It still proposes raising the age gradually but sets no date, and commits to cross-party talks within 100 days of a new government.", "https://www.rnz.co.nz/news/politics_election-2026/1860419/politicians-can-t-dance-alone-on-superannuation-nicola-willis"),
    ("Aid: a plan to cut aid outside the Pacific to fund health spending. Coalition partner NZ First publicly criticised it.", "https://x.com/winstonpeters/status/2107229536366850450"),
   ],
   events=[
@@ -65,6 +67,7 @@ PARTIES = [
    ("An 'NZ Future Fund' modelled on Singapore's Temasek, announced October 2025 (secondary source).", W+"New_Zealand_Labour_Party"),
    ("A 10% write-off of eligible student loan balances, announced at the 27 September campaign launch.", "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"),
    ("A $160m 'SolarSaver' package with subsidies and loans for rooftop and plug-in solar.", "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"),
+   ("Cheaper school uniforms (limits on compulsory branded items and generic alternatives allowed), announced 12 October, alongside locally made school lunches from Term 1 2028 and restoring 43 cancelled rural school bus routes 'where possible'.", "https://www.rnz.co.nz/news/politics_election-2026/1857589/labour-plans-to-cut-school-uniform-costs-and-allow-affordable-generic-options"),
    ("Visa-waiver travel for Pacific Islands Forum citizens.", "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"),
   ],
   events=[
@@ -85,6 +88,7 @@ PARTIES = [
    ("A tax package with a wealth tax, an inheritance tax and higher corporate tax, paired with income-tax cuts the party says would benefit 96% of people.", "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"),
    ("Free public transport for children and students and a $2 adult fare. A $4b plan to restore intercity passenger rail.", "https://www.1news.co.nz/2026/10/04/greens-pledge-free-buses-trains-for-kids-students-2-adult-fare-cap/"),
    ("A National Electrification Plan announced during the 2026 fuel crisis.", "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"),
+   ("Regulating artificial intelligence (12 October): no fully automated decisions in public services that make a substantive difference to people's lives, explicit consent standards for AI training data, and environmental impact assessments for hyperscale data centres.", "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"),
    ("A $30,000 cap on political donations, with donations from people only.", "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"),
    ("Revoking mining consents approved under fast-track. A bill to protect conservation land from new mining.", "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"),
   ],
@@ -101,6 +105,7 @@ PARTIES = [
   ideology="Right. Classical liberal and libertarian-leaning: smaller government, lower taxes, deregulation, and 'equal rights' (opposing race-based policy).",
   role="Coalition partner in government. David Seymour has been Deputy Prime Minister since 31 May 2025 and is Minister for Regulation. The Regulatory Standards Act passed in November 2025.",
   policies=[
+   ("Fiscal plan (11 October 2026): return to 2017 per-capita spending; raise the NZ Super age by three months a year to 67 by 2035; cut disability benefits by $653m over four years via independent medical certification; abolish 'demographic' ministries; cut foreign aid (Pacific and Ukraine excluded).", "https://www.rnz.co.nz/news/politics_election-2026/1839100/act-sets-out-plan-to-raise-retirement-age-cut-debt-spending-and-disability-benefits"),
    ("Finish Treaty settlements and wind up the Waitangi Tribunal.", "https://x.com/dbseymour/status/2097828606579970429"),
    ("Three Strikes for burglary, with a minimum three years' prison on a third strike.", "https://www.rnz.co.nz/news/politics/685954/act-announces-three-strikes-policy-for-burglary"),
    ("Let teachers remove disruptive students and use 'reasonable force'.", "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"),
@@ -110,6 +115,7 @@ PARTIES = [
   events=[
    ("NZ First voted for ACT's Regulatory Standards Act at its third reading (13 November 2025), then vowed a week later to repeal it. Seymour accused Peters of bad faith.", "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"),
    ("ACT used 'agree to disagree' clauses on National's under-16 social media ban and opposed National–Labour modern slavery legislation (secondary source).", W+"ACT_New_Zealand"),
+   ("12 October 2026: the Mental Health Foundation called ACT's proposed disability benefit cuts 'poorly researched' and 'based in bigotry'. Seymour says people who are genuinely disabled 'should be looked after well'.", "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"),
    ("Candidate Paul Henry's 'little shits in classrooms' remark when launching ACT's school-discipline policy drew criticism from Labour.", "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"),
    ("Nicole McKee became deputy leader at ACT's AGM in late June 2026 (secondary source).", W+"ACT_New_Zealand"),
   ],
@@ -125,6 +131,7 @@ PARTIES = [
    ("Abolish the Waitangi Tribunal within 100 days of the next government.", "https://x.com/winstonpeters/status/2103959022206672976"),
    ("Buy back BNZ (Luxon: 'absolute madness'). Split the big power companies (secondary source).", "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"),
    ("Repeal the Regulatory Standards Act. Give ministers the final say on fast-track approvals.", "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"),
+   ("Replace the Accredited Employer Work Visa with a 'shortage-led' Skilled Work Visa tied to occupation, region and 'demonstrated need' (announced 11 October in Dunedin).", "https://www.rnz.co.nz/news/politics_election-2026/1839805/nz-first-promises-to-implement-shortage-led-skilled-work-visas"),
    ("A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.", "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"),
   ],
   events=[
@@ -189,12 +196,14 @@ person("luxon","Christopher Luxon","national","Prime Minister; Leader of the Nat
   "Has ruled out working with the Opportunity Party because of its land value tax; calls vote-splitting 'insanely stupid'.",
   "Campaigns on economic 'turnaround' and 'fixing the basics'."],
  "Christopher_Luxon",
- reversals=[("National's tax pledge was originally 'no new taxes on working people'. In August 2026 Luxon widened it to 'no new taxes', dropping a bank tax and bed tax that ministers (including Willis) had floated earlier in the year.", "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/")])
+ reversals=[("National's tax pledge was originally 'no new taxes on working people'. In August 2026 Luxon widened it to 'no new taxes', dropping a bank tax and bed tax that ministers (including Willis) had floated earlier in the year.", "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"),
+           ("In early May 2026 Luxon said National would 'go to the election with another election policy around superannuation and lifting the retirement age for sure'. Its 12 October fiscal plan set no date for raising the age and committed to cross-party talks instead. National says its stance has not changed.", "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed")])
 person("willis","Nicola Willis","national","Deputy Leader of the National Party; Minister of Finance; Minister for Economic Growth; Minister for Social Investment",
  "List MP; list rank 2 (not contesting an electorate)",
  "Entered Parliament on the list in 2018 after a career as a political adviser and corporate lobbyist. Deputy leader since December 2021; Finance Minister since 2023; delivered Budget 2026 on 28 May.",
  ["Fiscal restraint in an election year. Calls Labour's fiscal plan 'the least credible… in living memory'.",
-  "Personally favours raising the NZ Super age, but says she has not convinced coalition partners.",
+  "Personally favours raising the NZ Super age gradually. National's 2026 policy is cross-party talks within 100 days rather than a set date.",
+  "Tax relief only once the books are back in surplus (not forecast before 2029).",
   "Floated taxing banks 'fairly' in May 2026, then dropped it under the 'no new taxes' pledge."],
  "Nicola_Willis",
  reversals=[("In May 2026 she said 'We've got to make sure the banks are taxed fairly…'. On 23 August 2026 she explained why National would not pursue a bank tax.", "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/")])
@@ -237,7 +246,7 @@ person("edmonds","Barbara Edmonds","labour","Finance spokesperson",
  "MP for Mana since 2020. Minister of Revenue, Internal Affairs and Pacific Peoples in the final year of the Labour government (2023). Now Labour's finance spokesperson.",
  ["Defends the CGT revenue assumptions (about 3% house-price growth) as 'conservative'.",
   "Says income-tax cuts should come 'as the fiscal and economic environment allows'."],
- "Barbara_Edmonds", note="Only 3 verified 2025–26 quotes were captured.")
+ "Barbara_Edmonds")
 person("jackson","Willie Jackson","labour","Senior MP; Māori development spokesperson (as reported)",
  "List MP; list rank 4 (not contesting an electorate)",
  "Former unionist, broadcaster and urban Māori leader. Alliance MP 1999–2002 and Labour MP since 2017. Minister for Māori Development in the Labour government. Leads Labour's campaign for the Māori electorates.",

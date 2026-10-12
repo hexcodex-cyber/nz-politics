@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-13 — Daily update (NZ time)
+
+- No new published polls since the last update. The Taxpayers' Union–Curia (1–5 Oct) and Roy Morgan (31 Aug–27 Sep) figures have now been checked against RNZ's 8 Oct report and Roy Morgan's 6 Oct release. The numbers are unchanged, and those two polls no longer carry the † (Wikipedia-only) mark.
+- National's fiscal plan (12 Oct): tax relief only after a return to surplus (not forecast before 2029), an independent election-costings unit by 2029, and $451.8m to extend school lunches. On NZ Super it sets no date for raising the age and commits to cross-party talks. Added a sourced Luxon reversal note on superannuation (May pledge vs 12 Oct plan), and National says its stance hasn't changed.
+- New policy lines: ACT fiscal plan (11 Oct: super age to 67 by 2035, $653m disability benefit cuts; the Mental Health Foundation's criticism is noted), Labour's cheaper school uniforms (12 Oct), the Greens' AI regulation (12 Oct), and NZ First's 'shortage-led' Skilled Work Visa (11 Oct).
+- 11 new quotes (all RNZ, 12–13 Oct): Willis (2), Luxon, Hipkins, Edmonds, Swarbrick (2), Seymour (2), Peters and Wong. Edmonds now has 4 verified quotes, so she is off the gaps list.
+
 ## 2026-10-12 — Daily update (NZ time)
 
 - Added two new Chris Hipkins quotes from 11 Oct 2026: his ODT leader interview on running on his own platform, and his Birkenhead remark that he privately backed campaigning on a capital gains tax in 2020 (1News).
