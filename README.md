@@ -1,7 +1,7 @@
 # NZ Politics 2026: What they actually said
 
 **Live site:** https://hexcodex-cyber.github.io/nz-politics/
-**Last updated:** 11 October 2026 (NZ time, NZDT)
+**Last updated:** 13 October 2026 (NZ time, NZDT)
 
 A static, non-partisan website profiling New Zealand's political parties and their leading figures ahead of the **7 November 2026 general election**. It focuses on what politicians have *actually said* in 2025–26. Every quote is dated, has a short neutral context line, and links to the source it was taken from.
 
@@ -45,19 +45,18 @@ Each party page explains its own selection.
 - **Flags used on the site:**
   - **†** marks poll figures taken from the Wikipedia polling table that were not checked against the pollster's own release. 1News–Verian and RNZ–Reid figures were checked against the publishers.
   - **"secondary source"** marks a party-level fact supported only by Wikipedia.
-  - **"Uncertain"** marks a fact we could not confirm from a primary source (for example the enrolment-close date).
+  - **"Uncertain"** marks a fact we could not confirm from a primary source.
   - **"Gap"** marks a person with fewer than 4 verified quotes.
 - Background facts (careers, years elected) are summarised from Wikipedia and linked on each person's page.
 - Portfolios are those of the caretaker ministry after dissolution (main portfolios only).
 
 ## Known gaps
 
-- Fewer than 4 verified 2025–26 quotes: Barbara Edmonds, Tamatha Paul, Julie Anne Genter, Paul Henry, Mark Patterson (3 each), Lance Norman (2 short fragments), Daniel Eb (1).
-- Enrolment closing date (reported as 25 Oct 2026) is unconfirmed: the Vote.nz key-dates page blocked automated fetching.
-- Taxpayers' Union–Curia and Roy Morgan poll numbers (†) are from Wikipedia.
+- Fewer than 4 verified 2025–26 quotes: Tamatha Paul, Julie Anne Genter, Paul Henry, Mark Patterson (3 each), Lance Norman (2 short fragments), Daniel Eb (1). Edmonds now has 4.
+- Taxpayers' Union–Curia and Roy Morgan were previously † Wikipedia-only; both were checked against publisher releases on 13 Oct 2026.
 - Paywalled NZ Herald and The Post articles were generally not used for quotes.
 - Some event dates are approximate, and this is stated in the context line (for example Peters' remark to Lawrence Xu-Nan, around 28 July 2026).
-- The site is a snapshot as at 11 Oct 2026. Campaign events after that date are not included.
+- The site is a living snapshot (last rebuilt 13 Oct 2026). Campaign events after that date may not be included yet.
 
 ## File and folder structure
 

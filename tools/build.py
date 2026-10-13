@@ -198,7 +198,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 <li>People with fewer than 4 verified quotes: {', '.join(P[k]['name']+' ('+str(len(Q.get(k,[])))+')' for k in P if len(Q.get(k,[]))<4)}.</li>
 <li>Background facts (careers, years elected) are summarised from Wikipedia and general knowledge of the public record, and each links to its Wikipedia page. Some party-level facts are marked 'secondary source' where only Wikipedia was used.</li>
 <li>Portfolios are as listed for the caretaker ministry after Parliament's dissolution (main portfolios only, not every associate role).</li>
-<li>Enrolment closing date: the Vote.nz key-dates page blocked automated fetching. Please confirm it there.</li>
+<li>Enrolment closing date (midnight Sunday 25 October 2026) was confirmed on 13 Oct 2026 against govt.nz (Electoral Commission key dates). Vote.nz key-dates still blocks automated fetches.</li>
 <li>Paywalled NZ Herald and The Post articles were generally not used for quotes because we could not read them in full.</li></ul></section>
 <section><h2>All sources ({len(allsrc)} links, {nq} quotes)</h2><ul class="srclist">{srcl}</ul></section>"""
 write("sources.html", page("Sources & methodology", body))

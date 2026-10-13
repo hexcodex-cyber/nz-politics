@@ -6,7 +6,7 @@ ELECTION = {
   "facts": [
     ("Election day", "Saturday 7 November 2026. Prime Minister Christopher Luxon announced the date on 21 January 2026.", "https://www.rnz.co.nz/news/politics/584623/christopher-luxon-announces-election-date-for-7-november"),
     ("Advance voting", "Runs from Monday 26 October to Friday 6 November 2026. Voting is in person (online voting only for overseas voters).", "https://www.govt.nz/browse/engaging-with-government/enrol-and-vote-in-an-election/vote-in-an-election/"),
-    ("Enrolment", "Reported to close at midnight on Sunday 25 October 2026, and you cannot enrol at a voting place. <em>Uncertain:</em> the Vote.nz key-dates page blocked our fetch, so please check it at vote.nz.", "https://vote.nz/2026-general-election/about/overview/key-dates"),
+    ("Enrolment", "Closes at midnight on Sunday 25 October 2026. You cannot enrol or update details after that, and you cannot enrol at a voting place.", "https://www.govt.nz/browse/engaging-with-government/enrol-and-vote-in-an-election/enrol-to-vote/"),
     ("Parliament", "The 54th Parliament was dissolved on 1 October 2026. Ministers stay in office until a new government is formed.", W+"54th_New_Zealand_Parliament"),
     ("Four-year term referendum", "This will <strong>not</strong> be held with the 2026 election. The government dropped the planned referendum on 18 February 2026 (secondary source: Wikipedia).", W+"Sixth_National_Government_of_New_Zealand"),
   ],
