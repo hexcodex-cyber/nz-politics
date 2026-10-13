@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-14 — Daily update (NZ time)
+
+- New poll: 1News–Verian (fieldwork 8–12 Oct, published 13 Oct). National 28%, Labour 28%, Greens 15%, ACT 10%, NZ First 10%, Opportunity 8%, Te Pāti Māori 0.4%. Preferred PM: Luxon and Hipkins both on 20%. Checked against the 1News and RNZ write-ups. The previous 1–5 Oct Verian row is kept for comparison.
+- TVNZ Multi-Party Debate (13 Oct evening): Seymour, Swarbrick, Peters, Waititi and Wong. Added party-page event notes and debate quotes (cost of living, te reo, minimum wage, wealth tax vs philanthropic cancer hospital, coalition willingness).
+- Greens economic development plan (13 Oct): nearly $6b / 284,000 jobs claim; policy line plus Davidson and Swarbrick quotes from RNZ and the party release.
+- Nicola Willis (14 Oct RNZ): signalled interest in future business tax relief (R&D credit; over time the corporate rate) once surplus returns; Edmonds quote on Labour's small-business focus ahead of the ASB finance debate.
+- Opportunity negotiation order: Wong says the party will speak first to the largest party on election night (1News poll piece). Luxon again ruled out Opportunity and a grand coalition.
+- 26 new quotes (1News, RNZ, PMN, X). Tamatha Paul now has 4 verified quotes (short PMN fragment on billionaires, 8 Oct), so she is off the gaps list. Remaining gaps: Genter, Henry, Patterson (3), Norman (2), Eb (1).
+- Also pushes the previously local-only commit confirming enrolment closes midnight 25 Oct 2026 (govt.nz).
+
 ## 2026-10-13 — Daily update (NZ time)
 
 - Enrolment closing date confirmed: midnight Sunday 25 October 2026, checked against govt.nz (Electoral Commission key dates). Removed the Uncertain flag on the home key-dates list.

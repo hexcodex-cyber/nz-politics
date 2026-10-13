@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "NZ Politics 2026: What they actually said",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "timezone": "Pacific/Auckland",
   "election": {
    "date": "Saturday 7 November 2026",
@@ -36,10 +36,26 @@
   "context": [
    "The current government is the <strong>Sixth National Government</strong>, formed in November 2023. National leads it with two separate coalition agreements, one with ACT and one with NZ First. Winston Peters was Deputy Prime Minister until 31 May 2025, when David Seymour took over under the agreed rotation.",
    "<strong>Seats at dissolution:</strong> National 49, ACT 11 and NZ First 8 (government total 68). Labour 34, Greens 15, Te Pāti Māori 4 and two independents (both former Te Pāti Māori MPs). That is 123 seats in total.",
-   "<strong>Polls in the final month</strong> show both major parties well below their 2023 results. The 6 October RNZ–Reid Research poll put National and Labour together at 56.7%, down from 64.9% at the 2023 election. Neither the current coalition nor a Labour–Green–Te Pāti Māori bloc has a clear majority in these polls, and the <strong>Opportunity Party</strong> (outside Parliament) is often the kingmaker. Luxon has ruled out working with Opportunity.",
+   "<strong>Polls in the final month</strong> show both major parties well below their 2023 results. The 13 October 1News–Verian poll put National and Labour tied on 28% each (56% together, down from 64.9% at the 2023 election). Neither the current coalition nor a Labour–Green–Te Pāti Māori bloc has a clear majority in these polls, and the <strong>Opportunity Party</strong> (outside Parliament) is often the kingmaker — on 8% in that poll. Luxon has again ruled out working with Opportunity.",
    "<strong>Big issues of 2026:</strong> the cost of living (made worse by a fuel-price spike linked to the 2026 Middle East conflict); tax (Labour's capital gains tax, the Greens' wealth taxes, National's 'no new taxes' pledge); two challenges to Luxon's leadership inside National (April and August); the law replacing the RMA, passed in September; Treaty and Waitangi Tribunal policy; immigration; and turmoil inside Te Pāti Māori."
   ],
   "polls": [
+   {
+    "poll": "1News–Verian",
+    "fieldwork": "8–12 Oct 2026",
+    "published": "13 Oct 2026",
+    "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/",
+    "verified_against_publisher": true,
+    "party_vote": {
+     "national": 28,
+     "labour": 28,
+     "greens": 15,
+     "act": 10,
+     "nzfirst": 10,
+     "tpm": 0.4,
+     "opportunity": 8
+    }
+   },
    {
     "poll": "1News–Verian",
     "fieldwork": "1–5 Oct 2026",
@@ -181,6 +197,10 @@
     [
      "Luxon has ruled out working with the Opportunity Party, and has called strategic vote-splitting 'insanely stupid'.",
      "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker"
+    ],
+    [
+     "13 October 2026: after a 1News–Verian poll tied National and Labour on 28% with Opportunity on 8%, Luxon again ruled out working with Opportunity and a grand coalition, and said it would be a 'very, very tight election'.",
+     "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
     ]
    ],
    "sources": [
@@ -280,7 +300,7 @@
    "selection": "Both co-leaders plus the next four places on the final members-ranked list (released 22 April 2026): Teanau Tuiono (3), Tamatha Paul (4), Julie Anne Genter (5) and Lan Pham (6).",
    "history": "Formed in 1990, with roots in the Values Party (1972). It was part of the Alliance until 1997 and has had MPs in its own right since 1999. It was in a cooperation agreement with Labour from 2017 to 2023. Chlöe Swarbrick became female co-leader in March 2024, alongside Marama Davidson.",
    "ideology": "Left. Environmentalist, with a focus on social and economic justice and Te Tiriti.",
-   "role": "Opposition. The Greens have said 'very clearly' they want to form a government with Labour. Their best-ever polls came in late September and October 2026 (up to 16% in 1News–Verian).",
+   "role": "Opposition. The Greens have said 'very clearly' they want to form a government with Labour. Their best-ever polls came in late September and early October 2026 (up to 16% in 1News–Verian); the 13 October Verian poll had them on 15%.",
    "policies": [
     [
      "A tax package with a wealth tax, an inheritance tax and higher corporate tax, paired with income-tax cuts the party says would benefit 96% of people.",
@@ -297,6 +317,10 @@
     [
      "Regulating artificial intelligence (12 October): no fully automated decisions in public services that make a substantive difference to people's lives, explicit consent standards for AI training data, and environmental impact assessments for hyperscale data centres.",
      "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"
+    ],
+    [
+     "Economic development plan (13 October): nearly $6b over four years; the party says it would create 284,000 jobs (64,000 above Treasury's forecast), including rescoping Investment Boost as 'Innovation Boost', Mission Fellowships, an Idea-to-Export pathway, restoring science funding toward 3% of GDP on R&D, and Kiwi-made public procurement.",
+     "https://www.rnz.co.nz/news/politics/1867430/greens-promise-284-000-jobs-with-6b-economic-plan"
     ],
     [
      "A $30,000 cap on political donations, with donations from people only.",
@@ -319,6 +343,10 @@
     [
      "Labour and the Greens held a joint press conference at Waitangi in February 2026 to signal they would work together.",
      "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"
+    ],
+    [
+     "13 October 2026: co-leader Chlöe Swarbrick took part in TVNZ's Multi-Party Debate with ACT, NZ First, Te Pāti Māori and Opportunity. She said the Greens want to change the government and are 'not interested in reinstalling Christopher Luxon as Prime Minister'.",
+     "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     ]
    ],
    "sources": [
@@ -391,6 +419,10 @@
     [
      "Nicole McKee became deputy leader at ACT's AGM in late June 2026 (secondary source).",
      "https://en.wikipedia.org/wiki/ACT_New_Zealand"
+    ],
+    [
+     "13 October 2026: David Seymour took part in TVNZ's Multi-Party Debate. He defended ACT's philanthropically backed cancer hospital plan and was the only leader on stage to back drug-testing beneficiaries.",
+     "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     ]
    ],
    "sources": [
@@ -439,6 +471,10 @@
      "https://www.rnz.co.nz/news/politics_election-2026/1839805/nz-first-promises-to-implement-shortage-led-skilled-work-visas"
     ],
     [
+     "Fast-track residential approvals (13 October): require necessary infrastructure to be in place before future fast-tracked housing developments are approved (announced on Peters' X account; post text was truncated by the API after the opening sentences).",
+     "https://x.com/winstonpeters/status/2110084036546949274"
+    ],
+    [
      "A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.",
      "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"
     ]
@@ -463,6 +499,10 @@
     [
      "NZ First used its 'agree to disagree' clause against the NZ–India free trade agreement (secondary source).",
      "https://en.wikipedia.org/wiki/New_Zealand_First"
+    ],
+    [
+     "13 October 2026: Winston Peters took part in TVNZ's Multi-Party Debate, clashing with Waititi over te reo Māori and with Wong over diversity and experience, and predicting NZ First would win a coalition argument on lifting the minimum wage with inflation.",
+     "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     ]
    ],
    "sources": [
@@ -528,6 +568,10 @@
     [
      "A Whakaata Māori–Curia poll (21 Sep–1 Oct) had Waititi on 42% in Waiariki (52% excluding undecided). In the same poll the party vote was Labour 24%, TPM 23% and Greens 22%.",
      "https://www.rnz.co.nz/news/politics_election-2026/1781734/rawiri-waititi-dominates-waiariki-in-new-poll"
+    ],
+    [
+     "13 October 2026: Rawiri Waititi took part in TVNZ's Multi-Party Debate (without co-leader Debbie Ngarewa-Packer). He defended compulsory te reo Māori in schools and quipped 'You poor thing' after Peters complained about Māori City Rail Link station names.",
+     "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     ]
    ],
    "sources": [
@@ -551,7 +595,7 @@
    "selection": "Leader Qiulae Wong and deputy leader Daniel Eb (list places 1 and 2). As a party outside Parliament it gets a shorter profile.",
    "history": "Founded in 2016 by economist Gareth Morgan as The Opportunities Party (TOP). It has never won a seat (2.22% in 2023). Qiulae Wong became leader in November 2025 and the party rebranded as The Opportunity Party.",
    "ideology": "Self-described centrist, 'evidence-based' and radical centrist. Wong says supporters are 'politically homeless'. A Talbot Mills analysis found about a third of its supporters came from the left and a third from the right (secondary source).",
-   "role": "Outside Parliament. Several polls put it above the 5% threshold, which would make it a potential kingmaker. Luxon has ruled out working with it. Wong says it won't support a government with Winston Peters as foreign minister.",
+   "role": "Outside Parliament. The 13 October 1News–Verian poll put it on 8% (about 10 seats), the clearest kingmaker position in recent polling. Luxon has again ruled out working with it. Wong says Opportunity will speak first to the largest party by seats on election night, and won't support a government with Winston Peters as foreign minister.",
    "policies": [
     [
      "Five post-election bottom lines: a stronger Commerce Commission; lobbying regulation and donation caps; a 10-year health plan; phasing out bottom trawling; and recommitting to the Paris Agreement with an independent Climate Change Commission.",
@@ -570,6 +614,10 @@
     [
      "Peters called the party's candidates 'communists' and its bottom lines a 'wrinkly derrière'. Shane Jones called its policies 'not rational'.",
      "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"
+    ],
+    [
+     "13 October 2026: Qiulae Wong took part in TVNZ's Multi-Party Debate. She said Opportunity would negotiate first with the largest party and told the Greens they could have stopped 'egregious' coalition moves by working with National.",
+     "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     ]
    ],
    "sources": [
@@ -612,6 +660,13 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
+     "text": "Chris Hipkins is the solution to the problems that Chris Hipkins created",
+     "date": "2026-10-13",
+     "context": "Reacting to the same 1News–Verian poll; 1News reported he said New Zealanders did not think this.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+    },
+    {
      "text": "We want to work with parties that want no new taxes. It's as simple as that.",
      "date": "2026-10-06",
      "context": "Holding to his rule-out of working with the Opportunity Party, citing its land value tax.",
@@ -619,32 +674,25 @@
      "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
-     "text": "It's absolute madness.",
+     "text": "He can't find a pathway to get into government without those four radical parties and six leaders, that's going to be chaos.",
      "date": "2026-09-28",
-     "context": "On RNZ Morning Report, responding to NZ First's policy of buying back BNZ (said 'that's just not going to happen').",
+     "context": "On Chris Hipkins' likely coalition partners (Greens, Te Pāti Māori, Opportunity), RNZ Morning Report.",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"
     },
     {
-     "text": "I just wrapped up my campaign launch speech, and my message was simple: Where do you want your hard-earned money going, to you and your family, or to Labour and their mates? Party Vote National for no new taxes.",
-     "date": "2026-09-27",
-     "context": "X post after National's campaign launch at the Auckland Convention Centre.",
-     "source": "X post",
-     "url": "https://x.com/chrisluxonmp/status/2104023400876576938"
+     "text": "This is about no new taxes, and I can't be clearer, this is the fundamental choice of this election.",
+     "date": "2026-08-23",
+     "context": "Upgrading National's pledge from 'no new taxes on working people' to 'no new taxes', ruling out a bed tax and bank tax.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1083119/national-promises-no-new-taxes-if-re-elected"
     },
     {
-     "text": "There was a confidence vote in my leadership this morning at our caucus meeting, and I have the full support of our caucus. And our caucus is united, and it is determined to win this election.",
+     "text": "Chris Penk launched a leadership challenge this week, which resulted in today's confidence vote. This makes his role untenable, and as such I have removed his portfolios.",
      "date": "2026-08-12",
-     "context": "After surviving a second caucus confidence vote in four months, triggered by Chris Penk's challenge.",
+     "context": "Statement removing Chris Penk's ministerial portfolios.",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
-    },
-    {
-     "text": "I have the support of my caucus as their leader. Caucus has answered clearly and decisively. It has backed my leadership, and that matter is now closed.",
-     "date": "2026-04-21",
-     "context": "After forcing a caucus confidence vote on his own leadership amid media reports of discontent.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"
     },
     {
      "text": "Kiwis expect the media to ask us the tough questions about our policies... They are not interested in the media soap opera.",
@@ -672,7 +720,7 @@
    "positions": [
     "Fiscal restraint in an election year. Calls Labour's fiscal plan 'the least credible… in living memory'.",
     "Personally favours raising the NZ Super age gradually. National's 2026 policy is cross-party talks within 100 days rather than a set date.",
-    "Tax relief only once the books are back in surplus (not forecast before 2029).",
+    "Tax relief only once the books are back in surplus (not forecast before 2029). On 14 October she signalled interest in future business tax relief (including the R&D tax credit and, over time, the corporate rate) alongside personal tax cuts when conditions allow.",
     "Floated taxing banks 'fairly' in May 2026, then dropped it under the 'no new taxes' pledge."
    ],
    "wiki": "https://en.wikipedia.org/wiki/Nicola_Willis",
@@ -684,6 +732,13 @@
    ],
    "note": null,
    "quotes": [
+    {
+     "text": "The priorities for tax reform are more money in the back pockets of workers and then ensuring that our tax system encourages businesses to innovate, to be productive, and to make investments.",
+     "date": "2026-10-14",
+     "context": "Ahead of the ASB finance spokesperson debate in Queenstown, signalling interest in future business tax relief once books allow.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1885365/finance-leaders-set-to-debate-as-nicola-willis-hints-at-future-business-tax-relief"
+    },
     {
      "text": "While our fiscal plan shows a pathway to potential tax relief for working New Zealanders, now is not the time to cut taxes.",
      "date": "2026-10-12",
@@ -713,13 +768,6 @@
      "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
     },
     {
-     "text": "I will go to the campaign trail as the National Party finance spokesperson with my view on what would be appropriate, well signalled, fair, transparent, gradual, gradual changes to New Zealand superannuation.",
-     "date": "2026-05-29",
-     "context": "Post-Budget, on NZ Super costs rising; she added: \"I haven't been able to convince my coalition partners yet, but I retain hope.\"",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
-    },
-    {
      "text": "New Zealand is digging its way out of the post-Covid hole.",
      "date": "2026-05-28",
      "context": "Delivering Budget 2026.",
@@ -727,11 +775,11 @@
      "url": "https://www.rnz.co.nz/news/business/596612/budget-2026-new-zealand-digging-its-way-out-of-the-post-covid-hole-finance-minister-says"
     },
     {
-     "text": "We've got to make sure the banks are taxed fairly... As a minister in this Government, I am still actively considering the taxation of banks and what that looks like.",
-     "date": "2026-05",
-     "context": "May 2026 comments (exact day not given in source), as quoted by 1News when she later dropped the idea.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
+     "text": "Kiwis can look forward with confidence, they just need to choose it, they just need to vote for it.",
+     "date": "2026-05-28",
+     "context": "Closing line of her Budget 2026 speech.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
     },
     {
      "text": "One for all, all for one. And when the caucus, by majority, have confidence in the leader, then we all stand together, backing the leader.",
@@ -931,6 +979,13 @@
    "note": null,
    "quotes": [
     {
+     "text": "There's still a very high undecided vote, and we're focused on winning that vote.",
+     "date": "2026-10-13",
+     "context": "Asked if he was happy with Labour's polling after the 1News–Verian poll put Labour and National tied on 28%.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+    },
+    {
      "text": "Cost should never be a barrier to a good education. We're focused on making life more affordable for families.",
      "date": "2026-10-12",
      "context": "Announcing Labour's policy to cut school uniform costs",
@@ -952,18 +1007,11 @@
      "url": "https://www.labour.org.nz/news/speech-labour-party-campaign-launch-2026-chris-hipkins/"
     },
     {
-     "text": "Christopher Luxon promised to fix the cost of living. He's had three years. He's failed.",
+     "text": "Neo-liberal, trickledown economics does not work.",
      "date": "2026-09-27",
-     "context": "Campaign launch speech; he also called National's claims about Labour's tax policy \"bullshit\".",
+     "context": "Campaign launch, announcing a 10% write-off of eligible student loan balances.",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
-    },
-    {
-     "text": "Backstabbing and infighting just means more delay and more distraction for New Zealand. If National can't govern itself, how can New Zealanders trust it to govern the country?",
-     "date": "2026-08-12",
-     "context": "Media release after Luxon survived the Penk leadership challenge.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
     },
     {
      "text": "We want to send a really clear message that... you can work constructively with people, still have disagreements, without getting into abuse.",
@@ -973,11 +1021,11 @@
      "url": "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"
     },
     {
-     "text": "Here's what is exempt from our simple, targeted capital gains tax: the family home, farms, inheritances, KiwiSaver, shares, businesses, and personal items.",
-     "date": "2025-11-13",
-     "context": "X post defending Labour's proposed capital gains tax on property.",
-     "source": "X post",
-     "url": "https://x.com/chrishipkins/status/1988720678040928430"
+     "text": "They're in court. That's really where their focus should be.",
+     "date": "2026-02-03",
+     "context": "On Te Pāti Māori, which was in the High Court over the expulsion of MP Mariameno Kapa-Kingi.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/585778/labour-leader-chris-hipkins-sets-sights-on-maori-seats"
     },
     {
      "text": "#BREAKING: Labour will provide three free doctor's visits a year for everyone, delivered via a brand new Medicard and funded by a targeted tax on property profits, excluding the family home.",
@@ -1048,6 +1096,13 @@
    "reversals": [],
    "note": null,
    "quotes": [
+    {
+     "text": "It's around supporting them to make things easier for them to run their business, so they get paid on time and to make sure that they get a bigger cut of government business, because the government procures about $50 billion worth of goods and services.",
+     "date": "2026-10-14",
+     "context": "On Labour's small-business focus, ahead of the ASB finance spokesperson debate.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1885365/finance-leaders-set-to-debate-as-nicola-willis-hints-at-future-business-tax-relief"
+    },
     {
      "text": "You need to have the strong mandate to do it. They wanted the mandate to do it, they could have put it in their policy ... that conversation still continues, even if they're in government, [or] we're in government.",
      "date": "2026-10-13",
@@ -1183,6 +1238,13 @@
    "note": "Only 4 verified quotes were captured.",
    "quotes": [
     {
+     "text": "We have no shortage of talent, creativity and hard work in this beautiful country, whether it's in a South Auckland garage or a lab in Otago. What's missing is the masterplan to turn it into good jobs, higher wages and a fairer economy.",
+     "date": "2026-10-13",
+     "context": "Launching the Greens' nearly $6b economic development plan, which the party says would create 284,000 jobs over four years.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics/1867430/greens-promise-284-000-jobs-with-6b-economic-plan"
+    },
+    {
      "text": "Essential services like healthcare, education, and infrastructure could be funded if the super-rich and mega-corporates like the supermarkets duopoly, banks, and power companies contribute fairly to the society they profit from.",
      "date": "2026-06-21",
      "context": "Greens' tax package launch.",
@@ -1235,11 +1297,25 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
-     "text": "Nothing about this technology is inevitable, neither the claims of existential destruction by tech billionaires nor the devastation of the financial bubble bursting forecast by economists.",
-     "date": "2026-10-12",
-     "context": "Announcing the Greens' policy to regulate artificial intelligence",
+     "text": "This is not so much a cost of living crisis as it is a cost of greed crisis, and the Greens are ready, willing and able to take on corporate vested interests.",
+     "date": "2026-10-13",
+     "context": "Same Multi-Party Debate exchange.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "We could just implement a wealth tax so that we don't have to have our public services relying on the charity and therefore the discretion, the choices of incredibly wealthy people about who survives and who does not.",
+     "date": "2026-10-13",
+     "context": "Multi-Party Debate, responding to ACT's plan for a philanthropically backed cancer hospital.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "We will ensure Government investment and incentives drive us where we all want to go: higher wages, sustained research and innovation, better education, resilient infrastructure, healthy nature and a country we can be proud of.",
+     "date": "2026-10-13",
+     "context": "Same Greens economic development plan announcement.",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"
+     "url": "https://www.rnz.co.nz/news/politics/1867430/greens-promise-284-000-jobs-with-6b-economic-plan"
     },
     {
      "text": "The polls are going to continue to bounce around at the margins over the next few weeks, and this is why it's really important to understand that nothing is set in stone.",
@@ -1247,13 +1323,6 @@
      "context": "Reacting to a 1News–Verian poll with the Greens on 16%; she said the Greens would \"very clearly\" work with Labour.",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
-    },
-    {
-     "text": "Someone would have to pay their taxes fairly. That is the case with all New Zealanders who have income taxes that they have to pay.",
-     "date": "2026-06-22",
-     "context": "1News Breakfast, asked whether someone could be forced to sell an inherited asset to pay the proposed inheritance tax.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/06/22/chloe-swarbrick-pressed-on-how-wealth-inheritance-taxes-would-work/"
     },
     {
      "text": "Congratulations, they are incredibly lucky to be an individual that is inheriting an excess of $2 million.",
@@ -1268,13 +1337,6 @@
      "context": "Launching the Greens' tax package (wealth, inheritance and corporate taxes; income-tax cuts for 96%).",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"
-    },
-    {
-     "text": "We must electrify everything we can. We need homegrown, sustainable resilience in our energy system, powering everything we do.",
-     "date": "2026-04-19",
-     "context": "Greens' State of the Planet address calling for a National Electrification Plan during the fuel crisis.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"
     },
     {
      "text": "No-one is hoarding, attacking, or starting wars over sun, wind, water and geothermal energy. They don't come through the Strait of Hormuz.",
@@ -1344,6 +1406,13 @@
    "reversals": [],
    "note": "Only 3 verified 2025–26 quotes were captured.",
    "quotes": [
+    {
+     "text": "I'm not saying they should not exist altogether.",
+     "date": "2026-10-08",
+     "context": "After saying being a billionaire was immoral (paraphrased in the same report); arguing extreme wealth should pay a fair share of tax. Date is the Midday Report interview day.",
+     "source": "Pacific Media Network",
+     "url": "https://pmn.co.nz/read/politics/nz-s-billionaires-and-beneficiaries-bashing-a-path-to-the-ballot-box"
+    },
     {
      "text": "This is the worst homelessness in our history, with 57,000 women homeless and half of all homeless people under the age of 24. The Government's response has been a drop in the bucket to meaningfully address this crisis.",
      "date": "2026-06-18",
@@ -1478,18 +1547,25 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
+     "text": "It's an unfortunate thing to get cancer, but you shouldn't feel that it was bad luck to be born a Kiwi.",
+     "date": "2026-10-13",
+     "context": "TVNZ Multi-Party Debate, defending ACT's philanthropically backed cancer hospital plan.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "You don't get higher wages from the government passing a law. You get it from risk taking and investment and innovation, people upskilling so they can produce more and get paid more.",
+     "date": "2026-10-13",
+     "context": "Multi-Party Debate, defending ACT's preference to freeze the minimum wage.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
      "text": "Now, there's one of two failings: either New Zealand has become a much sicker place in the last seven years, or we have got a lot worse at managing and helping people who could be working. And I suspect it's the latter.",
      "date": "2026-10-12",
      "context": "Defending ACT's fiscal-plan proposal to cut disability benefit spending through independent medical certification",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"
-    },
-    {
-     "text": "If you're on a benefit you have an obligation to those paying taxes to fund it. You must be work ready, like they are. Many New Zealanders face random drug testing as a condition of work, so should the beneficiaries they fund.",
-     "date": "2026-10-08",
-     "context": "X post backing drug testing of beneficiaries after National's welfare policy release.",
-     "source": "X post",
-     "url": "https://x.com/dbseymour/status/2107983272773145067"
     },
     {
      "text": "National's energy policy has near perfect overlap with ours released last week. It bodes well for a re-elected coalition acting together to make energy abundant and affordable.",
@@ -1504,13 +1580,6 @@
      "context": "Responding to Luxon calling strategic vote-splitting \"insanely stupid\"; he said \"both votes belong to the voter\".",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1631392/act-nz-first-hit-back-at-national-s-warning-against-strategic-voting"
-    },
-    {
-     "text": "Labour's promise to forgive 10 per cent of student loan debt will sound attractive to loan holders at first, but it is an accounting switch that should be attractive to nobody.",
-     "date": "2026-09-27",
-     "context": "X post responding to Labour's campaign-launch student-loan policy.",
-     "source": "X post",
-     "url": "https://x.com/dbseymour/status/2104060276324901352"
     },
     {
      "text": "If someone wants to decide how ratepayer money is spent, they can run for council in an election like anyone else.",
@@ -1730,11 +1799,18 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
-     "text": "They're the mainstream media's party, and you guys are no good at politics.",
-     "date": "2026-10-06",
-     "context": "Predicting the Opportunity Party would fall short of 5%, after a 1News–Verian poll put it on 7%.",
+     "text": "Well, we'll get more votes in this election. We're going to win that debate.",
+     "date": "2026-10-13",
+     "context": "Multi-Party Debate, asked who would win a coalition 'arm wrestle' on the minimum wage.",
      "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "We need to double the size of the economy and we cannot do that if we neglect the very markets we need to be in.",
+     "date": "2026-10-06",
+     "context": "X post criticising National's plan to cut aid outside the Pacific to fund health spending.",
+     "source": "X post",
+     "url": "https://x.com/winstonpeters/status/2107229536366850450"
     },
     {
      "text": "The Opportunist Party \"bottom lines\" are more like a \"wrinkly derrière\".",
@@ -1751,18 +1827,11 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
     },
     {
-     "text": "We need immigration to New Zealand. We always have. It has been an essential part of our history...",
-     "date": "2026-09-11",
-     "context": "Same announcement.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1332164/new-zealand-first-unveils-plans-for-dramatic-overhaul-of-immigration-system"
-    },
-    {
-     "text": "I'm defending our democracy, and I'm proud of it.",
-     "date": "2026-07-30",
-     "context": "Ahead of Question Time, rejecting accusations of racism over the Xu-Nan remark (which he called \"drivel\")",
+     "text": "After days of speculation and distraction it has boiled down to 'much ado about nothing'.",
+     "date": "2026-08-12",
+     "context": "On Luxon surviving the Penk leadership challenge.",
      "source": "1News",
-     "url": "https://www.1news.co.nz/2026/07/30/china-lodges-protest-over-peters-go-back-to-your-own-country-remark/"
+     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
     },
     {
      "text": "If that offends the pearl clutchers and the communist shills labelling it as 'dangerous' — welcome to New Zealand.",
@@ -1971,6 +2040,20 @@
    "reversals": [],
    "note": null,
    "quotes": [
+    {
+     "text": "There's nothing wrong with being bilingual ... I'm quite proficient, I would say, in the English language, but the majority of Aotearoa are not proficient in my language, so they only think in one world. I think in two.",
+     "date": "2026-10-13",
+     "context": "TVNZ Multi-Party Debate, on compulsory te reo Māori in schools.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "You poor thing.",
+     "date": "2026-10-13",
+     "context": "Multi-Party Debate, responding to Peters' complaint that Māori City Rail Link station names are confusing.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
     {
      "text": "This list proves we are putting our money where our mouth is.",
      "date": "2026-10-04",
@@ -2279,9 +2362,23 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
-     "text": "No, I don't believe him. Because he would rather be in government than in opposition. I assume. I can't say that for him.",
+     "text": "We will speak to the party who gets the largest amount of votes on election night first. We will negotiate in good faith with them. If we feel like we're not getting anywhere and that an agreement is not possible, then we will go to the second largest party.",
+     "date": "2026-10-13",
+     "context": "Setting out Opportunity's post-election negotiation order after the poll left both blocs needing the party to govern.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+    },
+    {
+     "text": "That is what we need, a more pragmatic environmental party that can work across the political spectrum to make progress and keep the extreme ideas out of Cabinet.",
+     "date": "2026-10-13",
+     "context": "Same Multi-Party Debate exchange with Chlöe Swarbrick.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
+    },
+    {
+     "text": "It demonstrates some of the really corrosive nature of politics at the moment, that that caused such an uproar amongst some groups of people. Of course we've all voted across the political spectrum, particularly in a party like Opportunity, where we are a party of people that have historically been politically homeless.",
      "date": "2026-10-09",
-     "context": "Responding to Christopher Luxon ruling out working with Opportunity at TVNZ's leaders' debate",
+     "context": "On controversy about candidates' past votes for other parties",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
     },
@@ -2293,13 +2390,6 @@
      "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
     },
     {
-     "text": "We've said very clearly there are lots of things that we could work with National on... this is just old school politics at play, and come election night, they might change their tune.",
-     "date": "2026-10-06",
-     "context": "Reacting to Luxon ruling out Opportunity",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
-    },
-    {
      "text": "New Zealanders deserve to know who is trying to influence their government, and no one should be able to buy disproportionate political influence.",
      "date": "2026-09-29",
      "context": "Releasing Opportunity's five post-election bottom lines (lobbying regulation and donation caps)",
@@ -2307,18 +2397,11 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
     },
     {
-     "text": "We will not support a government that walks away from our international obligations or undermines the independent Climate Change Commission.",
+     "text": "We are here for unity, innovation and nature, not for the next three years but for generations to come.",
      "date": "2026-09-29",
-     "context": "Same announcement (Paris Agreement bottom line)",
+     "context": "Same announcement",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
-    },
-    {
-     "text": "I think I represent the views of a lot of people in that electorate who are young families that are worried about the future and they want somebody with fresh ideas to inject something new into our politics.",
-     "date": "2026-09-11",
-     "context": "On her Mt Albert electorate campaign",
-     "source": "Newsroom",
-     "url": "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"
     },
     {
      "text": "We are on track to stand candidates in over thirty electorates this election, because local voices matter.",

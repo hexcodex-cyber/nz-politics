@@ -15,12 +15,14 @@ ELECTION = {
 CONTEXT = [
   "The current government is the <strong>Sixth National Government</strong>, formed in November 2023. National leads it with two separate coalition agreements, one with ACT and one with NZ First. Winston Peters was Deputy Prime Minister until 31 May 2025, when David Seymour took over under the agreed rotation.",
   "<strong>Seats at dissolution:</strong> National 49, ACT 11 and NZ First 8 (government total 68). Labour 34, Greens 15, Te Pāti Māori 4 and two independents (both former Te Pāti Māori MPs). That is 123 seats in total.",
-  "<strong>Polls in the final month</strong> show both major parties well below their 2023 results. The 6 October RNZ–Reid Research poll put National and Labour together at 56.7%, down from 64.9% at the 2023 election. Neither the current coalition nor a Labour–Green–Te Pāti Māori bloc has a clear majority in these polls, and the <strong>Opportunity Party</strong> (outside Parliament) is often the kingmaker. Luxon has ruled out working with Opportunity.",
+  "<strong>Polls in the final month</strong> show both major parties well below their 2023 results. The 13 October 1News–Verian poll put National and Labour tied on 28% each (56% together, down from 64.9% at the 2023 election). Neither the current coalition nor a Labour–Green–Te Pāti Māori bloc has a clear majority in these polls, and the <strong>Opportunity Party</strong> (outside Parliament) is often the kingmaker — on 8% in that poll. Luxon has again ruled out working with Opportunity.",
   "<strong>Big issues of 2026:</strong> the cost of living (made worse by a fuel-price spike linked to the 2026 Middle East conflict); tax (Labour's capital gains tax, the Greens' wealth taxes, National's 'no new taxes' pledge); two challenges to Luxon's leadership inside National (April and August); the law replacing the RMA, passed in September; Treaty and Waitangi Tribunal policy; immigration; and turmoil inside Te Pāti Māori.",
 ]
 
 POLLS = [
   # name, fieldwork, published, url, verified, {party:pct}
+  ("1News–Verian", "8–12 Oct 2026", "13 Oct 2026", "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/", True,
+   {"national":28,"labour":28,"greens":15,"act":10,"nzfirst":10,"tpm":0.4,"opportunity":8}),
   ("1News–Verian", "1–5 Oct 2026", "6 Oct 2026", "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/", True,
    {"national":29,"labour":28,"greens":16,"act":9,"nzfirst":10,"tpm":0.6,"opportunity":7}),
   ("RNZ–Reid Research", "24 Sep–1 Oct 2026", "6 Oct 2026", "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker", True,
@@ -54,6 +56,7 @@ PARTIES = [
    ("September 2026: the Advertising Standards Authority partly upheld a complaint that a National attack ad on Labour's capital gains tax was misleading.", "https://www.rnz.co.nz/news/politics_election-2026/1311337/asa-partly-upholds-complaint-against-misleading-national-attack-ad"),
    ("Budget 2026 (28 May) was billed as restrained. Willis said she had not convinced coalition partners to raise the NZ Super age.", "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"),
    ("Luxon has ruled out working with the Opportunity Party, and has called strategic vote-splitting 'insanely stupid'.", "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker"),
+   ("13 October 2026: after a 1News–Verian poll tied National and Labour on 28% with Opportunity on 8%, Luxon again ruled out working with Opportunity and a grand coalition, and said it would be a 'very, very tight election'.", "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"),
   ],
   sources=[W+"New_Zealand_National_Party", W+"Sixth_National_Government_of_New_Zealand"]),
  dict(id="labour", name="New Zealand Labour Party", short="Labour", colour="#D82A20", status="Opposition (Official Opposition)",
@@ -83,12 +86,13 @@ PARTIES = [
   selection="Both co-leaders plus the next four places on the final members-ranked list (released 22 April 2026): Teanau Tuiono (3), Tamatha Paul (4), Julie Anne Genter (5) and Lan Pham (6).",
   history="Formed in 1990, with roots in the Values Party (1972). It was part of the Alliance until 1997 and has had MPs in its own right since 1999. It was in a cooperation agreement with Labour from 2017 to 2023. Chlöe Swarbrick became female co-leader in March 2024, alongside Marama Davidson.",
   ideology="Left. Environmentalist, with a focus on social and economic justice and Te Tiriti.",
-  role="Opposition. The Greens have said 'very clearly' they want to form a government with Labour. Their best-ever polls came in late September and October 2026 (up to 16% in 1News–Verian).",
+  role="Opposition. The Greens have said 'very clearly' they want to form a government with Labour. Their best-ever polls came in late September and early October 2026 (up to 16% in 1News–Verian); the 13 October Verian poll had them on 15%.",
   policies=[
    ("A tax package with a wealth tax, an inheritance tax and higher corporate tax, paired with income-tax cuts the party says would benefit 96% of people.", "https://www.rnz.co.nz/news/politics/609649/greens-propose-wealth-corporate-and-inheritance-taxes-to-fund-income-tax-changes"),
    ("Free public transport for children and students and a $2 adult fare. A $4b plan to restore intercity passenger rail.", "https://www.1news.co.nz/2026/10/04/greens-pledge-free-buses-trains-for-kids-students-2-adult-fare-cap/"),
    ("A National Electrification Plan announced during the 2026 fuel crisis.", "https://www.rnz.co.nz/news/politics/592794/green-party-issues-human-catastrophe-warning-in-state-of-the-planet-address"),
    ("Regulating artificial intelligence (12 October): no fully automated decisions in public services that make a substantive difference to people's lives, explicit consent standards for AI training data, and environmental impact assessments for hyperscale data centres.", "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"),
+   ("Economic development plan (13 October): nearly $6b over four years; the party says it would create 284,000 jobs (64,000 above Treasury's forecast), including rescoping Investment Boost as 'Innovation Boost', Mission Fellowships, an Idea-to-Export pathway, restoring science funding toward 3% of GDP on R&D, and Kiwi-made public procurement.", "https://www.rnz.co.nz/news/politics/1867430/greens-promise-284-000-jobs-with-6b-economic-plan"),
    ("A $30,000 cap on political donations, with donations from people only.", "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"),
    ("Revoking mining consents approved under fast-track. A bill to protect conservation land from new mining.", "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"),
   ],
@@ -96,6 +100,7 @@ PARTIES = [
    ("Benjamin Doyle resigned from Parliament effective 3 October 2025, citing safety concerns. Mike Davidson replaced them (secondary source).", W+"Green_Party_of_Aotearoa_New_Zealand"),
    ("July 2026: Green MP Lawrence Xu-Nan was the target of Winston Peters' 'Go back to your own country' remark in Parliament. The Greens called it racist, and the Prime Minister criticised Peters.", "https://www.rnz.co.nz/news/politics/882545/winston-peters-refuses-to-apologise-for-racist-comments-after-meeting-with-pm"),
    ("Labour and the Greens held a joint press conference at Waitangi in February 2026 to signal they would work together.", "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"),
+   ("13 October 2026: co-leader Chlöe Swarbrick took part in TVNZ's Multi-Party Debate with ACT, NZ First, Te Pāti Māori and Opportunity. She said the Greens want to change the government and are 'not interested in reinstalling Christopher Luxon as Prime Minister'.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
   ],
   sources=[W+"Green_Party_of_Aotearoa_New_Zealand"]),
  dict(id="act", name="ACT New Zealand", short="ACT", colour="#E5B800", status="Government (coalition partner)",
@@ -118,6 +123,7 @@ PARTIES = [
    ("12 October 2026: the Mental Health Foundation called ACT's proposed disability benefit cuts 'poorly researched' and 'based in bigotry'. Seymour says people who are genuinely disabled 'should be looked after well'.", "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"),
    ("Candidate Paul Henry's 'little shits in classrooms' remark when launching ACT's school-discipline policy drew criticism from Labour.", "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"),
    ("Nicole McKee became deputy leader at ACT's AGM in late June 2026 (secondary source).", W+"ACT_New_Zealand"),
+   ("13 October 2026: David Seymour took part in TVNZ's Multi-Party Debate. He defended ACT's philanthropically backed cancer hospital plan and was the only leader on stage to back drug-testing beneficiaries.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
   ],
   sources=[W+"ACT_New_Zealand"]),
  dict(id="nzfirst", name="New Zealand First", short="NZ First", colour="#000000", status="Government (coalition partner)",
@@ -132,6 +138,7 @@ PARTIES = [
    ("Buy back BNZ (Luxon: 'absolute madness'). Split the big power companies (secondary source).", "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"),
    ("Repeal the Regulatory Standards Act. Give ministers the final say on fast-track approvals.", "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"),
    ("Replace the Accredited Employer Work Visa with a 'shortage-led' Skilled Work Visa tied to occupation, region and 'demonstrated need' (announced 11 October in Dunedin).", "https://www.rnz.co.nz/news/politics_election-2026/1839805/nz-first-promises-to-implement-shortage-led-skilled-work-visas"),
+   ("Fast-track residential approvals (13 October): require necessary infrastructure to be in place before future fast-tracked housing developments are approved (announced on Peters' X account; post text was truncated by the API after the opening sentences).", "https://x.com/winstonpeters/status/2110084036546949274"),
    ("A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.", "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"),
   ],
   events=[
@@ -140,6 +147,7 @@ PARTIES = [
    ("NZ First voted for the Regulatory Standards Act in November 2025, then pledged to repeal it.", "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"),
    ("Shane Jones became deputy leader on 17 September 2025. Alfred Ngaro (NewZeal) aligned with NZ First in March 2026.", W+"New_Zealand_First"),
    ("NZ First used its 'agree to disagree' clause against the NZ–India free trade agreement (secondary source).", W+"New_Zealand_First"),
+   ("13 October 2026: Winston Peters took part in TVNZ's Multi-Party Debate, clashing with Waititi over te reo Māori and with Wong over diversity and experience, and predicting NZ First would win a coalition argument on lifting the minimum wage with inflation.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
   ],
   sources=[W+"New_Zealand_First"]),
  dict(id="tpm", name="Te Pāti Māori", short="Te Pāti Māori", colour="#B2001A", status="Opposition",
@@ -160,6 +168,7 @@ PARTIES = [
    ("Waitangi 2026: Waititi publicly apologised to the Kapa-Kingi whānau and Ngāpuhi ('If I have done you wrong, I offer you my head').", "https://www.rnz.co.nz/news/politics/586273/maori-leaders-reflect-on-political-powhiri-at-waitangi"),
    ("Oriini Kaipara won the Tāmaki Makaurau by-election (September 2025). In May 2026 she denied a report that she was considering leaving.", "https://www.rnz.co.nz/news/politics/594890/oriini-kaipara-confirms-loyalty-to-te-pati-maori-after-conflicting-reports"),
    ("A Whakaata Māori–Curia poll (21 Sep–1 Oct) had Waititi on 42% in Waiariki (52% excluding undecided). In the same poll the party vote was Labour 24%, TPM 23% and Greens 22%.", "https://www.rnz.co.nz/news/politics_election-2026/1781734/rawiri-waititi-dominates-waiariki-in-new-poll"),
+   ("13 October 2026: Rawiri Waititi took part in TVNZ's Multi-Party Debate (without co-leader Debbie Ngarewa-Packer). He defended compulsory te reo Māori in schools and quipped 'You poor thing' after Peters complained about Māori City Rail Link station names.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
   ],
   sources=[W+"Te_P%C4%81ti_M%C4%81ori", W+"54th_New_Zealand_Parliament"]),
 ]
@@ -170,7 +179,7 @@ OUTSIDE = [
   selection="Leader Qiulae Wong and deputy leader Daniel Eb (list places 1 and 2). As a party outside Parliament it gets a shorter profile.",
   history="Founded in 2016 by economist Gareth Morgan as The Opportunities Party (TOP). It has never won a seat (2.22% in 2023). Qiulae Wong became leader in November 2025 and the party rebranded as The Opportunity Party.",
   ideology="Self-described centrist, 'evidence-based' and radical centrist. Wong says supporters are 'politically homeless'. A Talbot Mills analysis found about a third of its supporters came from the left and a third from the right (secondary source).",
-  role="Outside Parliament. Several polls put it above the 5% threshold, which would make it a potential kingmaker. Luxon has ruled out working with it. Wong says it won't support a government with Winston Peters as foreign minister.",
+  role="Outside Parliament. The 13 October 1News–Verian poll put it on 8% (about 10 seats), the clearest kingmaker position in recent polling. Luxon has again ruled out working with it. Wong says Opportunity will speak first to the largest party by seats on election night, and won't support a government with Winston Peters as foreign minister.",
   policies=[
    ("Five post-election bottom lines: a stronger Commerce Commission; lobbying regulation and donation caps; a 10-year health plan; phasing out bottom trawling; and recommitting to the Paris Agreement with an independent Climate Change Commission.", "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"),
    ("A land value tax (not one of the bottom lines), citizens' assemblies, and a methane ETS (secondary source).", W+"Opportunity_Party_(New_Zealand)"),
@@ -178,6 +187,7 @@ OUTSIDE = [
   events=[
    ("Luxon ruled out Opportunity in July 2026 and reaffirmed this at the 6 October debate. Wong says she does not believe him.", "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"),
    ("Peters called the party's candidates 'communists' and its bottom lines a 'wrinkly derrière'. Shane Jones called its policies 'not rational'.", "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"),
+   ("13 October 2026: Qiulae Wong took part in TVNZ's Multi-Party Debate. She said Opportunity would negotiate first with the largest party and told the Greens they could have stopped 'egregious' coalition moves by working with National.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
   ],
   sources=[W+"Opportunity_Party_(New_Zealand)"]),
 ]
@@ -203,7 +213,7 @@ person("willis","Nicola Willis","national","Deputy Leader of the National Party;
  "Entered Parliament on the list in 2018 after a career as a political adviser and corporate lobbyist. Deputy leader since December 2021; Finance Minister since 2023; delivered Budget 2026 on 28 May.",
  ["Fiscal restraint in an election year. Calls Labour's fiscal plan 'the least credible… in living memory'.",
   "Personally favours raising the NZ Super age gradually. National's 2026 policy is cross-party talks within 100 days rather than a set date.",
-  "Tax relief only once the books are back in surplus (not forecast before 2029).",
+  "Tax relief only once the books are back in surplus (not forecast before 2029). On 14 October she signalled interest in future business tax relief (including the R&D tax credit and, over time, the corporate rate) alongside personal tax cuts when conditions allow.",
   "Floated taxing banks 'fairly' in May 2026, then dropped it under the 'no new taxes' pledge."],
  "Nicola_Willis",
  reversals=[("In May 2026 she said 'We've got to make sure the banks are taxed fairly…'. On 23 August 2026 she explained why National would not pursue a bank tax.", "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/")])
