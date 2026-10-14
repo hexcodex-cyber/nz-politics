@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-15 — Daily update (NZ time)
+
+- No new published polls since the 13 October 1News–Verian poll; the polling table is unchanged.
+- NZ Herald leaders' debate (14 Oct): Luxon v Hipkins, via RNZ's analysis. Added event notes (Luxon again ruled out Opportunity, his minimum-wage and supermarket-split answers; Hipkins ruled out law-and-order portfolios for Green or Te Pāti Māori MPs and said Swarbrick could never be Treasurer) and quotes on the economy, jobs, pay equity, trust and the capital gains tax.
+- ASB finance debate in Queenstown (14 Oct): Willis, Edmonds, Seymour, Jones, Swarbrick and Wong. Added notes on the Investment Boost clash, cross-party super talks (Jones the only one not on board) and the Queenstown bed tax, plus quotes.
+- New policy lines (all 14 Oct): Labour's economic plan (up to $50m a year to the Elevate venture fund, 15-day payment for small suppliers, $80,000 GST threshold, Parliamentary Budget Office), the Greens' council bed levy, ACT's removal of rental-loss ring-fencing, and National's Auckland plan (lifting the blanket ban on minimum car parking).
+- Fixed the date on NZ First's fast-track housing policy: it was announced on 14 October (Peters' X post went up at 8:03am NZDT), not 13 October. It now links to RNZ's full report, including Luxon and Bishop saying it is already law.
+- Mongrel Mob election hui: notes on the Green and Te Pāti Māori pages (National's criticism, Davidson's and TPM's 'unapologetic' responses), plus Peters' office disputing National's foreign-aid figure and New Zealand's abstention on the UN pandemic declaration.
+- 24 new quotes (all RNZ, 14 Oct): Luxon (5), Hipkins (3), Edmonds (3), Bishop (2), Seymour (2), Jones (2), Swarbrick (2), Davidson, Kaipara, Peters, Jackson and Wong. Remaining gaps are unchanged: Genter, Henry, Patterson (3), Norman (2), Eb (1).
+
 ## 2026-10-14 — Daily update (NZ time)
 
 - New poll: 1News–Verian (fieldwork 8–12 Oct, published 13 Oct). National 28%, Labour 28%, Greens 15%, ACT 10%, NZ First 10%, Opportunity 8%, Te Pāti Māori 0.4%. Preferred PM: Luxon and Hipkins both on 20%. Checked against the 1News and RNZ write-ups. The previous 1–5 Oct Verian row is kept for comparison.

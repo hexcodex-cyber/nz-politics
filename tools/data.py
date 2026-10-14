@@ -49,6 +49,7 @@ PARTIES = [
    ("Fiscal plan (12 October 2026): tax relief only once the books are back in surplus (not forecast before 2029); a commitment to an independent election policy-costing unit by the 2029 election; $451.8m to extend the school lunch programme to the next election.", "https://www.rnz.co.nz/news/politics_election-2026/1858565/national-hints-at-tax-cuts-after-2029-as-fiscal-plan-released"),
    ("Superannuation: National confirmed its fiscal plan is its super policy. It still proposes raising the age gradually but sets no date, and commits to cross-party talks within 100 days of a new government.", "https://www.rnz.co.nz/news/politics_election-2026/1860419/politicians-can-t-dance-alone-on-superannuation-nicola-willis"),
    ("Aid: a plan to cut aid outside the Pacific to fund health spending. Coalition partner NZ First publicly criticised it.", "https://x.com/winstonpeters/status/2107229536366850450"),
+   ("Auckland plan (14 October 2026): remove the blanket ban on minimum car-parking requirements and let councils set minimums in suburban areas outside intensification zones, greenfield subdivisions and business parks. Most of the nine-page plan restates enacted or already announced policies.", "https://www.rnz.co.nz/news/politics_election-2026/1887747/national-promises-to-remove-auckland-s-ban-on-minimum-car-parking-rules"),
   ],
   events=[
    ("April 2026: after media reports of caucus discontent, Luxon called a confidence vote on his own leadership and won it (21 April). A reshuffle earlier that month moved the campaign-chair role from Chris Bishop to Simeon Brown.", "https://www.rnz.co.nz/news/politics/592984/prime-minister-christopher-luxon-survives-confidence-vote"),
@@ -57,6 +58,9 @@ PARTIES = [
    ("Budget 2026 (28 May) was billed as restrained. Willis said she had not convinced coalition partners to raise the NZ Super age.", "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"),
    ("Luxon has ruled out working with the Opportunity Party, and has called strategic vote-splitting 'insanely stupid'.", "https://www.rnz.co.nz/news/politics_election-2026/1749693/rnz-reid-research-poll-national-crashes-greens-surge-opportunity-kingmaker"),
    ("13 October 2026: after a 1News–Verian poll tied National and Labour on 28% with Opportunity on 8%, Luxon again ruled out working with Opportunity and a grand coalition, and said it would be a 'very, very tight election'.", "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"),
+   ("14 October 2026, NZ Herald leaders' debate: Luxon again ruled out Opportunity. He said the minimum wage would rise with inflation ('that's what we've more or less been doing'), though RNZ notes it rose by less than inflation in each of the past three years, and said Foodstuffs would be split 'for sure', which the moderator noted depends on the Commerce Commission.", "https://www.rnz.co.nz/news/politics_election-2026/1912632/debate-doubts-does-anyone-believe-the-two-chrises"),
+   ("14 October 2026: Winston Peters' office called National's claim that foreign aid had risen 26% since 2021 'incorrect', saying the inflation-adjusted rise was about 10%. National stands by its unadjusted figure.", "https://www.rnz.co.nz/news/politics_election-2026/1884968/national-s-claim-foreign-aid-increased-by-26-percent-incorrect-winston-peters-says"),
+   ("14 October 2026: justice spokesperson Paul Goldsmith accused the Greens and Te Pāti Māori of 'prioritising' gangs over victims after their candidates attended a Mongrel Mob election hui.", "https://www.rnz.co.nz/news/politics_election-2026/1896798/greens-unapologetic-at-mongrel-mob-meeting-as-national-cries-foul"),
   ],
   sources=[W+"New_Zealand_National_Party", W+"Sixth_National_Government_of_New_Zealand"]),
  dict(id="labour", name="New Zealand Labour Party", short="Labour", colour="#D82A20", status="Opposition (Official Opposition)",
@@ -72,6 +76,7 @@ PARTIES = [
    ("A $160m 'SolarSaver' package with subsidies and loans for rooftop and plug-in solar.", "https://www.rnz.co.nz/news/politics/685297/labour-promises-subsidies-new-loan-schemes-for-installing-solar"),
    ("Cheaper school uniforms (limits on compulsory branded items and generic alternatives allowed), announced 12 October, alongside locally made school lunches from Term 1 2028 and restoring 43 cancelled rural school bus routes 'where possible'.", "https://www.rnz.co.nz/news/politics_election-2026/1857589/labour-plans-to-cut-school-uniform-costs-and-allow-affordable-generic-options"),
    ("Visa-waiver travel for Pacific Islands Forum citizens.", "https://asiapacificreport.nz/2026/09/17/labour-promises-visa-free-travel-for-pacific-as-overstayer-rates-rise/"),
+   ("Economic plan (14 October 2026): redirect up to $50m a year of the government's NZ Super Fund contribution into the Elevate venture capital fund; make big businesses pay small suppliers within 15 days; immediate write-off of new tools and equipment up to $10,000; raise the GST threshold to $80,000; back 30,000 apprentices with a $1000 tools grant; surplus in 2028/29, restore the Reserve Bank's dual mandate and set up an independent Parliamentary Budget Office.", "https://www.rnz.co.nz/news/politics_election-2026/1896823/labour-unveils-economic-plan-pledges-up-to-50m-a-year-for-venture-capital-fund"),
   ],
   events=[
    ("Reversal on capital gains tax: in July 2023 Hipkins ruled out a CGT 'End of story'. In October 2025 Labour adopted a property CGT.", "https://www.rnz.co.nz/news/politics/493596/hipkins-rules-out-capital-gains-tax-wealth-tax-if-labour-re-elected"),
@@ -79,6 +84,8 @@ PARTIES = [
    ("Labour's costings were attacked by National ('the least credible fiscal plan… in living memory'). Labour says its plan is fully costed.", "https://www.national.org.nz/news/261004-nicolawillis"),
    ("22 September 2026: list-only candidate Warrick Cleine withdrew after controversy over the fact that he does not live in New Zealand (secondary source).", W+"Party_lists_in_the_2026_New_Zealand_general_election"),
    ("Labour is contesting the Māori seats hard against Te Pāti Māori, and has criticised TPM's candidate-vote-only strategy.", "https://www.rnz.co.nz/news/politics/1052259/te-pati-maori-warned-election-strategy-could-put-maori-seats-at-risk"),
+   ("14 October 2026, NZ Herald leaders' debate: Hipkins ruled out giving law-and-order portfolios to any Green or Te Pāti Māori MP after their candidates were photographed with Mongrel Mob members, and said Chlöe Swarbrick could never be Treasurer (RNZ's wording). In a quick-fire round he put a lower voting age, a rainbow affairs ministry and compulsory te reo 'on the table', and ruled out binding Waitangi Tribunal recommendations and a higher corporate tax.", "https://www.rnz.co.nz/news/politics_election-2026/1916478/chris-hipkins-leaders-debate-strategy-let-luxon-talk-himself-into-trouble"),
+   ("14 October 2026, ASB finance debate: Edmonds and Willis clashed over Investment Boost, which Labour would replace with a policy targeting small businesses. Both back cross-party talks on superannuation.", "https://www.rnz.co.nz/news/politics_election-2026/1905390/what-we-learnt-from-a-rough-and-tumble-finance-debate"),
   ],
   sources=[W+"New_Zealand_Labour_Party"]),
  dict(id="greens", name="Green Party of Aotearoa New Zealand", short="Greens", colour="#098137", status="Opposition",
@@ -94,6 +101,7 @@ PARTIES = [
    ("Regulating artificial intelligence (12 October): no fully automated decisions in public services that make a substantive difference to people's lives, explicit consent standards for AI training data, and environmental impact assessments for hyperscale data centres.", "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"),
    ("Economic development plan (13 October): nearly $6b over four years; the party says it would create 284,000 jobs (64,000 above Treasury's forecast), including rescoping Investment Boost as 'Innovation Boost', Mission Fellowships, an Idea-to-Export pathway, restoring science funding toward 3% of GDP on R&D, and Kiwi-made public procurement.", "https://www.rnz.co.nz/news/politics/1867430/greens-promise-284-000-jobs-with-6b-economic-plan"),
    ("A $30,000 cap on political donations, with donations from people only.", "https://pmn.co.nz/read/election/greens-target-political-influence-as-pacific-security-enters-election-debate"),
+   ("Bed levy (14 October 2026): give councils the power to set a levy on visitor accommodation to fund infrastructure, with a higher rate allowed on Airbnbs and other short-term rentals and a national register of short-term rentals. National has ruled out a bed levy.", "https://www.rnz.co.nz/news/politics_election-2026/1898168/greens-promise-to-give-councils-power-to-set-up-bed-levy"),
    ("Revoking mining consents approved under fast-track. A bill to protect conservation land from new mining.", "https://www.greens.org.nz/bill_would_protect_public_conservation_land_this_government_wants_to_mine"),
   ],
   events=[
@@ -101,6 +109,7 @@ PARTIES = [
    ("July 2026: Green MP Lawrence Xu-Nan was the target of Winston Peters' 'Go back to your own country' remark in Parliament. The Greens called it racist, and the Prime Minister criticised Peters.", "https://www.rnz.co.nz/news/politics/882545/winston-peters-refuses-to-apologise-for-racist-comments-after-meeting-with-pm"),
    ("Labour and the Greens held a joint press conference at Waitangi in February 2026 to signal they would work together.", "https://www.odt.co.nz/news/national/labour-and-greens-united-at-waitangi-pwvn6fgz"),
    ("13 October 2026: co-leader Chlöe Swarbrick took part in TVNZ's Multi-Party Debate with ACT, NZ First, Te Pāti Māori and Opportunity. She said the Greens want to change the government and are 'not interested in reinstalling Christopher Luxon as Prime Minister'.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
+   ("14 October 2026: a social media post by Mongrel Mob lifetime member Harry Tam showed Green candidates Hūhana Lyndon and Michel Mulipola (and two Te Pāti Māori MPs) at a whānau health and wellbeing election hui. National criticised it; Davidson said the Greens were 'unapologetic' about engaging with all communities. That night Hipkins ruled out law-and-order portfolios for Green or TPM MPs.", "https://www.rnz.co.nz/news/politics_election-2026/1896798/greens-unapologetic-at-mongrel-mob-meeting-as-national-cries-foul"),
   ],
   sources=[W+"Green_Party_of_Aotearoa_New_Zealand"]),
  dict(id="act", name="ACT New Zealand", short="ACT", colour="#E5B800", status="Government (coalition partner)",
@@ -116,6 +125,7 @@ PARTIES = [
    ("Let teachers remove disruptive students and use 'reasonable force'.", "https://www.rnz.co.nz/news/politics/860702/act-candidate-paul-henry-unveils-plan-to-let-teachers-use-reasonable-force-on-students"),
    ("A 'Working with Children Card' with continuous vetting. A Rural Workforce Visa.", "https://www.rnz.co.nz/news/politics_election-2026/1044039/act-proposes-working-with-children-card-to-ensure-continual-vetting"),
    ("Backs drug testing of beneficiaries, and says its energy policy overlaps with National's.", "https://x.com/dbseymour/status/2107983272773145067"),
+   ("Rental losses (14 October 2026): remove ring-fencing so landlords can offset rental losses against other taxable income. ACT puts the revenue cost at $264m in year one rising to $303m in year four, and says this is in its fiscal plan.", "https://www.rnz.co.nz/news/politics_election-2026/1888418/act-promises-tax-relief-for-landlords-with-offset-rental-losses"),
   ],
   events=[
    ("NZ First voted for ACT's Regulatory Standards Act at its third reading (13 November 2025), then vowed a week later to repeal it. Seymour accused Peters of bad faith.", "https://www.rnz.co.nz/news/politics/579493/winston-peters-vows-to-repeal-regulatory-standards-bill-david-seymour-hits-back"),
@@ -138,7 +148,7 @@ PARTIES = [
    ("Buy back BNZ (Luxon: 'absolute madness'). Split the big power companies (secondary source).", "https://www.rnz.co.nz/news/politics_election-2026/1624802/christopher-luxon-labels-policy-by-potential-coalition-partner-madness"),
    ("Repeal the Regulatory Standards Act. Give ministers the final say on fast-track approvals.", "https://www.rnz.co.nz/news/politics/586414/nz-first-to-campaign-on-ministers-getting-final-say-in-fast-track-projects"),
    ("Replace the Accredited Employer Work Visa with a 'shortage-led' Skilled Work Visa tied to occupation, region and 'demonstrated need' (announced 11 October in Dunedin).", "https://www.rnz.co.nz/news/politics_election-2026/1839805/nz-first-promises-to-implement-shortage-led-skilled-work-visas"),
-   ("Fast-track residential approvals (13 October): require necessary infrastructure to be in place before future fast-tracked housing developments are approved (announced on Peters' X account; post text was truncated by the API after the opening sentences).", "https://x.com/winstonpeters/status/2110084036546949274"),
+   ("Fast-track residential approvals (14 October): developers must show the roads, pipes and other infrastructure a fast-tracked housing project needs exists, is funded and can be delivered; dedicated housing expert panels could decline projects; the housing minister would make referral decisions. Luxon called it 'quite bizarre' and Bishop said it is already in the law. (Corrected from 13 October: Peters' X post went up at 8:03am NZDT on 14 October.)", "https://www.rnz.co.nz/news/politics_election-2026/1887394/nz-first-wants-to-change-fast-track-regime-to-save-kiwis-suffering-through-developments"),
    ("A Fonterra 'Use It or Lose It' milk-access policy. Retirement village reform.", "https://www.farmersweekly.co.nz/politics/fiery-debate-as-political-parties-court-rural-vote/"),
   ],
   events=[
@@ -148,6 +158,8 @@ PARTIES = [
    ("Shane Jones became deputy leader on 17 September 2025. Alfred Ngaro (NewZeal) aligned with NZ First in March 2026.", W+"New_Zealand_First"),
    ("NZ First used its 'agree to disagree' clause against the NZ–India free trade agreement (secondary source).", W+"New_Zealand_First"),
    ("13 October 2026: Winston Peters took part in TVNZ's Multi-Party Debate, clashing with Waititi over te reo Māori and with Wong over diversity and experience, and predicting NZ First would win a coalition argument on lifting the minimum wage with inflation.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
+   ("13–14 October 2026: New Zealand was one of only two countries to abstain on a non-binding UN declaration on pandemic preparedness. Peters made the call as Foreign Minister and said signing would have been 'problematic'; National ministers said they would have voted in favour while registering reservations.", "https://www.rnz.co.nz/news/politics_election-2026/1886541/morning-report-winston-peters-and-john-campbell-in-fiery-clash-over-un-document"),
+   ("14 October 2026, ASB finance debate: Shane Jones said he would not join a cross-party working group 'designed to move criteria or move the age of super', while the other five finance spokespeople said yes or were open to it.", "https://www.rnz.co.nz/news/politics_election-2026/1905390/what-we-learnt-from-a-rough-and-tumble-finance-debate"),
   ],
   sources=[W+"New_Zealand_First"]),
  dict(id="tpm", name="Te Pāti Māori", short="Te Pāti Māori", colour="#B2001A", status="Opposition",
@@ -169,6 +181,7 @@ PARTIES = [
    ("Oriini Kaipara won the Tāmaki Makaurau by-election (September 2025). In May 2026 she denied a report that she was considering leaving.", "https://www.rnz.co.nz/news/politics/594890/oriini-kaipara-confirms-loyalty-to-te-pati-maori-after-conflicting-reports"),
    ("A Whakaata Māori–Curia poll (21 Sep–1 Oct) had Waititi on 42% in Waiariki (52% excluding undecided). In the same poll the party vote was Labour 24%, TPM 23% and Greens 22%.", "https://www.rnz.co.nz/news/politics_election-2026/1781734/rawiri-waititi-dominates-waiariki-in-new-poll"),
    ("13 October 2026: Rawiri Waititi took part in TVNZ's Multi-Party Debate (without co-leader Debbie Ngarewa-Packer). He defended compulsory te reo Māori in schools and quipped 'You poor thing' after Peters complained about Māori City Rail Link station names.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
+   ("14 October 2026: Oriini Kaipara and Hana-Rāwhiti Maipi-Clarke appeared in photos from a Mongrel Mob election hui. A party spokesperson said: 'We do not judge, they have whakapapa… We are unapologetic about that.'", "https://www.rnz.co.nz/news/politics_election-2026/1896798/greens-unapologetic-at-mongrel-mob-meeting-as-national-cries-foul"),
   ],
   sources=[W+"Te_P%C4%81ti_M%C4%81ori", W+"54th_New_Zealand_Parliament"]),
 ]
@@ -188,6 +201,7 @@ OUTSIDE = [
    ("Luxon ruled out Opportunity in July 2026 and reaffirmed this at the 6 October debate. Wong says she does not believe him.", "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"),
    ("Peters called the party's candidates 'communists' and its bottom lines a 'wrinkly derrière'. Shane Jones called its policies 'not rational'.", "https://newsroom.co.nz/2026/09/11/parties-rule-out-deals-to-get-opportunitys-qiulae-wong-over-the-line-in-heartland-seat/"),
    ("13 October 2026: Qiulae Wong took part in TVNZ's Multi-Party Debate. She said Opportunity would negotiate first with the largest party and told the Greens they could have stopped 'egregious' coalition moves by working with National.", "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"),
+   ("14 October 2026, ASB finance debate: Wong joined Edmonds, Jones and Swarbrick in backing a bed tax for Queenstown, and backed a cross-party review of superannuation.", "https://www.rnz.co.nz/news/politics_election-2026/1905390/what-we-learnt-from-a-rough-and-tumble-finance-debate"),
   ],
   sources=[W+"Opportunity_Party_(New_Zealand)"]),
 ]
