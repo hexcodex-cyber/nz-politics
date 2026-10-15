@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-16 — Daily update (NZ time)
+
+- No new national polls since the 13 October 1News–Verian poll (checked against the Wikipedia polling table and the publishers); the polling table is unchanged. Added the Whakaata Māori–Curia Ikaroa-Rāwhiti electorate poll (28 Sep–8 Oct, published 13 Oct) to the Te Pāti Māori page: Tangaere-Manuel (Labour) 40%, Maxwell (TPM) 19%, Te Au-Skipworth (Greens) 15%; party vote Labour 41%, Greens 25%, TPM 10%.
+- Seymour (Wānaka, 15 Oct) said a 'four-headed beast' bloc including Opportunity would be 'probably a good outcome' compared with a left-wing government. National has ruled Opportunity out. Event notes added on the ACT and Opportunity pages.
+- Mongrel Mob hui fallout (15 Oct): Hipkins called the photos 'really, really ill considered'; Willie Jackson said it was a poor strategic move; Davidson stood by the visit and said repealing the gang patch ban is not a priority. Notes on the Labour and Green pages.
+- New policy lines: National's plug-in solar and Home Energy Fund (15 Oct) and its five 'young Kiwis' commitments (13 Oct); the Greens' plan to reverse $2.4b of public service cuts ($3.17b over four years, 15 Oct); NZ First's Coastguard funding (40% to 70%) and Combat Sports Commission (15 Oct); Labour's expanded ratepayer assistance scheme (Hipkins at the LGNZ conference, 15 Oct).
+- Other notes: Simeon Brown disputing reports that Starship cancer treatment had been suspended (15 Oct); Labour's '$6000 worse off' attack line (15 Oct); the Migrant Workers Association's response to NZ First's visa plan (16 Oct).
+- 18 new quotes (RNZ, 1News, NZ Herald, Te Ao Māori News, National and Green releases, X): Hipkins (3), Davidson (2), Jackson (2), Brown (2), Seymour (2), Stanford (2), Genter (2), Willis, Luxon and Peters. Julie Anne Genter now has 5 verified quotes (a 1 Sep Green release on the fuel tax freeze), so she is off the gaps list. Removed outdated 'only N quotes' notes for Davidson, Paul and Genter. Remaining gaps: Henry, Patterson (3), Norman (2), Eb (1).
+
 ## 2026-10-15 — Daily update (NZ time)
 
 - No new published polls since the 13 October 1News–Verian poll; the polling table is unchanged.

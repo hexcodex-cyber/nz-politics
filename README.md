@@ -1,7 +1,7 @@
 # NZ Politics 2026: What they actually said
 
 **Live site:** https://hexcodex-cyber.github.io/nz-politics/
-**Last updated:** 14 October 2026 (NZ time, NZDT)
+**Last updated:** 16 October 2026 (NZ time, NZDT)
 
 A static, non-partisan website profiling New Zealand's political parties and their leading figures ahead of the **7 November 2026 general election**. It focuses on what politicians have *actually said* in 2025–26. Every quote is dated, has a short neutral context line, and links to the source it was taken from.
 
@@ -52,7 +52,7 @@ Each party page explains its own selection.
 
 ## Known gaps
 
-- Fewer than 4 verified 2025–26 quotes: Julie Anne Genter, Paul Henry, Mark Patterson (3 each), Lance Norman (2 short fragments), Daniel Eb (1). Edmonds and Tamatha Paul now have 4 each.
+- Fewer than 4 verified 2025–26 quotes: Paul Henry, Mark Patterson (3 each), Lance Norman (2 short fragments), Daniel Eb (1). Edmonds, Tamatha Paul and Julie Anne Genter now have at least 4 each.
 - Taxpayers' Union–Curia and Roy Morgan were previously † Wikipedia-only; both were checked against publisher releases on 13 Oct 2026. The latest 1News–Verian (8–12 Oct, published 13 Oct) was added on 14 Oct 2026.
 - Paywalled NZ Herald and The Post articles were generally not used for quotes.
 - Some event dates are approximate, and this is stated in the context line (for example Peters' remark to Lawrence Xu-Nan, around 28 July 2026).
