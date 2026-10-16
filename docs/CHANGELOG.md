@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-17 — Daily update (NZ time)
+
+- New poll: Anacta (formerly Talbot Mills, Labour's own pollster), fieldwork 6–10 Oct, 1352 people, reported by The Post on 15 Oct from figures given to corporate clients. Labour 29%, National 28%, Greens 15%, ACT 9%, NZ First 10%, Opportunity 5.4%, Te Pāti Māori 1.9%. Preferred PM: Hipkins and Luxon both on 22%. Added to the polling table and labelled as Labour's pollster. No new 1News–Verian, RNZ–Reid, Curia or Roy Morgan polls.
+- 1News Vote Compass leader favourability (4–11 Oct, 136,713 participants, published 17 Oct): no leader reaches 5 out of 10. Hipkins 4.3, Swarbrick 4.0, Wong 3.8, Peters 3.7, Luxon 3.6, Seymour 3.4, Davidson 3.3, Ngarewa-Packer 2.1, Waititi 1.9. Added to the home page context.
+- New policy lines (16 Oct): National's agriculture manifesto (19 national standards to cut council consents for farm work, rural vets, pest control); the Greens' paid placements ($380 a week for trainee nurses, teachers, social workers and others; $311m over four years); NZ First's pledge to reverse the decision not to impose a safeguard on imported aluminium extrusions.
+- Event notes: Hipkins at the LGNZ conference on Head Start and regional councils (15 Oct); Tamatha Paul at the Aro Valley candidates' debate in Wellington North (15 Oct); RNZ's check of Luxon's 'certainly strengthened healthcare' claim (17 Oct).
+- 9 new quotes (RNZ and X): Luxon (2), Peters (2), Davidson, Swarbrick, Paul, Hipkins and Brown. Remaining gaps are unchanged: Henry, Patterson (3), Norman (2), Eb (1).
+
 ## 2026-10-16 — Daily update (NZ time)
 
 - No new national polls since the 13 October 1News–Verian poll (checked against the Wikipedia polling table and the publishers); the polling table is unchanged. Added the Whakaata Māori–Curia Ikaroa-Rāwhiti electorate poll (28 Sep–8 Oct, published 13 Oct) to the Te Pāti Māori page: Tangaere-Manuel (Labour) 40%, Maxwell (TPM) 19%, Te Au-Skipworth (Greens) 15%; party vote Labour 41%, Greens 25%, TPM 10%.
