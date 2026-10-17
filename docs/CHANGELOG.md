@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-18 — Daily update (NZ time)
+
+- No new national polls since the 13 October 1News–Verian poll (checked against the Wikipedia polling table, RNZ and 1News). The polling table is unchanged.
+- New electorate poll: Mata–Horizon poll of Māori voters (electorate questions 25 Sep–9 Oct, 711 respondents, published by RNZ on 17 Oct). Labour candidates led in four Māori seats, including Tāmaki Makaurau (Leoni 38%, Kaipara 30%, ±8.1) and Te Tai Tokerau (Prime 27%, Lyndon 23%, Edwards 19%, Kapa-Kingi 11%). Maipi-Clarke and Ngarewa-Packer led in their seats. RNZ says the samples are small, so treat these as indications only. Added to the Te Pāti Māori page.
+- New policy lines: the Greens' plan to abolish the training wage, with a $2000 equipment grant, $30m for Māori and Pasifika-led training and a $2000 employer completion bonus, costed at $117.35m a year (17 Oct). Also ACT's higher fines for illegal dumping, from $400 to $1000 and $2000 for repeat offenders (Hoggard, 16 Oct).
+- Event notes (all 17 Oct): Luxon again ruled out Opportunity ('we're going to win') and was challenged at a market over cutting aid to fund medicines. Hipkins said coalition preferences are for after the election, that a minister making comments like Peters' and Jones' would be sacked, and that Labour would not fund gang programmes. Peters defended not releasing a separate fiscal plan.
+- 12 new quotes (RNZ, RNZ live blog and ACT releases): Luxon (2), Hipkins (2), Peters (2), Seymour (2), Swarbrick, Davidson, Henry and Hoggard. Paul Henry now has 4 verified quotes (an ACT release from 14 Oct on the voting age), so he is off the gaps list. Remaining gaps: Patterson (3), Norman (2), Eb (1).
+
 ## 2026-10-17 — Daily update (NZ time)
 
 - New poll: Anacta (formerly Talbot Mills, Labour's own pollster), fieldwork 6–10 Oct, 1352 people, reported by The Post on 15 Oct from figures given to corporate clients. Labour 29%, National 28%, Greens 15%, ACT 9%, NZ First 10%, Opportunity 5.4%, Te Pāti Māori 1.9%. Preferred PM: Hipkins and Luxon both on 22%. Added to the polling table and labelled as Labour's pollster. No new 1News–Verian, RNZ–Reid, Curia or Roy Morgan polls.
