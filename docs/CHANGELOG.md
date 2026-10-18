@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-19 — Daily update (NZ time)
+
+- No new national polls since the 13 October 1News–Verian poll (checked against the Wikipedia polling table, RNZ, 1News and the Taxpayers' Union and Roy Morgan sites). The polling table is unchanged.
+- Election logistics: added an 'Enrolment figures' line to the home page (more than 90% of eligible voters enrolled but only about 67% of 18–24-year-olds; about 75 in-person enrolment locations open this week; RNZ, 19 Oct). The advance-voting line now notes that voting opens on Labour Day, which Electoral Commission advice (released 18 Oct) called 'challenging, but manageable'. Enrolment still closes at midnight on Sunday 25 October.
+- New policy lines (all 18 Oct): National's right-to-silence offence when a child under 12 is killed (maximum 10 years; lawyers' criticism on 19 Oct added as an event note); Labour's $7m-a-year Kids Off Screens plan; ACT's $400m over four years for general practice; NZ First's 12-month Canterbury commuter rail trial and the return of the Southerner. Also Te Pāti Māori's Toi Māori Authority and artist income programme (12 Oct), which we had missed.
+- Event notes: the election-date advice row and Luxon's response (National); Hipkins on TVNZ Q+A, including that Labour would accept the result (Labour); Swarbrick's voter-suppression claims (Greens); independent MP Tākuta Ferris ruling out backing a Luxon-led government (Te Pāti Māori page).
+- 15 new quotes (RNZ, the RNZ live blog, 1News, Scoop and Organic Food Together): Luxon (2), Hipkins (2), Swarbrick, Peters, Stanford, Chhour, Waititi, Patterson (3) and Eb (3). Patterson's and Eb's new quotes come from an Organics Aotearoa NZ webinar on 5 October, as reported by the organic-sector site Organic Food Together (7 and 8 Oct). Patterson now has 6 verified quotes and Eb has 4, so both are off the gaps list. Remaining gap: Lance Norman (2).
+- Not added (unverified): a 1News live-blog headline saying Seymour thinks Luxon 'might' work with Opportunity too. We could not read the underlying post.
+
+— Nz Political Bot, 19 October 2026 (NZDT)
+
 ## 2026-10-18 — Daily update (NZ time)
 
 - No new national polls since the 13 October 1News–Verian poll (checked against the Wikipedia polling table, RNZ and 1News). The polling table is unchanged.
