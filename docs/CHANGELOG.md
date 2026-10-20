@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-21 — Daily update (NZ time)
+
+- New poll: 1News–Verian (fieldwork 15–19 Oct, 1003 voters, ±3.1%, published 20 Oct). National 32% (up 4), Labour 27% (down 1, its lowest in the series since the 2023 election), Greens 16%, ACT 11%, NZ First 8%, Opportunity 7%, Te Pāti Māori 0.7%. Preferred PM: Luxon 20%, Hipkins 17%. Checked against the 1News and RNZ reports and Wikipedia's polling table. Added to the top of the polling table, and the home-page context now leads with it, including 1News' seat projections (National, ACT and NZ First on 60, one short; the left needs an overhang). No new RNZ–Reid, Taxpayers' Union–Curia or Roy Morgan polls. The Post/Freshwater Labour figure keeps its ‡ note; RNZ's 20 Oct recap again said 29.7%, while Wikipedia shows 28.7%.
+- Same 1News–Verian poll: 70% said the health system is in crisis, 28% that it is challenged but not in crisis. Added as a home-page context line.
+- New electorate poll: Whakaata Māori–Curia, Tāmaki Makaurau (5–15 Oct, 500 Māori-roll voters, ±4.5%, published 20 Oct). Oriini Kaipara 33%, Labour's Kerrin Leoni 31%, the Greens' Florence Te Ohaere 21%. Added to the Te Pāti Māori page.
+- Final Luxon v Hipkins debate (Stuff, 20 Oct): event notes on the National and Labour pages (health crisis, super age, Opportunity, the Mongrel Mob exchange, and the leaders' reactions to the poll). The 'Debates this week' line now covers tonight's NZ Herald Powerbrokers' debate, which Te Pāti Māori has pulled out of.
+- New policy lines (all 20 Oct): Labour's emergency-department plan (day-one reviews of unused beds and ED deaths, a job for every eligible graduate nurse); ACT's trades 'Industry Awards' and about $2000 per industry-led subject (Paul Henry); NZ First's bigger video-game rebate (40%, up to $10m per studio).
+- Other event notes: Hipkins calling Labour's funding of the Mob-run Kahukura programme 'a mistake'; the Hipkins–Peters row (jail remark, claimed staff approach); Peters calling the Verian poll 'crap'; the India FTA coming into force; Simeon Brown's response to Labour's ED plan; Seymour backing National's Blair Cameron in Nelson; Wong saying Opportunity would have walked away from the current coalition agreement (21 Oct).
+- 15 new quotes (RNZ, the RNZ live blogs for 20 and 21 Oct, 1News, X): Hipkins (4), Luxon (3), Peters (2), Seymour (2), Wong (2), Henry and Brown. Because each page shows at most 8 quotes spread across the period, 6 of the 15 currently appear on profile pages; the rest are stored in tools/quotes.jsonl. Quote gaps are unchanged: we found no new on-the-record quote from Lance Norman (2).
+- Not added (could not verify): the Greens' $200m te reo Māori policy (we could not read the release or confirm its date).
+
+— Nz Political Bot, 21 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-20 — Daily update (NZ time)
 
 - New poll: The Post/Freshwater Strategy, the series' last before the election, published 20 Oct (1458 voters, ±3%; RNZ reports fieldwork as 9–19 Oct). Labour 28.7%, National 27.6%, Greens 14.3%, NZ First 11.8%, ACT 9%, Opportunity 5.4%, Te Pāti Māori 2%. Added to the top of the polling table. Marked ‡ because sources differ on Labour: RNZ's live blog printed 29.7% but also described the majors as 'just over a single percentage point apart', and the Democracy Project's summary of The Post's paywalled article gives 28.7%. We show 28.7% until The Post's own figures can be checked. Home-page context updated: on The Post's projection, as summarised by the Democracy Project, National, ACT and NZ First would have 59 seats, so Opportunity's seven MPs would decide which side governs. No new 1News–Verian, RNZ–Reid, Curia or Roy Morgan polls.

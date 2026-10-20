@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Tuesday 20 October 2026 (NZDT)"
+UPDATED = "Wednesday 21 October 2026 (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -200,13 +200,13 @@ body = f"""<h1>Sources &amp; methodology</h1>
 <li>Where a list doesn't tell you who matters (Te Pāti Māori's list has only one name), we used the other sitting MPs plus key party officers.</li></ol>
 <p>This means some people profiled are <strong>not current MPs</strong>: Paul Henry (ACT, rank 4), Alfred Ngaro (NZ First, rank 5), John Tamihere and Lance Norman (Te Pāti Māori officers), and Opportunity's leaders. The reasoning for each party is on its page.</p></section>
 <section><h2>Quote rules</h2><ul>
-<li>Every quote comes from a page we actually retrieved during research (8–20 October 2026). Wording is as published by that source, including the source's own transcription.</li>
+<li>Every quote comes from a page we actually retrieved during research (8–21 October 2026). Wording is as published by that source, including the source's own transcription.</li>
 <li>Where a quote is relayed by a news outlet, we link that outlet. Where a release was republished (for example via Scoop), we say so.</li>
 <li>X posts link to the post itself. Dates are converted to NZ time. Some long posts were only partly returned by the X API, so we quote the opening text.</li>
 <li>Up to 8 quotes per person, newest first, from 2025–26. If fewer than 4 could be verified, the page says so. We did not pad with weak or uncertain material.</li>
 <li>Context lines are our neutral description. We give no commentary on whether claims are true. 'Reversals' lists only cases where a source documents a statement and a later, different statement or action.</li>
 <li>Dates are publication or post dates (NZ time). Where an event date was approximate, the context says so.</li></ul></section>
-<section><h2>Polling</h2><p>The Post/Freshwater Strategy poll (published 20 October) was checked against RNZ's live report and the Democracy Project's summary because The Post's article is paywalled. The two differ on Labour (29.7% v 28.7%); we show 28.7%, which matches RNZ's own description of a gap of just over one point, and mark it ‡. Other polls in the table were checked against the publishers: 1News–Verian (8–12 Oct, published 13 Oct; and 1–5 Oct) and RNZ–Reid Research (24 Sep–1 Oct) against their own articles, Taxpayers' Union–Curia (1–5 Oct) against RNZ's 8 October report, and Roy Morgan (31 Aug–27 Sep) against Roy Morgan's 6 October release (Curia and Roy Morgan checked 13 Oct 2026; latest Verian checked 14 Oct 2026).</p></section>
+<section><h2>Polling</h2><p>The Post/Freshwater Strategy poll (published 20 October) was checked against RNZ's live report and the Democracy Project's summary because The Post's article is paywalled. The two differ on Labour (29.7% v 28.7%); we show 28.7%, which matches RNZ's own description of a gap of just over one point, and mark it ‡. The latest 1News–Verian poll (15–19 Oct, published 20 Oct) was checked against 1News' own report and RNZ's, and matches Wikipedia's polling table (checked 21 Oct 2026). Other polls in the table were checked against the publishers: 1News–Verian (8–12 Oct, published 13 Oct; and 1–5 Oct) and RNZ–Reid Research (24 Sep–1 Oct) against their own articles, Taxpayers' Union–Curia (1–5 Oct) against RNZ's 8 October report, and Roy Morgan (31 Aug–27 Sep) against Roy Morgan's 6 October release (Curia and Roy Morgan checked 13 Oct 2026; latest Verian checked 14 Oct 2026).</p></section>
 <section><h2>Known gaps and uncertainties</h2><ul>
 <li>People with fewer than 4 verified quotes: {', '.join(P[k]['name']+' ('+str(len(Q.get(k,[])))+')' for k in P if len(Q.get(k,[]))<4)}.</li>
 <li>Background facts (careers, years elected) are summarised from Wikipedia and general knowledge of the public record, and each links to its Wikipedia page. Some party-level facts are marked 'secondary source' where only Wikipedia was used.</li>
@@ -217,7 +217,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-20", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-21", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],
