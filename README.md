@@ -1,7 +1,7 @@
 # NZ Politics 2026: What they actually said
 
 **Live site:** https://hexcodex-cyber.github.io/nz-politics/
-**Last updated:** 16 October 2026 (NZ time, NZDT)
+**Last updated:** 22 October 2026 (NZ time, NZDT). See docs/CHANGELOG.md for each daily update.
 
 A static, non-partisan website profiling New Zealand's political parties and their leading figures ahead of the **7 November 2026 general election**. It focuses on what politicians have *actually said* in 2025–26. Every quote is dated, has a short neutral context line, and links to the source it was taken from.
 
