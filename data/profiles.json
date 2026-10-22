@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "NZ Politics 2026: What they actually said",
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "timezone": "Pacific/Auckland",
   "election": {
    "date": "Saturday 7 November 2026",
@@ -13,8 +13,8 @@
     ],
     [
      "Advance voting",
-     "Runs from Monday 26 October to Friday 6 November 2026. Voting is in person (online voting only for overseas voters). It opens on Labour Day, when fewer voting places will be open; Electoral Commission advice released on 18 October called the 7 November date 'challenging, but manageable' partly for that reason.",
-     "https://www.govt.nz/browse/engaging-with-government/enrol-and-vote-in-an-election/vote-in-an-election/"
+     "Runs from Monday 26 October to Friday 6 November 2026. Voting is in person (online voting only for overseas voters). 207 voting places will open on Labour Day (Monday 26 October), offering 1,437 hours of voting, and more will open closer to election day; hours vary, so check vote.nz first. On election day, Saturday 7 November, more than 2,300 voting places will be open from 9am to 7pm. EasyVote cards are not required (Chief Electoral Officer Karl Le Quesne, 22 October). Electoral Commission advice released on 18 October called the date 'challenging, but manageable', partly because voting opens on a public holiday.",
+     "https://www.rnz.co.nz/news/politics/2087122/enrolment-rate-still-short-of-last-election-with-three-days-left"
     ],
     [
      "Enrolment",
@@ -23,8 +23,8 @@
     ],
     [
      "Enrolment figures",
-     "As of 22 October, 91.2% of eligible voters were enrolled but only 65.5% of 18–24-year-olds; about 350,000 people had yet to enrol, and the Electoral Commission is aiming for the 2023 level of 94.7% (RNZ, 22 October). (RNZ's 21 October live blog gave 91.5% and 66.7% as at 17 October; the two reports do not explain the difference.) Enrol online at vote.nz, by post or at in-person enrolment hubs. Same-day enrolment during advance voting and on election day has been abolished; the Commission says voters unsure of their enrolment can cast a special vote, which counts only if they were enrolled by the deadline.",
-     "https://www.rnz.co.nz/news/politics_election-2026/2070239/just-days-left-to-enrol-to-vote-think-about-things-that-matter-to-you"
+     "As at 21 October, 3,729,667 people were enrolled, 92.1% of eligible voters, below the 94.7% reached in 2023 but already more than the 3,688,292 enrolled at that election. 18–24-year-olds remain the least enrolled (302,475, or 68.6%). These are Electoral Commission figures released on 22 October (RNZ). (An earlier RNZ report on 22 October gave 91.2% and 65.5%; the Commission's newer release supersedes it.) Enrol online at vote.nz, by post or at an enrolment hub. Same-day enrolment during advance voting and on election day has been abolished.",
+     "https://www.rnz.co.nz/news/politics/2087122/enrolment-rate-still-short-of-last-election-with-three-days-left"
     ],
     [
      "Overseas voting",
@@ -60,6 +60,7 @@
    "<strong>Leader ratings:</strong> in 1News Vote Compass (136,713 participants, 4–11 October, weighted, non-probability), no leader averaged 5 out of 10 for favourability. Hipkins was highest on 4.3, then Swarbrick 4.0, Wong 3.8, Peters 3.7 and Luxon 3.6; Seymour 3.4, Davidson 3.3, Ngarewa-Packer 2.1 and Waititi 1.9 (<a href=\"https://www.1news.co.nz/2026/10/17/how-we-rate-our-party-leaders-none-of-them-makes-it-to-5-out-of-10/\">1News, 17 Oct</a>).",
    "<strong>Health:</strong> in the 20 October 1News–Verian poll 70% of voters said the public health system is in crisis and 28% said it faces challenges but is not in crisis (<a href=\"https://www.1news.co.nz/2026/10/20/seven-in-10-believe-nz-health-system-in-crisis-1news-poll/\">1News, 20 Oct</a>). Health has become the second-biggest campaign issue after the cost of living, and dominated the final leaders' debate.",
    "<strong>Cost of living and schools:</strong> in the same 15–19 October 1News–Verian poll (published 21 October), National and Labour were tied on 28% as the party voters most trust to tackle the cost of living, ahead of the Greens (10%), ACT (7%), NZ First (6%), Opportunity (3%) and Te Pāti Māori (1%); 17% named none or did not know. 70% wanted to keep the rule that primary schools teach an hour each of reading, writing and maths every day, and 24% wanted it removed (<a href=\"https://www.1news.co.nz/2026/10/21/poll-national-labour-tied-on-cost-of-living-as-first-votes-cast/\">1News, 21 Oct</a>).",
+   "<strong>Inflation:</strong> annual inflation eased to 3.7% in the September quarter, from 4.1% (Stats NZ, 22 October), and is expected to rise again once the fuel-price spike is captured. Nicola Willis called it encouraging; Labour's Willow-Jean Prime pointed to unemployment at an 11-year high and 30,000 more people on Jobseeker; David Seymour said that without fuel prices inflation was within the Reserve Bank's band (<a href=\"https://www.rnz.co.nz/news/business/2075443/inflation-eases-to-3-point-7-percent-in-september-quarter\">RNZ</a>; <a href=\"https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october\">RNZ live blog, 22 Oct</a>).",
    "<strong>Big issues of 2026:</strong> the cost of living (made worse by a fuel-price spike linked to the 2026 Middle East conflict); tax (Labour's capital gains tax, the Greens' wealth taxes, National's 'no new taxes' pledge); two challenges to Luxon's leadership inside National (April and August); the law replacing the RMA, passed in September; Treaty and Waitangi Tribunal policy; immigration; and turmoil inside Te Pāti Māori."
   ],
   "polls": [
@@ -216,6 +217,10 @@
    "role": "Leads the Sixth National Government (since 27 November 2023) under separate coalition agreements with ACT and NZ First. Christopher Luxon is Prime Minister and Nicola Willis is Minister of Finance.",
    "policies": [
     [
+     "Housing for older people (22 October 2026, Luxon in Papamoa): at least 20% of Housing Flexible Fund places reserved for people aged 65 and over, with no extra funding; granny-flat consent exemptions extended to tiny homes on wheels and to empty sections; and the repeated promise that employers keep paying KiwiSaver for over-65s still contributing. The Christchurch Methodist Mission welcomed the ring-fencing but called for a bigger fund so families are not squeezed out.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2074549/national-promises-more-affordable-homes-for-older-people"
+    ],
+    [
      "Plan for Kiwi Kids (21 October 2026, Luxon and Erica Stanford in Pongakawa): mostly existing policies (KiwiSaver BabyBoost, screens out of ECE, the school phone ban, replacing NCEA, keeping students at school to the end of Year 11). The one new policy expands the Maths Acceleration Programme so 40,000 more Year 7–10 students can take part over three years (75,900 are already funded for 2027–29); students must be at least a year behind the curriculum.",
      "https://www.rnz.co.nz/news/politics_election-2026/2051719/national-promises-to-expand-maths-acceleration-programme"
     ],
@@ -281,6 +286,14 @@
     ]
    ],
    "events": [
+    [
+     "22 October 2026: Nicola Willis said the fall in annual inflation to 3.7% was encouraging and backed the government's choice of 'not to spend up large', blaming energy costs partly on Labour's 2018 oil and gas exploration ban.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
+    ],
+    [
+     "22 October 2026, Epsom candidates' debate: Paul Goldsmith, ranked sixth on National's list and at risk of missing out on current polling, asked Epsom voters for both ticks for National rather than voting tactically for ACT's David Seymour, and pressed Labour's Camilla Belich on whether she had visited a Mongrel Mob pad ('No, I haven't... Have you?').",
+     "https://www.rnz.co.nz/news/politics_election-2026/2090974/we-ve-got-to-do-things-differently-goldsmith-makes-his-plea-at-lively-epsom-debate"
+    ],
     [
      "21 October 2026, Bay of Plenty tour (Pongakawa, Edgecumbe, Whakatāne): Luxon was asked by his own supporters about Opportunity and again ruled it out ('I don't know how to be any clearer about it', to 1News). He told residents unhappy about Bay of Plenty toll roads that tolls would be part of 'our future going forward' and a toll strategy was coming next year, and told a resident who raised rising dairy-farm costs to 'be thankful' for record returns.",
      "https://www.rnz.co.nz/news/politics_election-2026/2067967/christopher-luxon-fronts-up-to-bay-of-plenty-residents"
@@ -409,6 +422,10 @@
    "role": "Official Opposition. Chris Hipkins (Prime Minister January to November 2023) is leader and is seeking to form a government with the Greens and, potentially, Te Pāti Māori and/or Opportunity.",
    "policies": [
     [
+     "Teacher aides (22 October 2026, Ginny Andersen): fund 1000 more teacher aides at a cost of $80m over four years and build on a 2022 review to close gaps in learning support. National's Erica Stanford said the government's $750m learning-support investment was already delivering more teacher-aide hours.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2074975/labour-promises-to-hire-1000-more-teacher-aides"
+    ],
+    [
      "Emergency departments (20 October 2026, Hipkins and Ayesha Verrall): on day one, order an immediate report on hospital beds that could be opened with more staff and on deaths and safety linked to long ED waits, and restart winter planning; reporting against the emergency medicine college's bed-access targets; move vaccine-schedule decisions from Pharmac to the Public Health Agency; more extended-care paramedics; supported early discharge for medically stable older people; and a guaranteed job for every eligible New Zealand-trained graduate nurse (about 2400 a year, from 2027). Labour says capital gains tax revenue is ringfenced for health.",
      "https://www.rnz.co.nz/news/politics_election-2026/2033653/labour-promises-shorter-ed-wait-times-immediate-review-of-unused-hospital-beds"
     ],
@@ -454,6 +471,18 @@
     ]
    ],
    "events": [
+    [
+     "22–23 October 2026: a video seen by RNZ showed Labour's Tāmaki Makaurau candidate Kerrin Leoni, in a Labour jacket, handing out flyers and telling Mongrel Mob members they 'have the power to change this government'. Leoni said it was a whānau function in early October, not a gang pad, and that she had not visited a pad during the campaign. Hipkins, who had called the Green and Te Pāti Māori gang-pad visit a 'real error of judgement', said he accepted her assurance but did not expect candidates to campaign in gang pads. Te Pāti Māori's Oriini Kaipara had raised the claim in a Whakaata Māori debate.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2087989/labour-candidate-kerrin-leoni-clarifies-whanau-function-with-gang-members"
+    ],
+    [
+     "22 October 2026, Hawke's Bay Chamber of Commerce: Hipkins said a Labour government would not stop projects already underway and funded, with a few exceptions such as the LNG import facility, criticised the cancellation of the new Interislander ferries, promised an independent curriculum centre, and said tackling drug addiction was the way to be tough on gangs.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
+    ],
+    [
+     "22 October 2026: after the CPI release, Willow-Jean Prime said 30,000 more people were on Jobseeker despite Luxon's promise to cut numbers by 50,000. Defence spokesperson Damien O'Connor told a Fabian Society meeting (21 October) that Labour would not engage on Ukraine's offer to co-develop military drones and questioned the funding for the $12b defence capability plan; National's Paul Goldsmith said officials were still advising on the drone offer.",
+     "https://www.rnz.co.nz/news/politics/2080468/labour-rejects-ukraine-drones-offer-questions-defence-upgrade-plan"
+    ],
     [
      "21 October 2026: Hipkins said Labour's fall in the 1News–Verian poll was 'only on the TV1 poll', pointing to The Post/Freshwater poll. Campaign chair Kieran McAnulty predicted 'a correction' in 1News' next poll, said neither bloc could govern without Opportunity and that Labour would not nudge its supporters towards it ('We don't do deals').",
      "https://www.1news.co.nz/2026/10/21/poll-national-labour-tied-on-cost-of-living-as-first-votes-cast/"
@@ -608,6 +637,10 @@
    ],
    "events": [
     [
+     "23 October 2026: Swarbrick told Morning Report there is 'incessant, awful nastiness' directed at MPs, particularly women of colour and Māori women, and said social media algorithms should be examined. The Speaker, Gerry Brownlee, had said the rise in threats to MPs was 'astronomical'.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2092159/election-live-hipkins-faces-questions-as-candidate-caught-on-video-with-gang-members"
+    ],
+    [
      "21 October 2026, Powerbrokers' debate: Davidson said she was the only leader on stage committed to the bottom line of changing the government, called for an end to 'David's cheap, nasty lunches', defended the Greens' wealth tax and pushed back on Peters' comments about smacking.",
      "https://www.rnz.co.nz/news/politics_election-2026/2045741/as-it-happened-election-campaign-21-october"
     ],
@@ -682,6 +715,10 @@
    "role": "Coalition partner in government. David Seymour has been Deputy Prime Minister since 31 May 2025 and is Minister for Regulation. The Regulatory Standards Act passed in November 2025.",
    "policies": [
     [
+     "Charter schools (22 October 2026, Seymour in Henderson): a target of 10,000 charter school enrolments by 2029 and a charter school option in every major town, by converting more suitable state and state-integrated schools and encouraging new ones where there is demand and a sponsor. Labour has pledged to abolish the model. As Associate Education Minister, Seymour also announced that Cabinet had agreed to a legislative framework for nature-based early childhood education.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2078887/act-wants-10-000-charter-school-enrolments-by-2029"
+    ],
+    [
      "Trades (20 October 2026, Paul Henry and Laura McClure): an 'Industry Awards' qualification alongside University Entrance for students taking two industry-led subjects and a related academic subject; about $2000 per student for each approved industry-led subject (up to two a year); STAR, Gateway, Trades Academies and Vocational Pathways merged into one uncapped system; schools keep base funding when students learn off-site. ACT says it is funded within existing education baselines.",
      "https://www.rnz.co.nz/news/politics_election-2026/2039807/stop-railroading-children-act-backs-trades-training-alternative-to-university-entrance"
     ],
@@ -723,6 +760,14 @@
     ]
    ],
    "events": [
+    [
+     "22 October 2026: Seymour stood by his Powerbrokers' debate claim that some doctors sign people onto the sickness benefit when they do not need it, saying his evidence was people telling him it happened. Dr Luke Bradford, president of the Royal College of GPs, called the claim 'political rhetoric'.",
+     "https://www.rnz.co.nz/news/politics/2087037/doctor-calls-act-s-claims-beneficiaries-are-getting-false-medical-certificates-political-rhetoric"
+    ],
+    [
+     "22 October 2026, Epsom candidates' debate: Seymour said Goldsmith was talking down National's chances and that Epsom 'belongs, and has always belonged, to the people of Epsom'.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2090974/we-ve-got-to-do-things-differently-goldsmith-makes-his-plea-at-lively-epsom-debate"
+    ],
     [
      "21 October 2026, Powerbrokers' debate: Seymour said he was no longer campaigning on the Treaty Principles Bill this election but expected the issue to return; said National's right-to-silence policy came from 'a very warm heart' but the details had not been thought through; defended the move-on orders law and clashed with Wong over Opportunity's land tax.",
      "https://www.rnz.co.nz/news/politics_election-2026/2045741/as-it-happened-election-campaign-21-october"
@@ -802,6 +847,10 @@
    "role": "Coalition partner in government. Peters is Minister of Foreign Affairs (and was Deputy PM until May 2025). Shane Jones holds Resources, Regional Development and Oceans and Fisheries.",
    "policies": [
     [
+     "Law and order (22 October 2026, Peters in West Auckland): a degrees-of-murder regime raising the minimum non-parole period from 10 to 20 years, life without parole for first-degree murder and for the rape or murder of children, an eight-year minimum non-parole period for fatal 'coward punches', investigating 'stand your ground' self-defence laws, and replacing the Serious Fraud Office with a Police division plus a dedicated organised crime agency.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2087703/election-26-nz-first-pledges-tough-sentences-for-serious-crime"
+    ],
+    [
      "Defence (reported by the NZ Herald on 21 October 2026; written by former defence minister Ron Mark): defence spending of 3% of GDP by 2032, merging the Army, Navy and Air Force headquarters into a Joint Defence Command, a Marine Force of up to 1200, 12,500 regular personnel, 6000 reservists and 4000 civilians, a 90-day recruitment pipeline, a cap on senior executive pay and 'strictly merit' appointments. Mark could not say whether it would survive coalition talks.",
      "https://www.nzherald.co.nz/nz/politics/nz-firsts-defence-plan-enforce-warrior-mentality-no-diversity-hires-and-spending-3-of-gdp/7GTWFAHFIVAEJLQAW6FNGCZBPY/"
     ],
@@ -859,6 +908,10 @@
     ]
    ],
    "events": [
+    [
+     "22 October 2026: Peters said he respected the 18 Pacific Islands Forum countries' decision to make Israel a partner and was 'horrified' by those criticising it. At the Epsom debate the same night, Green MP Lawrence Xu-Nan denied Peters' claim that the two had spoken directly about Peters' comments to him in the House.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
+    ],
     [
      "21 October 2026, Powerbrokers' debate: Peters said he had 'thoroughly deserved' the smackings he got as a child, ruled out working with Labour even under Kieran McAnulty or Barbara Edmonds, said Luxon calling him a 'numpty or a yahoo' was 'just inexperience', called Luxon's $30b estimate for buying back BNZ 'rubbish', and called himself a nationalist against 'globalists'.",
      "https://www.nzherald.co.nz/nz/politics/nz-herald-powerbrokers-debate-2026-most-outrageous-moments-clashes-and-political-digs/B4ORKKFY4ZEIJH65XUAEQATRAU/"
@@ -1051,6 +1104,10 @@
    ],
    "events": [
     [
+     "22 October 2026: Opportunity founder Gareth Morgan told TVNZ's Breakfast the party should not join a coalition with either side but sit on the cross benches, warned it must keep centre-right voters, and said Luxon would have to say 'sorry, I lied' or be replaced after the election. The same day, Wong said she had felt 'relatively safe' campaigning thanks to police support, though online comments were a different story.",
+     "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
+    ],
+    [
      "21–22 October 2026: at the Powerbrokers' debate Wong said recommitting to the Paris climate agreement and keeping the Māori seats are bottom lines, said it was 'sad' that a party's bottom line could be getting rid of the government, and criticised Peters' 'diversity is weakness' remarks. Afterwards she told RNZ Opportunity would go into opposition rather than support, even to first reading, policies it disagrees with, naming NZ First's BNZ buyback, ACT's minimum wage freeze, National's drug testing of beneficiaries and abolishing the Waitangi Tribunal.",
      "https://www.rnz.co.nz/news/politics_election-2026/2067964/we-ve-been-really-generous-opportunity-s-qiulae-wong-on-bottom-lines"
     ],
@@ -1120,46 +1177,46 @@
    "note": null,
    "quotes": [
     {
-     "text": "As I said, I've ruled out Opportunity. I don't know how to be any clearer about it.",
-     "date": "2026-10-21",
-     "context": "To 1News in Pongakawa, after a supporter said they expected him to work with Opportunity after the election.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/21/poll-national-labour-tied-on-cost-of-living-as-first-votes-cast/"
+     "text": "Not every senior can - or wants to - move to a retirement village. New Zealand needs many more low cost, affordable pensioner housing units.",
+     "date": "2026-10-22",
+     "context": "Announcing National's housing pledge for older people at Pacific Lakes Retirement Village, Papamoa.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2074549/national-promises-more-affordable-homes-for-older-people"
     },
     {
-     "text": "We know that what we've been doing is the right stuff. We just want more time, and we need another three years to get the job done.",
+     "text": "You've got partners that want to be in coalition with the Mongrel Mob, my friend.",
      "date": "2026-10-20",
-     "context": "Campaigning on the day the India FTA came into force, asked about the 1News–Verian poll.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
-    },
-    {
-     "text": "I announced very clearly to you back then when the election date would be, and yeah, there's a number of dates it could be. We picked this date. It's as simple as that.",
-     "date": "2026-10-18",
-     "context": "Responding to RNZ's report that the Electoral Commission had called 7 November 'challenging, but manageable' and favoured other dates.",
+     "context": "Final Stuff leaders' debate, replying after Hipkins criticised Luxon's foreign minister.",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1987931/opposition-parties-raise-concerns-over-what-they-say-is-voter-suppression"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2042865/chrises-clash-on-health-homelessness-cost-of-living-in-last-leaders-debate"
     },
     {
-     "text": "New Zealand's biggest solar farm officially opened today. And the good news is, National will make it easier for both homeowners and renters to generate their own cheap power too.",
-     "date": "2026-10-15",
-     "context": "X post after opening the $273m Kōwhai Park solar farm beside Christchurch Airport, promoting National's Home Energy Fund (opening of a longer post).",
+     "text": "I'm hoping that we can get something put together before Christmas - would be ideal. But frankly, it'll take as long as it takes.",
+     "date": "2026-10-19",
+     "context": "RNZ Morning Report weekly interview, asked whether coalition talks would be finished by Christmas. He said formal talks would probably wait for the official count on 27 November (RNZ).",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2017956/coalition-by-christmas-don-t-bet-on-it"
+    },
+    {
+     "text": "It was stuck for years and years. National’s fast-track got it approved in five months. That’s clean, local power for around 12,000 homes.",
+     "date": "2026-10-16",
+     "context": "X post from Westpower in Greymouth about the Waitaha hydro scheme.",
      "source": "X post",
-     "url": "https://x.com/chrisluxonmp/status/2110575862525649066"
+     "url": "https://x.com/chrisluxonmp/status/2110853695210741953"
     },
     {
-     "text": "They were in the room where it happened, as Hamilton would say, and I'm not quite sure what they're banging on about today, because that is not quite right.",
+     "text": "You don't always express yourself clearly or well enough, and sometimes you can do better. I'm a case in point of that. Over the last three years, I think I've illustrated that well.",
      "date": "2026-10-14",
-     "context": "Responding to coalition partner NZ First's fast-track housing policy, which he called 'quite bizarre' because it was already law.",
+     "context": "Opening of the NZ Herald leaders' debate, 14 Oct, responding to criticism of his 'corporate-speak' (RNZ debate data analysis).",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1887394/nz-first-wants-to-change-fast-track-regime-to-save-kiwis-suffering-through-developments"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1916478/chris-hipkins-leaders-debate-strategy-let-luxon-talk-himself-into-trouble"
     },
     {
-     "text": "We want to work with parties that want no new taxes. It's as simple as that.",
-     "date": "2026-10-06",
-     "context": "Holding to his rule-out of working with the Opportunity Party, citing its land value tax.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+     "text": "If you can work, you should. Welfare should be firm, fair and affordable. A safety net for Kiwis who need it, not a system that gets abused at taxpayers' expense.",
+     "date": "2026-10-08",
+     "context": "X post announcing National's Jobseeker changes, including random drug testing (posted 8 Oct NZT).",
+     "source": "X post",
+     "url": "https://x.com/chrisluxonmp/status/2107949741086765497"
     },
     {
      "text": "There was a confidence vote in my leadership this morning at our caucus meeting, and I have the full support of our caucus. And our caucus is united, and it is determined to win this election.",
@@ -1200,18 +1257,18 @@
    "note": null,
    "quotes": [
     {
-     "text": "The priorities for tax reform are more money in the back pockets of workers and then ensuring that our tax system encourages businesses to innovate, to be productive, and to make investments.",
-     "date": "2026-10-14",
-     "context": "Ahead of the ASB finance spokesperson debate in Queenstown, signalling interest in future business tax relief once books allow.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1885365/finance-leaders-set-to-debate-as-nicola-willis-hints-at-future-business-tax-relief"
+     "text": "We have been fixing the underlying foundations, and New Zealand will be seeing the rewards if we stick to the plan.",
+     "date": "2026-10-22",
+     "context": "Media stand-up on the September-quarter inflation figures (RNZ live blog).",
+     "source": "RNZ live blog",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
     },
     {
-     "text": "New Zealand’s lack of a capital gains tax is a real competitive advantage over Australia, and we should embrace that by not introducing one.",
-     "date": "2026-10-13",
-     "context": "National release announcing five first-100-days commitments aimed at keeping young New Zealanders at home or bringing them back.",
-     "source": "National Party",
-     "url": "https://www.national.org.nz/news/261013-nicolawillis"
+     "text": "I'm really interested in the R&D tax credit, which has been successful in encouraging firms to invest in innovation, and there's potential for expanding that. And I think over time, looking at that top-line corporate rate, yes, we're not as competitive as we would like to be with the rest of the developed world.",
+     "date": "2026-10-14",
+     "context": "Same RNZ interview on corporate tax and R&D credits.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1885365/finance-leaders-set-to-debate-as-nicola-willis-hints-at-future-business-tax-relief"
     },
     {
      "text": "While our fiscal plan shows a pathway to potential tax relief for working New Zealanders, now is not the time to cut taxes.",
@@ -1228,18 +1285,18 @@
      "url": "https://www.national.org.nz/news/261004-nicolawillis"
     },
     {
-     "text": "It's a Budget that does what's right for the country... this is not a time to be getting us further into the hock, to be whacking another set of bills on the credit card.",
-     "date": "2026-05-29",
-     "context": "RNZ Morning Report, asked whether a restrained Budget was risky in election year.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
+     "text": "I have looked at what the banks are being taxed at now and measures for changing that, and there are no other measures that I can see won't result in additional costs for Kiwis.",
+     "date": "2026-08-23",
+     "context": "Explaining why National dropped a bank tax under its 'no new taxes' pledge.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/08/23/luxon-vows-no-new-taxes-dumping-ideas-for-bank-and-bed-tax/"
     },
     {
-     "text": "New Zealand is digging its way out of the post-Covid hole.",
-     "date": "2026-05-28",
-     "context": "Delivering Budget 2026.",
+     "text": "I will go to the campaign trail as the National Party finance spokesperson with my view on what would be appropriate, well signalled, fair, transparent, gradual, gradual changes to New Zealand superannuation.",
+     "date": "2026-05-29",
+     "context": "Post-Budget, on NZ Super costs rising; she added: \"I haven't been able to convince my coalition partners yet, but I retain hope.\"",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/business/596612/budget-2026-new-zealand-digging-its-way-out-of-the-post-covid-hole-finance-minister-says"
+     "url": "https://www.rnz.co.nz/news/politics/596665/just-need-to-vote-for-it-nicola-willis-ends-budget-speech-with-call-to-arms-for-supporters"
     },
     {
      "text": "Kiwis can look forward with confidence, they just need to choose it, they just need to vote for it.",
@@ -1502,53 +1559,53 @@
    "note": null,
    "quotes": [
     {
-     "text": "I know you guys don't like to admit that your competitors might have a point, but if you look at the Freshwater poll that was carried by The Post yesterday, it said exactly the opposite.",
-     "date": "2026-10-21",
-     "context": "Asked in Hamilton about Labour's fall in the 1News–Verian poll.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/21/poll-national-labour-tied-on-cost-of-living-as-first-votes-cast/"
+     "text": "I have not asked her for a detailed breakdown of every interaction that she's had with members of her own family, but she did say yesterday that she had not visited a gang pad as part of her election campaigning, and I have absolutely accepted that.",
+     "date": "2026-10-22",
+     "context": "In Napier, asked about candidate Kerrin Leoni's contact with Mongrel Mob members.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2087989/labour-candidate-kerrin-leoni-clarifies-whanau-function-with-gang-members"
     },
     {
-     "text": "It's not right to say that future generations of New Zealanders should pay for the retirement of today's retirees and then not get that themselves.",
+     "text": "That was a mistake. Supporting meth addiction is absolutely something governments should do, but giving the money to the gangs is wrong.",
      "date": "2026-10-20",
-     "context": "Final Stuff leaders' debate, saying Labour would keep the super age at 65.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/2042865/chrises-clash-on-health-homelessness-cost-of-living-in-last-leaders-debate"
+     "context": "Morning Report, on the former Labour government funding the Mongrel Mob-run Kahukura programme (RNZ live blog).",
+     "source": "RNZ live blog",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2031337/election-2026-as-it-happened-20-oct-luxon-and-hipkins-face-off-in-final-leaders-debate"
     },
     {
-     "text": "Too much of childhood is being spent on screens, while sport, hobbies and other after-school activities are out of reach for too many families.",
-     "date": "2026-10-18",
-     "context": "Announcing Labour's $7m-a-year Kids Off Screens policy (RNZ).",
+     "text": "I have no time for the gangs. They will not get any support from any government that I lead.",
+     "date": "2026-10-19",
+     "context": "Rejecting Oriini Kaipara's promise to 'restore mana' to Mongrel Mob members; he also said Labour would not support changes to the gang patch ban (RNZ).",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1985304/labour-pledges-7-million-to-get-kids-off-screens-and-back-to-being-kids"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2018789/te-pati-maori-s-oriini-kaipara-on-gangs-i-see-whanau"
     },
     {
-     "text": "I think it was really, really ill considered, they made a real error of judgement here.",
-     "date": "2026-10-15",
-     "context": "Speaking in Rotorua about Green and Te Pāti Māori candidates posing for photos at a Mongrel Mob election hui. He also said any of his potential ministers who did so 'wouldn't be a member of the cabinet'.",
+     "text": "Under our government, we achieved record low unemployment despite some of the most challenging economic conditions any government in New Zealand has faced ... we saved people's jobs [and] we've now got a government that celebrates losing them",
+     "date": "2026-10-16",
+     "context": "Labour rally in Kelston, West Auckland, on the evening of Thursday 15 October; RNZ report published early on 16 October.",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1923070/greens-marama-davidson-doubles-down-amid-outrage-over-gang-visit"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1940271/labour-supporters-told-to-harness-hope-and-rage-national-voters-fear-handout-society"
     },
     {
-     "text": "This is why people don't trust what you say.",
+     "text": "You celebrate cutting jobs. I want to create them.",
      "date": "2026-10-14",
-     "context": "NZ Herald (NZME) leaders' debate with Chris Hipkins, 14 Oct evening, as reported in RNZ's analysis. Accusing Luxon of lying after Luxon's warning that New Zealanders would 'pay' for Labour's capital gains tax.",
+     "context": "NZ Herald (NZME) leaders' debate with Chris Hipkins, 14 Oct evening, as reported in RNZ's analysis. Pointing to 48,000 more people unemployed than when Luxon took office. RNZ reports the two sentences either side of 'he chided Luxon'.",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1912632/debate-doubts-does-anyone-believe-the-two-chrises"
     },
     {
-     "text": "I've had three years to prepare. I am running on a platform that I believe in. I'm campaigning to make changes that I passionately believe in.",
-     "date": "2026-10-11",
-     "context": "Otago Daily Times leader interview with political editor Mike Houlahan",
-     "source": "Otago Daily Times",
-     "url": "https://www.odt.co.nz/news/national/hipkins-20-campaigning-on-his-own-platform-m2cgqbbj"
+     "text": "Cost should never be a barrier to a good education. We're focused on making life more affordable for families.",
+     "date": "2026-10-12",
+     "context": "Announcing Labour's policy to cut school uniform costs",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1857589/labour-plans-to-cut-school-uniform-costs-and-allow-affordable-generic-options"
     },
     {
-     "text": "Backstabbing and infighting just means more delay and more distraction for New Zealand. If National can't govern itself, how can New Zealanders trust it to govern the country?",
-     "date": "2026-08-12",
-     "context": "Media release after Luxon survived the Penk leadership challenge.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/08/12/pm-wins-leadership-vote-after-challenge-fails-penk-wont-seek-re-election/"
+     "text": "Neo-liberal, trickledown economics does not work.",
+     "date": "2026-09-27",
+     "context": "Campaign launch, announcing a 10% write-off of eligible student loan balances.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1615271/it-made-me-so-angry-hipkins-targets-cost-of-living-at-labour-campaign-launch"
     },
     {
      "text": "#BREAKING: Labour will provide three free doctor's visits a year for everyone, delivered via a brand new Medicard and funded by a targeted tax on property profits, excluding the family home.",
@@ -1876,18 +1933,18 @@
    "note": null,
    "quotes": [
     {
-     "text": "The point of this exercise was just to demonstrate that something can sound really good on the political hustings when it comes to taking tax off this or that but it is really important we have thorough economic analysis so people understand the distributional impacts.",
-     "date": "2026-10-22",
-     "context": "On Green-commissioned analysis of ACT's KiwiSaver tax policy.",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/2069818/would-kiwisaver-tax-change-just-help-wealthy"
+     "text": "Someone is profiting handsomely from driving people into more and more conflict.",
+     "date": "2026-10-23",
+     "context": "Morning Report, on threats and abuse directed at MPs and the role of social media algorithms (RNZ live blog).",
+     "source": "RNZ live blog",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2092159/election-live-hipkins-faces-questions-as-candidate-caught-on-video-with-gang-members"
     },
     {
-     "text": "Low pay, insecure work, and a lack of pastoral support mean that instead of focusing on learning their trade, our apprentices spend too much time worried about making ends meet. We can fix that.",
-     "date": "2026-10-17",
-     "context": "Announcing the Greens' policy to abolish the training wage (80% of the minimum wage) for apprentices and trainees.",
+     "text": "We now have a situation where a government made active decisions to knowingly potentially disenfranchise up to 400,000 New Zealanders from exercising their democratic right to vote.",
+     "date": "2026-10-18",
+     "context": "Speaking to reporters about the government's removal of same-day enrolment, as the 25 October enrolment deadline nears (RNZ). The 400,000 figure is her claim.",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1968685/greens-propose-to-abolish-training-wage"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1987931/opposition-parties-raise-concerns-over-what-they-say-is-voter-suppression"
     },
     {
      "text": "From Auckland to Queenstown, mayors don't care about central government politicians' squabbles about whether a levy is a tax. They want the tools to fund the infrastructure tourism requires and we will ensure they have them.",
@@ -1904,18 +1961,18 @@
      "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     },
     {
-     "text": "He's talking about the Hunger Games!",
+     "text": "We could just implement a wealth tax so that we don't have to have our public services relying on the charity and therefore the discretion, the choices of incredibly wealthy people about who survives and who does not.",
      "date": "2026-10-13",
-     "context": "Multi-Party Debate, after Seymour defended philanthropy funding public institutions.",
+     "context": "Multi-Party Debate, responding to ACT's plan for a philanthropically backed cancer hospital.",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     },
     {
-     "text": "The polls are going to continue to bounce around at the margins over the next few weeks, and this is why it's really important to understand that nothing is set in stone.",
-     "date": "2026-10-06",
-     "context": "Reacting to a 1News–Verian poll with the Greens on 16%; she said the Greens would \"very clearly\" work with Labour.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
+     "text": "Nothing about this technology is inevitable, neither the claims of existential destruction by tech billionaires nor the devastation of the financial bubble bursting forecast by economists.",
+     "date": "2026-10-12",
+     "context": "Announcing the Greens' policy to regulate artificial intelligence",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1858931/we-don-t-work-for-ai-greens-vow-to-regulate-artificial-intelligence"
     },
     {
      "text": "Congratulations, they are incredibly lucky to be an individual that is inheriting an excess of $2 million.",
@@ -2147,6 +2204,13 @@
    "note": null,
    "quotes": [
     {
+     "text": "There is no one type of charter school for one type of student, and that is the point.",
+     "date": "2026-10-22",
+     "context": "Announcing ACT's target of 10,000 charter school enrolments by 2029, in Henderson.",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2078887/act-wants-10-000-charter-school-enrolments-by-2029"
+    },
+    {
      "text": "I believe it will come back in five years, ten years, sooner or later that tension needs to be resolved, but I'm not campaigning on it this election.",
      "date": "2026-10-21",
      "context": "NZ Herald Powerbrokers' debate, on his Treaty Principles Bill (RNZ live blog).",
@@ -2161,39 +2225,32 @@
      "url": "https://x.com/dbseymour/status/2112300694778880407"
     },
     {
-     "text": "The pension is linked to the wages. The only way we can help pensions in the real world is to raise wages through a stronger economy, get inflation under control, so things cost you less.",
-     "date": "2026-10-17",
-     "context": "Answering a pensioner's question about support for disabled pensioners at the Warkworth Kōwhai Festival (RNZ live blog).",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1967290/as-it-happened-election-campaign-17-october"
+     "text": "some four-headed beast rather than [Green co-leaders] Chlöe [Swarbrick] and Marama [Davidson] running the country from the Mongrel Mob headquarters, then that’s probably a good outcome",
+     "date": "2026-10-15",
+     "context": "Public meeting in Wānaka, asked how ACT would work with Opportunity in a right-leaning bloc. Fragment as reported by the NZ Herald; he added that he doubted Opportunity would make it into Parliament. National has ruled Opportunity out.",
+     "source": "NZ Herald",
+     "url": "https://www.nzherald.co.nz/nz/politics/act-leader-david-seymour-would-work-with-opportunity-if-it-kept-labour-out/AIXMTDFRHNFQVAEXAX7JCAKPDQ/"
     },
     {
-     "text": "It's like two bald men fighting over a comb in the middle there.",
+     "text": "If cashflow is tight, it's much harder to carry out essential repairs if the tax deduction is delayed for years.",
      "date": "2026-10-14",
-     "context": "ASB finance debate in Queenstown, 14 Oct evening, as reported by RNZ. On the clash between Willis and Edmonds over Investment Boost.",
+     "context": "Announcing ACT's policy to let landlords offset rental losses against other income.",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1905390/what-we-learnt-from-a-rough-and-tumble-finance-debate"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1888418/act-promises-tax-relief-for-landlords-with-offset-rental-losses"
     },
     {
-     "text": "It's an unfortunate thing to get cancer, but you shouldn't feel that it was bad luck to be born a Kiwi.",
+     "text": "You don't get higher wages from the government passing a law. You get it from risk taking and investment and innovation, people upskilling so they can produce more and get paid more.",
      "date": "2026-10-13",
-     "context": "TVNZ Multi-Party Debate, defending ACT's philanthropically backed cancer hospital plan.",
+     "context": "Multi-Party Debate, defending ACT's preference to freeze the minimum wage.",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     },
     {
-     "text": "Now, there's one of two failings: either New Zealand has become a much sicker place in the last seven years, or we have got a lot worse at managing and helping people who could be working. And I suspect it's the latter.",
-     "date": "2026-10-12",
-     "context": "Defending ACT's fiscal-plan proposal to cut disability benefit spending through independent medical certification",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1862835/act-s-disability-cuts-poorly-researched-mental-health-foundation"
-    },
-    {
-     "text": "In my experience, voters are often busy, but they're not stupid, and it's never wise to talk down to them.",
-     "date": "2026-09-28",
-     "context": "Responding to Luxon calling strategic vote-splitting \"insanely stupid\"; he said \"both votes belong to the voter\".",
-     "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1631392/act-nz-first-hit-back-at-national-s-warning-against-strategic-voting"
+     "text": "National's energy policy has near perfect overlap with ours released last week. It bodes well for a re-elected coalition acting together to make energy abundant and affordable.",
+     "date": "2026-10-02",
+     "context": "X post on National's energy plan.",
+     "source": "X post",
+     "url": "https://x.com/dbseymour/status/2105765794701561867"
     },
     {
      "text": "ACT will finish the settlements and wind up the Waitangi Tribunal. The Waitangi Tribunal has been part of New Zealand's constitutional landscape for more than fifty years. It has made an important contribution, particularly in helping address historical grievances.",
@@ -2441,39 +2498,39 @@
      "url": "https://www.rnz.co.nz/news/politics_election-2026/2070172/election-live-gp-explains-why-no-party-has-a-credible-primary-healthcare-plan"
     },
     {
-     "text": "You've got members of Parliament saying the gangs are justified in their behaviour, because they're the victim of what? Colonisation? I've never heard such a disgraceful statement made.",
-     "date": "2026-10-20",
-     "context": "Speaking to media in Auckland about political tension and safety (RNZ live blog).",
-     "source": "RNZ live blog",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/2031337/election-2026-as-it-happened-20-oct-luxon-and-hipkins-face-off-in-final-leaders-debate"
+     "text": "No, no ... as a child, I got a few smackings and guess what? I thoroughly deserved them. Make no bones about it.",
+     "date": "2026-10-21",
+     "context": "NZ Herald Powerbrokers' debate, asked about NZ First's position on the anti-smacking law.",
+     "source": "NZ Herald",
+     "url": "https://www.nzherald.co.nz/nz/politics/nz-herald-powerbrokers-debate-2026-most-outrageous-moments-clashes-and-political-digs/B4ORKKFY4ZEIJH65XUAEQATRAU/"
     },
     {
-     "text": "We did release our plan. Guess what it's called? It's a collective plan we got together called the Budget 2026. And there are refinements we'll give you in this election campaign, and in every case we've given you the costings.",
-     "date": "2026-10-17",
-     "context": "Defending NZ First's decision not to release a separate fiscal plan; Labour, National and ACT have released theirs and the Greens' is due next week (RNZ live blog).",
+     "text": "We are not proposing to spend years and millions of dollars studying whether Cantabrians might catch a train. We are proposing to put the trains on and find out.",
+     "date": "2026-10-18",
+     "context": "Announcing in Christchurch NZ First's 12-month commuter rail trial for Canterbury (RNZ).",
      "source": "RNZ",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1967290/as-it-happened-election-campaign-17-october"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1989296/the-railway-lines-are-already-here-nz-first-backs-commuter-rail-trial-in-canterbury"
     },
     {
-     "text": "We've won many battles, but our mission is not complete. We've got the team, we've got the policies, and now we need you. This election, give us the tools and we will finish the job.",
-     "date": "2026-10-15",
-     "context": "Campaign X post asking for NZ First's party vote.",
+     "text": "We are a nationalist party who puts New Zealand and New Zealanders first.",
+     "date": "2026-10-16",
+     "context": "Closing line of the same aluminium post.",
      "source": "X post",
-     "url": "https://x.com/winstonpeters/status/2110607350516326842"
+     "url": "https://x.com/winstonpeters/status/2110881349397835850"
     },
     {
-     "text": "Well, we'll get more votes in this election. We're going to win that debate.",
+     "text": "It's a fantastic idea until you make it coercive and force it down people's throats ... If I'm getting on a train downtown and I'm in a hurry and I don't speak Māori, I'm not going to know where to go to because they decided to change all the names downtown.",
      "date": "2026-10-13",
-     "context": "Multi-Party Debate, asked who would win a coalition 'arm wrestle' on the minimum wage.",
+     "context": "TVNZ Multi-Party Debate, on compulsory te reo Māori and Māori station names.",
      "source": "1News",
      "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     },
     {
-     "text": "The Opportunist Party \"bottom lines\" are more like a \"wrinkly derrière\".",
-     "date": "2026-09-29",
-     "context": "X post responding to the Opportunity Party's five non-negotiable policies.",
-     "source": "X post",
-     "url": "https://x.com/winstonpeters/status/2104679977593774519"
+     "text": "They're the mainstream media's party, and you guys are no good at politics.",
+     "date": "2026-10-06",
+     "context": "Predicting the Opportunity Party would fall short of 5%, after a 1News–Verian poll put it on 7%.",
+     "source": "1News",
+     "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
      "text": "After days of speculation and distraction it has boiled down to 'much ado about nothing'.",
@@ -3053,11 +3110,11 @@
    "note": null,
    "quotes": [
     {
-     "text": "I want to be clear: we are not here to prop up the current coalition government. If that coalition agreement was put in front of us, we would have walked away.",
-     "date": "2026-10-21",
-     "context": "Morning Report interview (RNZ live blog).",
+     "text": "I have actually felt relatively safe, I've been really supported by the police.",
+     "date": "2026-10-22",
+     "context": "In Christchurch, asked about candidate safety after the attack on Australian MP Helen Haines (RNZ live blog).",
      "source": "RNZ live blog",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/2045741/election-live-morning-report-s-health-debate-after-last-night-s-leaders-debate"
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2070172/as-it-happened-election-campaign-22-october"
     },
     {
      "text": "We will reach out if he doesn't call us and give him one last chance to have that conversation, and if he doesn't want to, if he really wants to be in opposition, then we will go and speak to Labour next.",
@@ -3067,11 +3124,11 @@
      "url": "https://www.1news.co.nz/2026/10/20/poll-national-jumps-leaving-labours-position-perilous/"
     },
     {
-     "text": "I would say I am more optimistic than not that we will be there, but again, we are potentially making history here.",
+     "text": "It is always politically difficult, but I think New Zealanders are ready for an honest conversation about superannuation.",
      "date": "2026-10-13",
-     "context": "On Opportunity's rise to 8% in the 1News–Verian poll.",
-     "source": "1News",
-     "url": "https://www.1news.co.nz/2026/10/13/poll-hipkins-and-luxon-now-neck-and-neck-opportunity-on-track-for-10-mps/"
+     "context": "Responding to National's fiscal plan (reported by RNZ)",
+     "source": "RNZ",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1865995/national-adamant-its-superannuation-stance-has-not-changed"
     },
     {
      "text": "Imagine how many of those most egregious things that have happened in the last three years the Greens could have stopped if they were willing to work with National.",
@@ -3081,9 +3138,9 @@
      "url": "https://www.1news.co.nz/2026/10/13/you-poor-thing-six-big-moments-from-the-multi-party-debate/"
     },
     {
-     "text": "It demonstrates some of the really corrosive nature of politics at the moment, that that caused such an uproar amongst some groups of people. Of course we've all voted across the political spectrum, particularly in a party like Opportunity, where we are a party of people that have historically been politically homeless.",
+     "text": "No, I don't believe him. Because he would rather be in government than in opposition. I assume. I can't say that for him.",
      "date": "2026-10-09",
-     "context": "On controversy about candidates' past votes for other parties",
+     "context": "Responding to Christopher Luxon ruling out working with Opportunity at TVNZ's leaders' debate",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics/1809836/opportunity-leader-qiulae-wong-doesn-t-believe-luxon-rule-out"
     },
@@ -3095,9 +3152,9 @@
      "url": "https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/"
     },
     {
-     "text": "We are here for unity, innovation and nature, not for the next three years but for generations to come.",
+     "text": "We will not support a government that walks away from our international obligations or undermines the independent Climate Change Commission.",
      "date": "2026-09-29",
-     "context": "Same announcement",
+     "context": "Same announcement (Paris Agreement bottom line)",
      "source": "RNZ",
      "url": "https://www.rnz.co.nz/news/politics_election-2026/1643401/health-supermarkets-and-political-lobbying-among-opportunity-party-s-bottom-lines"
     },

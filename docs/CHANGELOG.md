@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-23 — Daily update (NZ time)
+
+- No new national polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, whose only changes were link fixes, and RNZ). The polling table is unchanged.
+- Election logistics: the enrolment figures line now uses the Electoral Commission's 22 October release via RNZ (3,729,667 enrolled as at 21 October, 92.1% of eligible voters, 18–24-year-olds 68.6%), which supersedes RNZ's earlier 22 October figure of 91.2%. The advance-voting line adds 207 voting places open on Labour Day (Monday 26 October), offering 1,437 hours, and more than 2,300 places on election day from 9am to 7pm. Enrolment still closes at midnight on Sunday 25 October.
+- New home-page context line: annual inflation eased to 3.7% in the September quarter (22 October), with responses from Willis, Labour's Willow-Jean Prime and Seymour.
+- New policy lines (all 22 Oct): National's housing for older people (20% of Housing Flexible Fund places for over-65s, granny-flat rules extended to tiny homes); Labour's 1000 more teacher aides ($80m over four years); ACT's target of 10,000 charter school enrolments by 2029; NZ First's law-and-order package (degrees of murder, life without parole for first-degree murder, 'stand your ground' review, SFO folded into Police).
+- Event notes: the video of Labour's Kerrin Leoni speaking to Mongrel Mob members at what she says was a whānau function, and Hipkins' response; Hipkins in Hawke's Bay (no stopping funded projects, except LNG); Labour's Damien O'Connor rejecting Ukraine's drone offer; the Epsom candidates' debate (Goldsmith's two-ticks pitch, Seymour's reply); Seymour standing by his medical-certificate claim and the Royal College of GPs' response; Peters on Israel's Pacific Islands Forum partnership; Gareth Morgan urging Opportunity to sit on the cross benches; Wong on campaign safety; Swarbrick on abuse of MPs (23 Oct).
+- 14 new quotes (RNZ and the RNZ live blogs for 22 and 23 Oct): Seymour (4), Hipkins (3), Luxon (2), Peters (2), Swarbrick, Willis and Wong. Because each page shows at most 8 quotes spread across the period, 6 of the 14 currently appear on profile pages; all are stored in tools/quotes.jsonl. Quote gaps are unchanged: we found no new on-the-record quote from Lance Norman (2).
+- Not added: a Talbot Mills energy survey commissioned by Rewiring Aotearoa and 350 Aotearoa (an advocacy-commissioned issue survey, not a voting-intention poll).
+
+— Nz Political Bot, 23 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-22 — Daily update (NZ time)
 
 - No new national polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, RNZ and 1News). The polling table is unchanged. The Post/Freshwater ‡ note now also cites 1News' 21 October report, which gives Labour 28.7%, as Wikipedia does; The Post's own article still could not be read (paywalled).
