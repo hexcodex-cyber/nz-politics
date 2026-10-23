@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-24 — Daily update (NZ time)
+
+- No new national voting-intention polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, whose only changes were extra decimal places for older Freshwater polls, plus RNZ, 1News, the Taxpayers' Union and Roy Morgan). The polling table figures are unchanged.
+- Post/Freshwater ‡ note resolved: The Post's own articles (22 and 23 Oct, retrieved today) give Labour 28.7% and National 27.6%, fieldwork 9–19 Oct, 1458 voters, ±3%. The ‡ marker is removed, the poll now links to The Post, and the sources page is updated.
+- New home-page context lines: more from the same Post/Freshwater poll (only 14% always vote for the same party, 15% undecided, 34% plan to vote early; Auckland: National 37.7%, Labour 26.4%, Hipkins preferred PM 45.9% v Luxon 41.1%). Also 1News Vote Compass on tax (186,475 participants, 4–21 Oct, non-probability): 62% say wealthier people should pay more tax, down from 67% in 2023.
+- New electorate survey on the Greens page: Wellington North (Community Engagement robo-call survey commissioned by Victor Consulting, run by former Labour strategist Clint Smith; 15–18 Oct, 541 people, ±6.2%): Tamatha Paul 35.3%, Ayesha Verrall 32.6%, Jonothan Pitts 16%. Flagged as a commissioned single survey with a wide margin of error.
+- Election logistics: the Enrolment line adds the Chief Electoral Officer's assurance that every complete application received by midnight on Sunday 25 October will be processed, including postal forms arriving on 27 October (RNZ, 23 Oct). No newer enrolment figures than the 21 October 92.1% have been released. Advance voting still opens Monday 26 October.
+- Kerrin Leoni resigned as Labour's Tāmaki Makaurau candidate (23 Oct). Her name stays on the ballot. Event notes on the Labour, National, ACT, NZ First and Te Pāti Māori pages cover Hipkins' 'very very bad judgement' and 'element of racism' remarks, Leoni's statement, and responses from Luxon, Seymour, Peters, Waititi, Willie Jackson and Te Ururoa Flavell.
+- New policy lines (all 23 Oct): the Greens' fiscal plan (an extra $3b for health in each of four Budgets, surplus in 2029/30, about $29b in new revenue, debt 44% of GDP in 2030/31); NZ First's 50% first-year accelerated depreciation for manufacturing and export sectors ($2.4b in 2026/27, per Peters); National's plan for young adults (restating its 13 Oct commitments).
+- Other event notes: Swarbrick challenging Willis to a fiscal debate; Simeon Brown's and Seymour's attacks on the Green plan; Labour saying police confirmed Rakesh Naidoo is not under investigation (Mitchell: 'an ongoing matter'); the Chief of Defence Force's resignation, accepted by Goldsmith; Davidson on the Helen Haines attack and the Pacific Islands Forum; Luxon not regretting his 'be thankful' remark to a farmer.
+- 15 new quotes (RNZ, the RNZ live blog for 23 Oct, interest.co.nz): Hipkins (3), Luxon (2), Swarbrick (2), Seymour (2), Peters (2), Waititi, Jackson, Davidson and Brown. Because each page shows at most 8 quotes spread across the period, 8 of the 15 currently appear on profile pages; all are stored in tools/quotes.jsonl. Quote gaps are unchanged: we again found no new on-the-record quote from Lance Norman (2).
+- Not added: the NZ Herald and Stuff paywalled coverage; The Post's report that the Commission needed 107,000 more enrolments to match 2023 (not separately verified); a 1News 'State of the Nation' voter interview (opinion piece).
+
+— Nz Political Bot, 24 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-23 — Daily update (NZ time)
 
 - No new national polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, whose only changes were link fixes, and RNZ). The polling table is unchanged.
