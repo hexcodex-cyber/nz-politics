@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Saturday 24 October 2026 (NZDT)"
+UPDATED = "Sunday 25 October 2026 (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -200,7 +200,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 <li>Where a list doesn't tell you who matters (Te Pāti Māori's list has only one name), we used the other sitting MPs plus key party officers.</li></ol>
 <p>This means some people profiled are <strong>not current MPs</strong>: Paul Henry (ACT, rank 4), Alfred Ngaro (NZ First, rank 5), John Tamihere and Lance Norman (Te Pāti Māori officers), and Opportunity's leaders. The reasoning for each party is on its page.</p></section>
 <section><h2>Quote rules</h2><ul>
-<li>Every quote comes from a page we actually retrieved during research (8–24 October 2026). Wording is as published by that source, including the source's own transcription.</li>
+<li>Every quote comes from a page we actually retrieved during research (8–25 October 2026). Wording is as published by that source, including the source's own transcription.</li>
 <li>Where a quote is relayed by a news outlet, we link that outlet. Where a release was republished (for example via Scoop), we say so.</li>
 <li>X posts link to the post itself. Dates are converted to NZ time. Some long posts were only partly returned by the X API, so we quote the opening text.</li>
 <li>Up to 8 quotes per person, newest first, from 2025–26. If fewer than 4 could be verified, the page says so. We did not pad with weak or uncertain material.</li>
@@ -217,7 +217,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-24", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-10-25", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],
