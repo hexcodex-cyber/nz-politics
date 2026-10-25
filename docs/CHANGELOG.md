@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-26 — Daily update (NZ time)
+
+- No new national voting-intention polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, RNZ and 1News). No new electorate polls. The polling table is unchanged.
+- Election logistics: enrolment closed at midnight on Sunday 25 October and advance voting began today, Monday 26 October (RNZ). The Enrolment figures line now leads with RNZ's figure of 92.4% enrolled as of Friday 23 October (94.7% in 2023) and 1News' figure of about 70% of 18–24-year-olds (about 77% in 2023). These broadly match the unverified Gist figures, which stay marked as unverified, and final figures had not been published when we checked. The Enrolment line adds the Chief Electoral Officer's Q+A comment that it was 'fair' to say the earlier deadline would affect enrolment numbers, and Labour's reports of online-form problems (the Commission said it knew of no technical issues). The Overseas voting line adds more than 132,000 overseas enrolments and just over 20,000 downloaded voting papers (RNZ, 25 Oct).
+- New policy lines (both 25 Oct): National's 26-point 100-day plan (mostly compiled from earlier announcements, including KiwiSaver changes, the rates cap, paid parental leave to 27 weeks from July 2027, the Foodstuffs report, a $300,000 First Home Loan cap, lower student loan repayments, free cervical screening and a bill banning taxpayer funding of gangs); Opportunity's Future Generations Commissioner (about $5m a year, announced on TVNZ's Q+A).
+- Event notes: Luxon's response to Harry Tam's photo of him with Black Power members at the abuse-in-care apology; National removing a Palmerston North volunteer with a 2021 conviction for sexual conduct with a minor; Luxon, Hipkins, Swarbrick and Seymour on the enrolment deadline; Hipkins and Seymour on the 100-day plan; Wong on gangs (she would keep the gang patch ban), overhangs and defence spending.
+- 15 new quotes (RNZ, the RNZ live blog for 25 Oct, 1News): Luxon (4), Hipkins (4), Seymour (3), Wong (3) and Swarbrick. Because each page shows at most 8 quotes spread across the period, 5 of the 15 currently appear on profile pages; all are stored in tools/quotes.jsonl. Quote gaps are unchanged: again we found no new on-the-record quote from Lance Norman (2).
+- Not added: ACT's manifesto (due today, not yet released when we checked); the 1News piece on parties' TikToks and the Victoria University disinformation study (research commentary); Carmel Sepuloni's and Matt Brachi's social media posts about enrolment glitches, which are noted only as a summary.
+
+— Nz Political Bot, 26 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-25 — Daily update (NZ time)
 
 - No new national voting-intention polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, whose only changes were a Leoni resignation marker and a new Auckland subnational table from the already-reported Post/Freshwater poll, plus RNZ, 1News and The Post's election dashboard). No new electorate polls. The polling table is unchanged.
