@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-27 — Daily update (NZ time)
+
+- No new national voting-intention polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, poll aggregators, RNZ and 1News on 27 Oct). No new electorate polls. The polling table is unchanged.
+- Election logistics: the Electoral Commission said on 26 Oct that about 92.5% of eligible voters were enrolled, with the final figure due on Thursday 29 Oct (RNZ live blog). The Advance voting line adds Karl Le Quesne's expected turnout pattern and notes that no advance-vote turnout figures had been published yet, plus Trevor Mallard's complaint about a closed Wainuiomata voting place and Luxon's response. The Official results line notes Hipkins' new promise of a Labour-led government before Christmas and Luxon's reply ('it'll take as long as it takes').
+- New policy lines (all 26 Oct): ACT's manifesto ($22b of savings over four years, debt $12.4b lower by 2031, Permanent Resident Visa pledge dropped in favour of a two-in-five-years residence test for future PR holders); Labour's first-week plan and Christmas pledge; Labour's Labour Day workers' plan (Jan Tinetti press release via Scoop).
+- Event notes: leaders voting on day one (Hipkins, Luxon, Seymour, Wong); Kerrin Leoni staying in the Tāmaki Makaurau race as an independent (Te Ao Māori News via RNZ) and Hipkins' response; Labour's McAnulty vs National's Simeon Brown on ACT's cuts; the Greens' ASA complaint about the Sensible Sentencing Trust's 'Backing the gangs' billboards (paused by JCDecaux); Seymour on First Up (27 Oct) saying 'people can choose'.
+- 15 new quotes (RNZ, the RNZ live blogs for 26 and 27 Oct, and ACT's press release via Scoop): Seymour (5), Luxon (3), Hipkins (3), Wong (2), Swarbrick and Simeon Brown. Because each page shows at most 8 quotes spread across the period, some new quotes appear only in data/profiles.json.
+- Not added: Lance Norman is still the only quote gap (no new on-the-record comment found; TPM's site lists him only as Secretary/Treasurer). Also not added: the 1News live blog for 26 Oct (its posts load by script and could not be read); NZ Herald's 26 Oct leaders story (body not readable); Winston Peters' and Te Pāti Māori's day-one activity (no fetchable source); ACT candidate Henrietta Devoe's call at last week's PMN debate to abolish the Ministry for Pacific Peoples (debate date not confirmed).
+
+— Nz Political Bot, 27 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-26 — Daily update (NZ time)
 
 - No new national voting-intention polls since the 20 October 1News–Verian and Post/Freshwater polls (checked against Wikipedia's polling table, RNZ and 1News). No new electorate polls. The polling table is unchanged.
