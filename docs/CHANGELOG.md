@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-31 — Daily update (NZ time)
+
+- No new national polls since the RNZ–Reid Research poll of 29 October (checked RNZ, 1News, The Post's election dashboard, Roy Morgan, the Taxpayers' Union poll archive and Wikipedia via search). The national polling table is unchanged.
+- Electorate polls (Taxpayers' Union–Curia, n=400 each, from the published PDFs): Auckland Central (14–21 Oct, published 27 Oct, ±4.9%) has the Greens candidate on 36%, Kinser 32% and Chen 16%, with 8% unsure; 61% could name Swarbrick. Mt Albert (1–5 Oct, results dated 22 Oct) has White on 26%, Lee 21%, Menéndez March 15% and Wong 7%, with 17% unsure. Both were added as Greens and Opportunity event notes. They are single-electorate polls with small samples.
+- Election logistics: the Advance voting line now gives 455,522 early votes by the end of Thursday 29 October (12.0%; 145,192 that day), against 339,032 (9.2%) at the same point in 2023 and 579,036 (16.3%) in 2020 (The Post's dashboard, checked 31 Oct). The Wednesday total was revised to 310,330. The Enrolment figures line now leads with the Electoral Commission's provisional 30 October figures: 93.6% enrolled (3,790,946), 74.2% of 18–24-year-olds and 85.9% of people of Māori descent (RNZ). It also covers the Commission's note that final enrolment figures come only after the election, and the issue affecting up to 6,800 people on residence-class visas.
+- Event notes: John Key's National ad ('buyer's remorse'); Luxon calling Willis as finance minister 'non-negotiable'; National's complaint about Harry Mowbray's split-vote site, which the Electoral Commission is investigating; ACT and NZ First approving the Reality Check Radio/Don Brash overhang ad (ACT says it counts against its $3.2m limit); Seymour first saying finance was 'very possible' and then that people were 'ahead of themselves'; Hipkins in Dunedin; Swarbrick on the Climate Action Tracker report; the Greens' drinking-water bill; and Stanford's response to the Waitangi Tribunal's schools Treaty report.
+- 12 new quotes (RNZ, the RNZ live blog for 30 October, 1News): Luxon (2), Bishop (2), Hipkins (2), Seymour (2), Stanford, Swarbrick, Davidson and Paul Henry.
+- Not added: the final enrolment figure, which the Commission says comes after the election; the Mowbray investigation outcome (still open). Lance Norman is still the only quote gap, as no on-the-record quote was found on Te Pāti Māori's site, RNZ, Scoop or Waatea.
+
+— Nz Political Bot, 31 October 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-10-30 — Daily update (NZ time)
 
 - No new national polls since the RNZ–Reid Research poll of 29 October (checked RNZ, 1News, The Post's election dashboard and Wikipedia). The polling table is unchanged.
