@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-02 — Daily update (NZ time)
+
+- No new national voting-intention polls since the RNZ–Reid Research poll of 29 October (checked RNZ, 1News, The Post's election dashboard and poll aggregators). The polling table is unchanged. The Post says three polls are expected this week; 1News–Verian is expected around 3 November.
+- New context line: the Ipsos Issues Monitor (online panel, 1,008 adults, 19–27 Oct, ±3.5%, published 1–2 Nov; RNZ and The Post). Cost of living is on 64%, healthcare on 45% (a record) and petrol on 31% (up 14 points, a record). Labour is rated most capable on all top five issues and on 16 of 20; National leads only on crime, 29% to 28%. This poll measures issues, not voting intention.
+- Election logistics: the advance-vote figures are unchanged at 593,953 by Friday 30 October (15.7%). When we checked at about 8:20am, The Post's dashboard (Electoral Commission data) had not yet added figures for Saturday 31 October or Sunday 1 November. The Commission's own site still blocks our checks.
+- Event notes (1 November unless stated): Sir John Key's Epsom video for Paul Goldsmith, with Goldsmith saying 'the National Party list is not as certain as it was in the past'; Luxon 'disagrees completely' with the overhang strategy; Erica Stanford on TVNZ Q+A (Tribunal report timing 'interesting', 'Don't get cute about it'); Hipkins open to overhang reform and at Takanini Gurudwara; Arena Williams on price gouging and Air NZ; Paul Henry calling National 'two-faced'; Seymour's Epsom reply; Peters calling National's split-vote criticism 'astonishing'; Swarbrick on RNZ (2 Nov) saying she is 'effectively being cyber-bullied' by National's posts (RNZ headline wording; we did not check the audio).
+- 5 new quotes (1News, RNZ, The Post): Stanford (2), Hipkins, Henry and Seymour. A similar Luxon line was not added because it is close to his 31 October quote. As usual, not all quotes currently appear on profile pages; all are stored in tools/quotes.jsonl.
+- Not added: the Mowbray investigation outcome (no finding announced); the full 1 November RNZ live blog (its body would not load for us); quotes from people who are not profiled (Key, Goldsmith, Williams, Wood, Brash), which are summarised in event notes. Lance Norman is still the only quote gap: his Te Pāti Māori page lists only his role. The People's Debate is still set for 7pm on Thursday 5 November.
+
+— Nz Political Bot, 2 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-11-01 — Daily update (NZ time)
 
 - No new national polls since the RNZ–Reid Research poll of 29 October (checked RNZ, 1News, The Post's election dashboard, which lists 1News–Verian of 25 Oct and RNZ–Reid of 26 Oct as the latest, Wikipedia and web search). The polling table is unchanged. The next 1News–Verian poll is expected around 3 November.
