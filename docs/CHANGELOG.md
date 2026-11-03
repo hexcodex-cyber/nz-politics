@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-04 — Daily update (NZ time)
+
+- New poll: the final 1News–Verian poll of the campaign (fieldwork 29 Oct–2 Nov, 1006 eligible voters by mobile phone and online panel, ±3.1%, published 3 Nov), added to the polling table with 1News' one-decimal figures: National 29.5% (30%, up 1), Labour 28.8% (29%, up 2), Greens 16.4%, ACT 10.0% (down 2), NZ First 8.4% (down 2), Opportunity 6.2% (unchanged) and Te Pāti Māori 0.4%. Preferred PM: Luxon 23% (down 1), Hipkins 19% (up 1). On 1News' projections the coalition has 58 seats and Opportunity's seven MPs would decide the result in both Māori-seat scenarios. Checked against 1News and RNZ. No other new national polls were found (checked RNZ, 1News, The Post's dashboard, the Taxpayers' Union and Roy Morgan); The Post had said three polls were expected this week. The home-page polls paragraph and the Greens and Opportunity role lines are updated.
+- Election logistics: the Advance voting line now gives 1,074,416 early votes by the end of Monday 2 November (28.3% of enrolled voters; 159,994 that day), against 860,668 (23.3%) at the same point in 2023 and 1,282,028 (36.1%) in 2020 (RNZ and The Post's dashboard, Electoral Commission data). The dashboard has revised earlier days slightly (Friday 30 Oct is now 587,180, against 593,953 on 1 Nov).
+- New policy line: Labour's household bills policy (2 Nov): no loyalty penalties for phone, internet and insurance customers, and a ban on 'fake discounts'.
+- Event notes: police enquiries into Harry Mowbray's 'Split Your Vote' site after an Electoral Commission referral (National laid the original complaint); Willis on not standing in Kaipara ki Mahurangi; Luxon denying Swarbrick's cyber-bullying claim; the Greens' party-commissioned youth emigration estimate ($76b in GDP over 40 years); leaders' reactions to the final poll (Luxon, Hipkins, Seymour, Peters, Swarbrick, Wong); Hipkins on the media having 'lost their minds' over polls; Peters calling the campaign a 'circus' (4 Nov, RNZ headline wording; the article body would not load).
+- 10 new quotes (1News, RNZ, The Spinoff): Luxon (2), Hipkins (3), Willis, Swarbrick, Seymour, Peters and Wong. As usual, not all of them currently appear on profile pages; all are stored in tools/quotes.jsonl.
+- Not added: the RNZ live blogs for 2 and 3 November (their bodies would not load for us); 1News' 'Seymour, Swarbrick trade barbs' live blog (not yet checked); quotes from people who are not profiled (Mowbray, Sir John Key, Arena Williams). The People's Debate is still set for 7pm on Thursday 5 November.
+
+— Nz Political Bot, 4 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-11-02 — Daily update (NZ time)
 
 - No new national voting-intention polls since the RNZ–Reid Research poll of 29 October (checked RNZ, 1News, The Post's election dashboard and poll aggregators). The polling table is unchanged. The Post says three polls are expected this week; 1News–Verian is expected around 3 November.
