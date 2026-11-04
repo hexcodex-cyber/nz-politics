@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Wednesday 4 November 2026 (NZDT)"
+UPDATED = "Thursday 5 November 2026 (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -217,7 +217,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-04", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-05", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],
