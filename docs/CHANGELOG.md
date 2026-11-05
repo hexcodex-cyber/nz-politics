@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-11-06 — Daily update (NZ time)
+
+- New poll: the final The Post/Freshwater Strategy poll (fieldwork 29 Oct–3 Nov, 1,044 eligible voters online, likely voters, ±3%, published 5 Nov), the last published poll of the campaign: Labour 30.7% (+2.0), National 26.4% (−1.2), Greens 13.0%, NZ First 12.0%, ACT 9.8%, Opportunity 5.1% (−0.3) and Te Pāti Māori 2.0%. On The Post's seat count the coalition has 59 seats and Labour, Greens and Te Pāti Māori 55; Opportunity's six MPs would give the left bloc 61. Checked against The Post (also reported by ODT and The Spinoff). The home-page polls paragraph now leads with it.
+- New poll: Roy Morgan's final pre-election poll (28 Sep–25 Oct, 859 electors by phone, published 4 Nov): Labour 27.5%, National 26.5%, Greens 15.5%, ACT 11%, NZ First 10%, Opportunity 8%, Te Pāti Māori 1%; Roy Morgan projects 57 coalition seats, 55 for the left bloc and 10 for Opportunity. Checked against Roy Morgan's release.
+- No new RNZ–Reid Research poll was found; the RNZ–Reid poll of 29 October is still that series' latest (The Spinoff, 6 Nov, also cites it as one of the four final polls).
+- Election logistics: the Advance voting line adds 1,440,840 early votes by the end of Wednesday 4 November (38.0% of enrolled; 189,822 that day), against 1,174,644 (31.8%) at the same point in 2023 and 1,565,056 (44.1%) in 2020 (The Post's dashboard, Electoral Commission data). Advance voting ends today, Friday 6 November.
+- The Recent debates line now covers TVNZ's Q+A People's Debate (5 Nov): Willis, McAnulty, Swarbrick, Seymour, Jones, Maipi-Clarke and Wong (RNZ, 1News).
+- Event notes (5 Nov) for all seven parties: Hipkins staking his job on no new taxes beyond a CGT (RNZ Nine to Noon); Peters calling Luxon's ruling-out of Michael Laws 'another frustration' and deferring Laws' fate to the board after the election; Jones on Laws ('reckless and foolish'); Opportunity defending the rule letting two board members veto a coalition deal, and Seymour's criticism; Luxon's 'no plan B'; debate positions; final-poll figures.
+- 12 new quotes (RNZ, 1News, The Post): Hipkins (2), Seymour (2), Wong (2), Luxon, Willis, Peters, Jones, Swarbrick and Maipi-Clarke. All are stored in tools/quotes.jsonl.
+- Not added: Laws, Kingdon-Bebb, Ria Bond, Alan Wilderland and McAnulty quotes (not profiled); the RNZ live blog for 6 November (its body would not load).
+
+— Nz Political Bot, 6 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-11-05 — Daily update (NZ time)
 
 - New poll: Taxpayers' Union–Curia (fieldwork 28 Oct–3 Nov, 1000 eligible voters by phone and online, ±3.1%, 3.5% undecided, published 4 Nov), added to the polling table: National 28.9% (+0.4), Labour 28.4% (+0.2), Greens 14.4% (+1.1), ACT 10.5% (+1.3), NZ First 9.8% (−2.2), Opportunity 5.8% (+1.0), Te Pāti Māori 1.1% (−0.3). Every change matches the 1–5 Oct Curia poll already in our table. Before any overhang, the coalition and the Labour–Greens–Te Pāti Māori–Opportunity bloc would each have 60 seats, a hung Parliament. Preferred PM: Luxon 23.8%, Hipkins 22.6%, Peters 10.3%, Swarbrick 6.0%, Seymour 5.9%. Checked against RNZ and the Taxpayers' Union release. The home-page polls paragraph leads with it. No other new national polls were found (The Post's poll table lists Curia and 1News–Verian of 3 Nov as the latest; The Post mentions an RNZ–Reid poll due on Thursday 5 Nov, which had not been published when we checked at about 8am).
