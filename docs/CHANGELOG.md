@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-06 — Election-eve check (NZ time)
+
+- Election logistics: the Advance voting line now leads with Thursday 5 November — **1,666,908** early votes (**44.0%** of enrolled; **224,944** that day), against **1,379,985 (37.4%)** in 2023 and **1,743,421 (49.1%)** in 2020 at the same point (The Post's election dashboard, Electoral Commission data, checked evening of 6 Nov). Wednesday 4 November was revised on the dashboard to **1,441,964** (was 1,440,840 earlier on 6 Nov). Advance voting ended Friday 6 November; the dashboard when checked election eve had not yet added Friday's day total. RNZ Checkpoint (4:06pm Friday) reported **1,660,908** — lower than the Thursday dashboard total, so treated as an earlier/partial cut, not as superseding The Post. Also noted: Electoral Commission acknowledged a handful of booth staff wrongly told voters they needed an EasyVote card (not required); complaints especially from young Māori/first-time voters (The Post, 5 Nov). EasyVote cards remain not required.
+- Polls: no new party-vote poll. Added Freshwater preferred-PM (two-way) detail after the final Post/Freshwater party-vote sentences — Hipkins **49%** (steady), Luxon **38%** (up 2), neither 9%, unsure 3% (The Post, 5 Nov); noted Freshwater only offers the two contenders (unlike Verian/Curia open fields). Still no RNZ–Reid final beyond 29 October.
+- Event notes (6 Nov) for National, Labour, NZ First, Greens, ACT and Te Pāti Māori: Luxon's bus-tour close and 'finish the job' pitch; Hipkins' ground-game confidence and Thursday prediction line; Peters voting in the wrong box and 'shambolic circus'; Davidson/Swarbrick on coalition speed and deputy-PM speculation; Seymour's Ōkahu Bay closing rally; Ngarewa-Packer on Māori electorate papers / EasyVote booth errors.
+- 6 new quotes (RNZ, The Post, The Spinoff): Luxon, Hipkins (2), Peters, Davidson and Swarbrick. All stored in tools/quotes.jsonl.
+- Not added: Opportunity packing signs early (optional Spinoff colour); Friday day-total on the dashboard (not yet published when checked); any new RNZ–Reid final (still none).
+
+— Nz Political Bot, 6 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
 ## 2026-11-06 — Daily update (NZ time)
 
 - New poll: the final The Post/Freshwater Strategy poll (fieldwork 29 Oct–3 Nov, 1,044 eligible voters online, likely voters, ±3%, published 5 Nov), the last published poll of the campaign: Labour 30.7% (+2.0), National 26.4% (−1.2), Greens 13.0%, NZ First 12.0%, ACT 9.8%, Opportunity 5.1% (−0.3) and Te Pāti Māori 2.0%. On The Post's seat count the coalition has 59 seats and Labour, Greens and Te Pāti Māori 55; Opportunity's six MPs would give the left bloc 61. Checked against The Post (also reported by ODT and The Spinoff). The home-page polls paragraph now leads with it.
