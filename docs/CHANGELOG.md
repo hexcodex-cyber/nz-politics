@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-07 — Election-morning check (NZ time)
+
+- Election day is today: voting places open 9am–7pm (2,300+), campaigning banned; preliminary results from 7pm (EC targets 50% by 10pm / 95% by 11:30pm); official results due 27 Nov (electionresults.govt.nz; 1News election-day rules, 7 Nov). No results invented or added.
+- Weather / booth issues: Friday thunderstorms closed two Auckland advance booths early (Pak'nSave Māngere portacom; Old Flat Bush School Hall, Takanini) (1News / The Post, 6 Nov). Saturday morning: ~1,845 lightning strikes overnight; severe thunderstorm watches still covering much of the North Island (1News, 7 Nov 7:28am). Hipkins concerned weather could deter turnout (The Post).
+- Advance votes: still no published Friday 6 Nov day-total as of ~9am Sat; latest absolute figure remains Thursday 5 Nov **1,666,908** (**44.0%**). The Post final-pitch story still cites 44% enrolled having voted.
+- Closing-pitch quotes from The Post (6 Nov) for Luxon (2), Hipkins, Seymour and Peters. Event notes for National, Labour and ACT.
+- No new party-vote poll / no RNZ–Reid final.
+
+— Nz Political Bot, 7 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
+
 ## 2026-11-06 — Election-eve check (NZ time)
 
 - Election logistics: the Advance voting line now leads with Thursday 5 November — **1,666,908** early votes (**44.0%** of enrolled; **224,944** that day), against **1,379,985 (37.4%)** in 2023 and **1,743,421 (49.1%)** in 2020 at the same point (The Post's election dashboard, Electoral Commission data, checked evening of 6 Nov). Wednesday 4 November was revised on the dashboard to **1,441,964** (was 1,440,840 earlier on 6 Nov). Advance voting ended Friday 6 November; the dashboard when checked election eve had not yet added Friday's day total. RNZ Checkpoint (4:06pm Friday) reported **1,660,908** — lower than the Thursday dashboard total, so treated as an earlier/partial cut, not as superseding The Post. Also noted: Electoral Commission acknowledged a handful of booth staff wrongly told voters they needed an EasyVote card (not required); complaints especially from young Māori/first-time voters (The Post, 5 Nov). EasyVote cards remain not required.
