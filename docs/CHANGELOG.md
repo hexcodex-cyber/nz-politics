@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-07 ~11:00pm NZDT — election-night dashboard refresh
+
+Electoral Commission preliminary via RNZ at 88.2% of voting places (2,266,630 party votes):
+National 29.4% (665,434, 41), Labour 29.1% (659,641, 35), Greens 13.3% (16), ACT 11.0% (13), NZ First 9.8% (12), Opportunity 5.9% (7), Te Pāti Māori 0.6% (5). Parliament 129 / overhang 9 / 65 to govern. Right 66; left 56; left+Opportunity 63.
+
+Tight races under 1,000: Mt Roskill Labour by 1 (flipped from National); Hamilton East National by 450 (flipped back from Labour); Wairarapa Labour 346; Wellington Bays Labour 125; Te Tai Tokerau TPM 455; Hutt South Labour 985.
+
+
 ## 2026-11-07 — Dashboard focus: National electorates, ACT, NZ First (10:50pm NZ time)
 
 - Refocused the election-night homepage on the three figures that now decide whether the right keeps a majority: National electorate seats (41, with 0 list), ACT seats (13), and NZ First seats (12). The page leads with those cards and the sum 41 + 13 + 12 = 66, against a majority of 65 (1 above).
