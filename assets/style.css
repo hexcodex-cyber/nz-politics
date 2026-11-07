@@ -120,3 +120,12 @@ body.night .party a:hover{box-shadow:0 8px 24px rgba(0,0,0,.28)}
   .dash-row a{grid-template-columns:1fr auto;grid-template-areas:"name pct" "bar bar" "seats seats"}
   .dash-name{grid-area:name}.dash-pct{grid-area:pct}.dash-barwrap{grid-area:bar}.dash-seats{grid-area:seats;text-align:left}
 }
+
+.dash-races{list-style:none;padding:0;margin:.8rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.75rem}
+.dash-race{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--pc);border-radius:16px;padding:.95rem 1rem;display:flex;flex-direction:column;gap:.15rem;box-shadow:0 8px 22px rgba(0,0,0,.18)}
+.dash-race-elect{font-weight:800;font-size:1.05rem}
+.dash-race-margin{font-size:2rem;font-weight:800;letter-spacing:-.04em;line-height:1.05;font-variant-numeric:tabular-nums}
+.dash-race-margin small{font-size:.8rem;font-weight:700;color:var(--muted);letter-spacing:0}
+.dash-race-lead{font-weight:700}
+.dash-trail{font-size:.88rem;color:var(--muted)}
+.dash-race-meta{font-size:.8rem;color:var(--muted);margin-top:.3rem}

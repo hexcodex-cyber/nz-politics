@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Saturday 7 November 2026, 9:48pm (NZDT)"
+UPDATED = "Saturday 7 November 2026, 10:33pm (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -155,6 +155,33 @@ def dash_home():
         )
     maj_pos = 100 * maj / parl
     src = link(R["source_url"], R["source_name"])
+    tight_html = ""
+    races = R.get("tight_races") or []
+    if races:
+        cards = ""
+        for race in races:
+            lp = by_id.get(race["leader_party"], {})
+            tp = by_id.get(race.get("trailer_party") or "", {})
+            colour = lp.get("colour", "#888")
+            trail = ""
+            if race.get("trailer"):
+                tshort = tp.get("short") or ""
+                trail = f'<span class="dash-trail">ahead of {e(race["trailer"])} ({e(tshort)})</span>'
+            cards += (
+                f'<li class="dash-race" style="--pc:{colour}">'
+                f'<span class="dash-race-elect">{e(race["electorate"])}</span>'
+                f'<span class="dash-race-margin">{_fmt_int(race["margin"])} <small>votes</small></span>'
+                f'<span class="dash-race-lead">{e(race["leader"])} · {e(lp.get("short", ""))}</span>'
+                f'{trail}'
+                f'<span class="dash-race-meta">{race["places_pct"]:g}% of places in</span>'
+                f'</li>'
+            )
+        el_src = link(R.get("electorates_source_url") or R["source_url"], "RNZ electorate results")
+        tight_html = (
+            f'<section aria-labelledby="tight"><h2 id="tight">Tight electorate races</h2>'
+            f'<p class="dash-note">Leads of under 1,000 votes. These are current leads, not confirmed wins, and special votes are not included. Source: {el_src}.</p>'
+            f'<ul class="dash-races">{cards}</ul></section>'
+        )
     return f"""<section class="dash-hero">
 <p class="kicker">Election night · preliminary count</p>
 <h1>Parliament so far</h1>
@@ -185,6 +212,7 @@ def dash_home():
 <section aria-labelledby="pv"><h2 id="pv">Party vote and seats</h2>
 <ul class="dash-rows">{rows}</ul>
 </section>
+{tight_html}
 <section aria-labelledby="profiles"><h2 id="profiles">Party profiles</h2>
 <p class="muted">Quotes, policies and campaign notes are on each party page.</p>
 <ul class="grid">{grid}</ul></section>"""

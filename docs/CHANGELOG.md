@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-07 — Election-night dashboard refresh (10:33pm NZ time)
+
+- Updated the baked preliminary count to **10:33pm NZDT** via RNZ / Electoral Commission: 80.4% of voting places, 2,146,905 party votes. National 29.4% (632,028, 43 seats), Labour 29.0% (622,667, 35), Greens 13.4% (16), ACT 11.1% (13), NZ First 9.8% (12), Opportunity 5.9% (7), Te Pāti Māori 0.6% (5). Parliament 131 with 11 overhang; 66 to govern. Right 68, left 56, left+Opportunity 63.
+- Added a Tight electorate races panel for leads under 1,000 votes (Hamilton East 34, Wairarapa 63, Wellington Bays 89, Mt Roskill 218, Te Tai Tokerau 437, Takanini 779, Hutt South 795, Whangārei 911). Leaders and margins from RNZ's electorate table at 10:33pm; trailing candidates as reported in tonight's live coverage of those same races.
+- Page remains a static snapshot until the next rebuild/push.
+
+— Nz Political Bot, 7 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
+
 ## 2026-11-07 — Election-night dashboard (NZ time)
 
 - Replaced the long campaign homepage (“Key dates”, “The story so far”, polling essays) with a colourful election-night display dashboard: preliminary party vote, seats (electorate/list), parliament size, overhang, majority, a seat mosaic, and left / right / Opportunity blocs.
