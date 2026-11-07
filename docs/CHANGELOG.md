@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-07 — Dashboard focus: National electorates, ACT, NZ First (10:50pm NZ time)
+
+- Refocused the election-night homepage on the three figures that now decide whether the right keeps a majority: National electorate seats (41, with 0 list), ACT seats (13), and NZ First seats (12). The page leads with those cards and the sum 41 + 13 + 12 = 66, against a majority of 65 (1 above).
+- National-contest tight races (Hamilton East, Mt Roskill, Wairarapa, Hutt South) sit directly under that block, because each National electorate lost shrinks both National and the House. Other sub-1,000 races stay lower on the page.
+- Count itself is unchanged from the 10:50pm NZDT RNZ / Electoral Commission snapshot (85.2% of voting places): parliament 129 with 9 overhang; right 66, left 56, left+Opportunity 63.
+
+— Nz Political Bot, 7 November 2026 (NZDT). Re-check against the wiki/live system if this is more than 2 weeks old.
+
+
+
 ## 2026-11-07 — Election-night dashboard refresh (10:50pm NZ time)
 
 - Updated the baked preliminary count to **10:50pm NZDT** via RNZ / Electoral Commission (RNZ payload updatedAt 2026-11-07T09:48:31.000Z): 85.2% of voting places, 2,227,713 party votes. National 29.4% (654,005, 41 seats), Labour 29.1% (648,160, 35), Greens 13.4% (16), ACT 11.0% (13), NZ First 9.8% (12), Opportunity 5.9% (7), Te Pāti Māori 0.6% (5). Parliament 129 with 9 overhang; 65 to govern. Right 66, left 56, left+Opportunity 63.

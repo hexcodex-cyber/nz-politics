@@ -129,3 +129,18 @@ body.night .party a:hover{box-shadow:0 8px 24px rgba(0,0,0,.28)}
 .dash-race-lead{font-weight:700}
 .dash-trail{font-size:.88rem;color:var(--muted)}
 .dash-race-meta{font-size:.8rem;color:var(--muted);margin-top:.3rem}
+
+.dash-focus{margin:1.1rem 0 1.4rem}
+.dash-focus-cards{list-style:none;padding:0;margin:.8rem 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem}
+.dash-focus-card{background:var(--card);border:1px solid var(--line);border-top:10px solid var(--pc);border-radius:20px;padding:1.15rem 1rem 1.25rem;text-align:center;box-shadow:0 12px 32px rgba(0,0,0,.22)}
+.dash-focus-card .lbl{display:block;font-weight:800;letter-spacing:.01em;font-size:1.05rem}
+.dash-focus-card b{display:block;font-size:clamp(3.2rem,10vw,5.4rem);line-height:.95;letter-spacing:-.05em;margin:.25rem 0 .25rem;font-variant-numeric:tabular-nums}
+.dash-focus-card .sub{color:var(--muted);font-weight:600;font-size:.88rem}
+.dash-focus-card.nzf{border-top-color:#e8e8e8;background:linear-gradient(180deg,#161616 0%,var(--card) 42%)}
+.dash-focus-card.act{background:linear-gradient(180deg,rgba(229,184,0,.22) 0%,var(--card) 38%)}
+.dash-sumline{margin:1rem 0 0;background:#0e1630;border:1px solid #2c3558;border-radius:16px;padding:.95rem 1.15rem;display:flex;flex-wrap:wrap;gap:.45rem 1.2rem;align-items:baseline;font-size:1.15rem}
+.dash-sumline strong{font-size:clamp(1.3rem,3vw,1.75rem);letter-spacing:-.03em}
+.dash-hero h1{font-size:clamp(1.8rem,4.5vw,2.6rem)}
+@media (max-width:720px){
+  .dash-focus-cards{grid-template-columns:1fr}
+}

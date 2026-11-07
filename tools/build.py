@@ -112,7 +112,8 @@ def dash_home():
     max_pct = max(x["vote_pct"] for x in R["parties"]) or 1
     parl, maj, overhang = R["parliament"], R["majority"], R["overhang"]
     totals = {rp["id"]: rp for rp in R["parties"]}
-    right = totals["national"]["seats"] + totals["act"]["seats"] + totals["nzfirst"]["seats"]
+    nat, act, nzf = totals["national"], totals["act"], totals["nzfirst"]
+    right = nat["seats"] + act["seats"] + nzf["seats"]
     left = totals["labour"]["seats"] + totals["greens"]["seats"] + totals["tpm"]["seats"]
     opp = totals["opportunity"]["seats"]
     leftopp = left + opp
@@ -120,6 +121,13 @@ def dash_home():
         if n > maj: return f"{n - maj} over"
         if n == maj: return "bare majority"
         return f"{maj - n} short"
+    buffer = shy(right)
+    if right > maj:
+        buffer_long = f"{right - maj} above majority"
+    elif right == maj:
+        buffer_long = "bare majority"
+    else:
+        buffer_long = f"{maj - right} short of majority"
     dark_text = {"act", "opportunity"}
     rows = ""
     mosaic = ""
@@ -155,50 +163,90 @@ def dash_home():
         )
     maj_pos = 100 * maj / parl
     src = link(R["source_url"], R["source_name"])
-    tight_html = ""
     races = R.get("tight_races") or []
-    if races:
-        cards = ""
-        for race in races:
-            lp = by_id.get(race["leader_party"], {})
-            tp = by_id.get(race.get("trailer_party") or "", {})
-            colour = lp.get("colour", "#888")
-            trail = ""
-            if race.get("trailer"):
-                tshort = tp.get("short") or ""
-                trail = f'<span class="dash-trail">ahead of {e(race["trailer"])} ({e(tshort)})</span>'
-            cards += (
-                f'<li class="dash-race" style="--pc:{colour}">'
-                f'<span class="dash-race-elect">{e(race["electorate"])}</span>'
-                f'<span class="dash-race-margin">{_fmt_int(race["margin"])} <small>votes</small></span>'
-                f'<span class="dash-race-lead">{e(race["leader"])} · {e(lp.get("short", ""))}</span>'
-                f'{trail}'
-                f'<span class="dash-race-meta">{race["places_pct"]:g}% of places in</span>'
-                f'</li>'
-            )
+
+    def race_card(race):
+        lp = by_id.get(race["leader_party"], {})
+        tp = by_id.get(race.get("trailer_party") or "", {})
+        colour = lp.get("colour", "#888")
+        trail = ""
+        if race.get("trailer"):
+            tshort = tp.get("short") or ""
+            trail = f'<span class="dash-trail">ahead of {e(race["trailer"])} ({e(tshort)})</span>'
+        return (
+            f'<li class="dash-race" style="--pc:{colour}">'
+            f'<span class="dash-race-elect">{e(race["electorate"])}</span>'
+            f'<span class="dash-race-margin">{_fmt_int(race["margin"])} <small>votes</small></span>'
+            f'<span class="dash-race-lead">{e(race["leader"])} · {e(lp.get("short", ""))}</span>'
+            f'{trail}'
+            f'<span class="dash-race-meta">{race["places_pct"]:g}% of places in</span>'
+            f'</li>'
+        )
+
+    def race_section(sid, title, note, items):
+        if not items:
+            return ""
         el_src = link(R.get("electorates_source_url") or R["source_url"], "RNZ electorate results")
-        tight_html = (
-            f'<section aria-labelledby="tight"><h2 id="tight">Tight electorate races</h2>'
-            f'<p class="dash-note">Leads of under 1,000 votes. These are current leads, not confirmed wins, and special votes are not included. Source: {el_src}.</p>'
+        cards = "".join(race_card(r) for r in items)
+        return (
+            f'<section aria-labelledby="{sid}"><h2 id="{sid}">{e(title)}</h2>'
+            f'<p class="dash-note">{note} Source: {el_src}.</p>'
             f'<ul class="dash-races">{cards}</ul></section>'
         )
+
+    nat_races = [r for r in races if r.get("leader_party") == "national" or r.get("trailer_party") == "national"]
+    other_races = [r for r in races if r not in nat_races]
+    nat_html = race_section(
+        "nat-races",
+        "National electorates still close",
+        "Leads of under 1,000 votes in seats National is contesting. These are current leads, not confirmed wins, and special votes are not included. Because National has no list seats, a lost electorate shrinks both National and parliament.",
+        nat_races,
+    )
+    other_html = race_section(
+        "tight",
+        "Other tight electorate races",
+        "Leads of under 1,000 votes that do not change National's electorate total. These are current leads, not confirmed wins, and special votes are not included.",
+        other_races,
+    )
     return f"""<section class="dash-hero">
 <p class="kicker">Election night · preliminary count</p>
-<h1>Parliament so far</h1>
-<p class="dash-big"><span>{R["places_pct"]:g}%</span> in</p>
-<p class="dash-sub">{_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}</p>
+<h1>What decides the government</h1>
+<p class="dash-sub">{R["places_pct"]:g}% of voting places in · {_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}</p>
 <p class="dash-note">{e(R["source_note"])} Source: {src}.</p>
+</section>
+<section class="dash-focus" aria-labelledby="focus">
+<h2 id="focus">What matters now</h2>
+<p class="dash-note">The right's path is National's electorate seats plus ACT plus NZ First. National has no list MPs, so each electorate it loses shrinks both National and the House.</p>
+<ul class="dash-focus-cards">
+<li class="dash-focus-card nat" style="--pc:{e(by_id['national']['colour'])}">
+<span class="lbl">National electorates</span>
+<b>{nat["electorate"]}</b>
+<span class="sub">{nat["list"]} list · {nat["seats"]} seats total</span>
+</li>
+<li class="dash-focus-card act" style="--pc:{e(by_id['act']['colour'])}">
+<span class="lbl">ACT seats</span>
+<b>{act["seats"]}</b>
+<span class="sub">{act["electorate"]} electorate · {act["list"]} list</span>
+</li>
+<li class="dash-focus-card nzf" style="--pc:{e(by_id['nzfirst']['colour'])}">
+<span class="lbl">NZ First seats</span>
+<b>{nzf["seats"]}</b>
+<span class="sub">{nzf["electorate"]} electorate · {nzf["list"]} list</span>
+</li>
+</ul>
+<p class="dash-sumline"><strong>{nat["electorate"]} + {act["seats"]} + {nzf["seats"]} = {right}</strong><span>{maj} needed to govern · {e(buffer_long)}</span></p>
 </section>
 <section class="dash-stats" aria-label="Parliament size">
 <div class="dash-stat"><b>{parl}</b><span>seats</span></div>
 <div class="dash-stat"><b>{overhang}</b><span>overhang</span></div>
 <div class="dash-stat"><b>{maj}</b><span>needed to govern</span></div>
 </section>
+{nat_html}
 <section aria-labelledby="blocs"><h2 id="blocs">Who can govern</h2>
 <ul class="dash-blocs">
 <li class="dash-bloc right"><span class="lbl">Right</span><span class="n">{right}</span><span class="who">National + ACT + NZ First</span><span class="tag">{shy(right)}</span></li>
 <li class="dash-bloc left"><span class="lbl">Left</span><span class="n">{left}</span><span class="who">Labour + Greens + Te Pāti Māori</span><span class="tag">{shy(left)}</span></li>
-<li class="dash-bloc opp"><span class="lbl">Opportunity</span><span class="n">{opp}</span><span class="who">unaligned</span><span class="tag">kingmaker</span></li>
+<li class="dash-bloc opp"><span class="lbl">Opportunity</span><span class="n">{opp}</span><span class="who">unaligned</span><span class="tag">not needed by the right</span></li>
 <li class="dash-bloc leftopp"><span class="lbl">Left + Opportunity</span><span class="n">{leftopp}</span><span class="who">if they dealt together</span><span class="tag">{shy(leftopp)}</span></li>
 </ul>
 </section>
@@ -212,10 +260,11 @@ def dash_home():
 <section aria-labelledby="pv"><h2 id="pv">Party vote and seats</h2>
 <ul class="dash-rows">{rows}</ul>
 </section>
-{tight_html}
+{other_html}
 <section aria-labelledby="profiles"><h2 id="profiles">Party profiles</h2>
 <p class="muted">Quotes, policies and campaign notes are on each party page.</p>
 <ul class="grid">{grid}</ul></section>"""
+
 
 body = dash_home()
 write("index.html", page(
