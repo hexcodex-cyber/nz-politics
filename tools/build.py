@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Saturday 7 November 2026, 10:33pm (NZDT)"
+UPDATED = "Saturday 7 November 2026, 10:50pm (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 

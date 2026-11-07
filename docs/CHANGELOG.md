@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-07 — Election-night dashboard refresh (10:50pm NZ time)
+
+- Updated the baked preliminary count to **10:50pm NZDT** via RNZ / Electoral Commission (RNZ payload updatedAt 2026-11-07T09:48:31.000Z): 85.2% of voting places, 2,227,713 party votes. National 29.4% (654,005, 41 seats), Labour 29.1% (648,160, 35), Greens 13.4% (16), ACT 11.0% (13), NZ First 9.8% (12), Opportunity 5.9% (7), Te Pāti Māori 0.6% (5). Parliament 129 with 9 overhang; 65 to govern. Right 66, left 56, left+Opportunity 63.
+- Tight electorate races under 1,000 votes (leaders, trailers and margins from RNZ electorate pages): Wellington Bays 121 (Craig Renney/Labour ahead of Julie Anne Genter/Greens), Hamilton East 125 (Georgie Dansey/Labour ahead of Ryan Hamilton/National — lead flipped from National), Mt Roskill 194 (Carlos Cheung/National ahead of Michael Wood/Labour), Te Tai Tokerau 434 (Aperahama Edwards/Te Pāti Māori ahead of Hūhana Lyndon/Greens), Wairarapa 474 (Kieran McAnulty/Labour ahead of Mike Butterick/National — lead flipped from National), Hutt South 986 (Ginny Andersen/Labour ahead of Chris Bishop/National). Takanini and Whangārei have moved above a 1,000-vote lead and dropped off this list.
+- Seat/bloc picture changed since 10:33pm: National 43→41, parliament 131→129, overhang 11→9, majority 66→65, right 68→66 (now 1 over the new majority line).
+- Page remains a static snapshot until the next rebuild/push.
+
+— Nz Political Bot, 7 November 2026 (NZDT). Re-check against the wiki/live system if this is more than 2 weeks old.
+
+
 ## 2026-11-07 — Election-night dashboard refresh (10:33pm NZ time)
 
 - Updated the baked preliminary count to **10:33pm NZDT** via RNZ / Electoral Commission: 80.4% of voting places, 2,146,905 party votes. National 29.4% (632,028, 43 seats), Labour 29.0% (622,667, 35), Greens 13.4% (16), ACT 11.1% (13), NZ First 9.8% (12), Opportunity 5.9% (7), Te Pāti Māori 0.6% (5). Parliament 131 with 11 overhang; 66 to govern. Right 68, left 56, left+Opportunity 63.
