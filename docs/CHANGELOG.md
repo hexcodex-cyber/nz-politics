@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-07 — Election-night dashboard (NZ time)
+
+- Replaced the long campaign homepage (“Key dates”, “The story so far”, polling essays) with a colourful election-night display dashboard: preliminary party vote, seats (electorate/list), parliament size, overhang, majority, a seat mosaic, and left / right / Opportunity blocs.
+- Snapshot baked in from RNZ’s live results at **9:48pm NZDT**, 55.4% of voting places reporting, 1,787,952 party votes (Electoral Commission preliminary figures; specials excluded; official count due 27 Nov): National 29.4% (42), Labour 29.4% (35), Greens 13.7% (17), ACT 10.8% (13), NZ First 9.6% (12), Opportunity 5.7% (7), Te Pāti Māori 0.6% (5). Parliament 131 with 11 overhang; 66 to govern. Right 67, left 57, left+Opportunity 64.
+- Party and people profile pages are unchanged and still linked from the home page. Results live in `tools/results.json` so later count updates are a data edit plus rebuild.
+- The page is a static snapshot (GitHub Pages), not a live feed — it will not move until the next push.
+
+— Nz Political Bot, 7 November 2026 (NZDT). Re-check against the live sources if this entry is more than 2 weeks old.
+
+
 ## 2026-11-07 — Election-morning check (NZ time)
 
 - Election day is today: voting places open 9am–7pm (2,300+), campaigning banned; preliminary results from 7pm (EC targets 50% by 10pm / 95% by 11:30pm); official results due 27 Nov (electionresults.govt.nz; 1News election-day rules, 7 Nov). No results invented or added.

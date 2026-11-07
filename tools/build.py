@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Saturday 7 November 2026 (NZDT)"
+UPDATED = "Saturday 7 November 2026, 9:48pm (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -47,15 +47,16 @@ def srcname(u):
 ALLPARTIES = PARTIES + OUTSIDE
 PARTY = {p["id"]: p for p in ALLPARTIES}
 
-def page(title, body, depth=0, desc=""):
+def page(title, body, depth=0, desc="", body_class=""):
     r = "../" * depth
     nav = "".join(f'<li><a href="{r}parties/{p["id"]}.html">{e(p["short"])}</a></li>' for p in ALLPARTIES)
+    bc = f' class="{body_class}"' if body_class else ""
     return f"""<!doctype html>
 <html lang="en-NZ"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} · NZ Politics 2026: What They Actually Said</title>
 <meta name="description" content="{e(desc or 'Non-partisan profiles of New Zealand political parties and politicians ahead of the 7 November 2026 election, built on sourced direct quotes.')}">
 <link rel="stylesheet" href="{r}assets/style.css"></head>
-<body><a class="skip" href="#main">Skip to content</a>
+<body{bc}><a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap"><a class="brand" href="{r}index.html">NZ Politics 2026 <span>What they actually said</span></a>
 <nav aria-label="Main"><ul><li><a href="{r}index.html">Home</a></li>{nav}<li><a href="{r}sources.html">Sources &amp; method</a></li></ul></nav></div></header>
 <main id="main" class="wrap">{body}</main>
@@ -100,41 +101,101 @@ os.makedirs(OUT + "/assets"); os.makedirs(OUT + "/data")
 shutil.copy(os.path.join(HERE, "style.css"), OUT + "/assets/style.css")
 
 # ---- index
-grid = ""
-for p in ALLPARTIES:
-    lead = " &amp; ".join(e(P[l]["name"]) for l in p["leaders"])
-    rows = poll_rows(p["id"])
-    poll_bits = []
-    seen_firms = set()
-    for name, fw, pub, u, ver, d in POLLS:
-        v = d.get(p["id"])
-        if v is None: continue
-        if name in seen_firms: continue
-        seen_firms.add(name)
-        poll_bits.append(f"{v:g}% ({e(name)})")
-        if len(poll_bits) == 2: break
-    poll_line = " · ".join(poll_bits) if poll_bits else "—"
-    grid += f"""<li class="party" style="--pc:{p['colour']}"><a href="parties/{p['id']}.html"><h3>{e(p['short'])}</h3>
-<p class="status">{e(p['status'])}</p><p>Leader{'s' if len(p['leaders'])>1 else ''}: {lead}</p>
-<p class="muted">Latest polls: {poll_line}</p></a></li>"""
-facts = "".join(f"<li><strong>{e(k)}:</strong> {v} <span class='src'>[{link(u)}]</span></li>" for k, v, u in ELECTION["facts"])
-ctx = "".join(f"<p>{c}</p>" for c in CONTEXT)
-ptable = "<table><caption>Party vote in recent polls (%)</caption><thead><tr><th scope='col'>Poll</th><th scope='col'>Fieldwork</th>" + \
-    "".join(f"<th scope='col' class='num'>{e(p['short'])}</th>" for p in ALLPARTIES) + "</tr></thead><tbody>"
-for name, fw, pub, u, ver, d in POLLS:
-    ptable += f"<tr><td>{link(u, name)}{pnote(u)}{'' if ver else ' †'}</td><td>{e(fw)}</td>" + "".join(f"<td class='num'>{d[p['id']]:g}</td>" for p in ALLPARTIES) + "</tr>"
-ptable += "</tbody></table><p class='muted small'>All polls in the table were checked against the publisher's or pollster's release (Taxpayers' Union–Curia via RNZ's report). † would mark figures taken only from the Wikipedia polling table." + ((" ‡ marks a figure that sources report differently: " + "".join(f"<br>‡ {e(n)}" for n in POLL_NOTES.values())) if POLL_NOTES else "") + "<br>The 5% threshold (or one electorate seat) is needed for list seats. Te Pāti Māori relies on electorate seats.</p>"
-body = f"""<section class="hero"><p class="kicker">General election</p><h1>{ELECTION['date']}</h1>
-<p class="lede">A plain-language catch-up on New Zealand's parties and their leading figures. It is built on what politicians have <em>actually said</em> in 2025–26, with every quote dated and linked to its source.</p></section>
-<section aria-labelledby="k"><h2 id="k">Key dates</h2><ul class="facts">{facts}</ul></section>
-<section aria-labelledby="c"><h2 id="c">The story so far</h2>{ctx}</section>
-<section aria-labelledby="p"><h2 id="p">Parties</h2><p class="muted">The six parties in Parliament at dissolution, then one notable party outside Parliament (marked).</p>
-<ul class="grid">{grid}</ul><p class="note">{OTHER_NOTE} <span class="src">[{link('https://www.1news.co.nz/2026/10/06/poll-opportunity-still-in-kingmaker-seat-as-greens-hold-strong/')}]</span></p></section>
-<section aria-labelledby="po"><h2 id="po">Recent polling</h2><div class="tablewrap">{ptable}</div></section>
-<section aria-labelledby="m"><h2 id="m">How this was made</h2>
-<p>For each party in Parliament we profile the leader(s) plus four other senior figures, mainly the next places on the party's 2026 list (details on each party page). Quotes were collected only from sources we actually retrieved: news reports (RNZ, 1News, Newsroom, The Spinoff, Te Ao Māori News and others), party and ministerial press releases, and politicians' own X posts. If a quote could not be verified, it was left out. Where a person has fewer than four verified quotes, we say so. <a href="sources.html">Full methodology and source list →</a></p>
-<p class="muted">Last updated {UPDATED}. Things move fast in the final weeks of a campaign, so check the linked sources for later developments.</p></section>"""
-write("index.html", page("Home", body))
+RESULTS = json.load(open(os.path.join(HERE, "results.json")))
+
+def _fmt_int(n):
+    return f"{int(n):,}"
+
+def dash_home():
+    R = RESULTS
+    by_id = {p["id"]: p for p in ALLPARTIES}
+    max_pct = max(x["vote_pct"] for x in R["parties"]) or 1
+    parl, maj, overhang = R["parliament"], R["majority"], R["overhang"]
+    totals = {rp["id"]: rp for rp in R["parties"]}
+    right = totals["national"]["seats"] + totals["act"]["seats"] + totals["nzfirst"]["seats"]
+    left = totals["labour"]["seats"] + totals["greens"]["seats"] + totals["tpm"]["seats"]
+    opp = totals["opportunity"]["seats"]
+    leftopp = left + opp
+    def shy(n):
+        if n > maj: return f"{n - maj} over"
+        if n == maj: return "bare majority"
+        return f"{maj - n} short"
+    dark_text = {"act", "opportunity"}
+    rows = ""
+    mosaic = ""
+    track = ""
+    grid = ""
+    for rp in R["parties"]:
+        p = by_id[rp["id"]]
+        w = 100 * rp["vote_pct"] / max_pct
+        ink = "#14200a" if rp["id"] in dark_text else "#fff"
+        rows += (
+            f'<li class="dash-row" style="--pc:{p["colour"]};--ink:{ink}">'
+            f'<a href="parties/{p["id"]}.html">'
+            f'<span class="dash-name">{e(p["short"])}</span>'
+            f'<span class="dash-barwrap"><span class="dash-bar" style="--w:{w:.2f}%"></span></span>'
+            f'<span class="dash-pct">{rp["vote_pct"]:g}%</span>'
+            f'<span class="dash-seats"><strong>{rp["seats"]}</strong>'
+            f'<span class="dash-split">{_fmt_int(rp["votes"])} votes · {rp["electorate"]} electorate · {rp["list"]} list</span></span>'
+            f'</a></li>'
+        )
+        mosaic += "".join(
+            f'<span class="seat" style="background:{p["colour"]}" title="{e(p["short"])}"></span>'
+            for _ in range(rp["seats"])
+        )
+        track += (
+            f'<span class="seg" style="width:{100 * rp["seats"] / parl:.3f}%;background:{p["colour"]};color:{ink}" '
+            f'title="{e(p["short"])} {rp["seats"]} seats">{rp["seats"]}</span>'
+        )
+        grid += (
+            f'<li class="party" style="--pc:{p["colour"]}"><a href="parties/{p["id"]}.html">'
+            f'<h3>{e(p["short"])}</h3>'
+            f'<p class="status">{rp["vote_pct"]:g}% · {rp["seats"]} seats</p>'
+            f'<p class="muted">{_fmt_int(rp["votes"])} votes · {rp["electorate"]} electorate · {rp["list"]} list</p></a></li>'
+        )
+    maj_pos = 100 * maj / parl
+    src = link(R["source_url"], R["source_name"])
+    return f"""<section class="dash-hero">
+<p class="kicker">Election night · preliminary count</p>
+<h1>Parliament so far</h1>
+<p class="dash-big"><span>{R["places_pct"]:g}%</span> in</p>
+<p class="dash-sub">{_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}</p>
+<p class="dash-note">{e(R["source_note"])} Source: {src}.</p>
+</section>
+<section class="dash-stats" aria-label="Parliament size">
+<div class="dash-stat"><b>{parl}</b><span>seats</span></div>
+<div class="dash-stat"><b>{overhang}</b><span>overhang</span></div>
+<div class="dash-stat"><b>{maj}</b><span>needed to govern</span></div>
+</section>
+<section aria-labelledby="blocs"><h2 id="blocs">Who can govern</h2>
+<ul class="dash-blocs">
+<li class="dash-bloc right"><span class="lbl">Right</span><span class="n">{right}</span><span class="who">National + ACT + NZ First</span><span class="tag">{shy(right)}</span></li>
+<li class="dash-bloc left"><span class="lbl">Left</span><span class="n">{left}</span><span class="who">Labour + Greens + Te Pāti Māori</span><span class="tag">{shy(left)}</span></li>
+<li class="dash-bloc opp"><span class="lbl">Opportunity</span><span class="n">{opp}</span><span class="who">unaligned</span><span class="tag">kingmaker</span></li>
+<li class="dash-bloc leftopp"><span class="lbl">Left + Opportunity</span><span class="n">{leftopp}</span><span class="who">if they dealt together</span><span class="tag">{shy(leftopp)}</span></li>
+</ul>
+</section>
+<section aria-labelledby="mosaic"><h2 id="mosaic">The {parl} seats</h2>
+<div class="dash-track" role="img" aria-label="Seat share by party">
+{track}
+<span class="marker" style="left:{maj_pos:.2f}%"><span>majority {maj}</span></span>
+</div>
+<div class="dash-mosaic" role="img" aria-label="One square per projected seat">{mosaic}</div>
+</section>
+<section aria-labelledby="pv"><h2 id="pv">Party vote and seats</h2>
+<ul class="dash-rows">{rows}</ul>
+</section>
+<section aria-labelledby="profiles"><h2 id="profiles">Party profiles</h2>
+<p class="muted">Quotes, policies and campaign notes are on each party page.</p>
+<ul class="grid">{grid}</ul></section>"""
+
+body = dash_home()
+write("index.html", page(
+    "Election night",
+    body,
+    desc="Live-style preliminary parliament and party-vote dashboard for New Zealand's 7 November 2026 election, from Electoral Commission figures via RNZ.",
+    body_class="night",
+))
 
 # ---- party pages
 for p in ALLPARTIES:

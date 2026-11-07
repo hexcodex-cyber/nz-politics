@@ -1,0 +1,21 @@
+{
+  "as_at": "2026-11-07T21:48:00+13:00",
+  "as_at_label": "9:48pm Saturday 7 November 2026 (NZDT)",
+  "places_pct": 55.4,
+  "party_votes": 1787952,
+  "source_name": "RNZ",
+  "source_url": "https://www.rnz.co.nz/news/election-2026-results",
+  "source_note": "Electoral Commission preliminary figures via RNZ. Special votes are not included. Official results are expected on Friday 27 November 2026. The percentage counted is voting places reporting, not the share of all votes.",
+  "parliament": 131,
+  "overhang": 11,
+  "majority": 66,
+  "parties": [
+    {"id": "national", "vote_pct": 29.4, "votes": 526409, "electorate": 42, "list": 0, "seats": 42},
+    {"id": "labour", "vote_pct": 29.4, "votes": 524826, "electorate": 20, "list": 15, "seats": 35},
+    {"id": "greens", "vote_pct": 13.7, "votes": 245666, "electorate": 3, "list": 14, "seats": 17},
+    {"id": "act", "vote_pct": 10.8, "votes": 193529, "electorate": 1, "list": 12, "seats": 13},
+    {"id": "nzfirst", "vote_pct": 9.6, "votes": 171596, "electorate": 0, "list": 12, "seats": 12},
+    {"id": "opportunity", "vote_pct": 5.7, "votes": 101245, "electorate": 0, "list": 7, "seats": 7},
+    {"id": "tpm", "vote_pct": 0.6, "votes": 10316, "electorate": 5, "list": 0, "seats": 5}
+  ]
+}
