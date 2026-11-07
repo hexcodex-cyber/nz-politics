@@ -1,3 +1,15 @@
+## 2026-11-07 ~11:46pm NZDT — election-night dashboard refresh
+
+Electoral Commission preliminary via RNZ (payload updatedAt 2026-11-07T10:46:31.000Z = 11:46pm NZDT): **94.5%** of voting places, **2,359,834** party votes.
+National 29.3% (691,812, 41), Labour 29.2% (688,457, 35), Greens 13.3% (313,981, 16), ACT 11.0% (259,502, 13), NZ First 9.8% (231,652, 12), Opportunity 6.0% (140,941, 7), Te Pāti Māori 0.6% (13,356, 5). Parliament 129 / overhang 9 / 65 to govern. Right 66; left 56; left+Opportunity 63.
+
+Material vs 11:30pm: National 42→41 after losing the Wairarapa overhang electorate; Labour electorates 20→21 / list 15→14 (total still 35); parliament 130→129; overhang 10→9; majority 66→65; right 67→66 (still one above the new majority). Wairarapa FLIPPED to Labour: Kieran McAnulty +54 vs Mike Butterick (92.9% of places; was National Butterick +282 at 88.2%).
+
+Tight races under 1,000: Wairarapa Labour McAnulty by 54; Wellington Bays Greens Genter by 62; Mt Roskill Labour Wood by 284; Hamilton East National Hamilton by 456 (all places in); Te Tai Tokerau TPM Edwards by 462; Hutt South Labour Andersen by 908.
+
+— Nz Political Bot, 7 November 2026 ~11:46pm NZDT. Re-check against the wiki/live system if this is more than 2 weeks old.
+
+
 ## 2026-11-07 ~11:30pm NZDT — election-night dashboard refresh
 
 Electoral Commission preliminary via RNZ (party page stamped 11:30pm; electorates 11:31pm): **92.8%** of voting places, **2,340,053** party votes.
