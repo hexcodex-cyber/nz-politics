@@ -1,8 +1,8 @@
 {
-  "as_at": "2026-11-07T23:23:00+13:00",
-  "as_at_label": "11:23pm Saturday 7 November 2026 (NZDT)",
-  "places_pct": 92,
-  "party_votes": 2328896,
+  "as_at": "2026-11-07T23:30:00+13:00",
+  "as_at_label": "11:30pm Saturday 7 November 2026 (NZDT)",
+  "places_pct": 92.8,
+  "party_votes": 2340053,
   "source_name": "RNZ",
   "source_url": "https://www.rnz.co.nz/news/election-2026-results",
   "electorates_source_url": "https://www.rnz.co.nz/news/election-2026-results/electorates",
@@ -11,21 +11,20 @@
   "overhang": 10,
   "majority": 66,
   "parties": [
-    {"id": "national", "vote_pct": 29.4, "votes": 683791, "electorate": 42, "list": 0, "seats": 42},
-    {"id": "labour", "vote_pct": 29.1, "votes": 678417, "electorate": 20, "list": 15, "seats": 35},
-    {"id": "greens", "vote_pct": 13.3, "votes": 309834, "electorate": 3, "list": 13, "seats": 16},
-    {"id": "act", "vote_pct": 11.0, "votes": 256502, "electorate": 1, "list": 12, "seats": 13},
-    {"id": "nzfirst", "vote_pct": 9.8, "votes": 228651, "electorate": 0, "list": 12, "seats": 12},
-    {"id": "opportunity", "vote_pct": 6.0, "votes": 138742, "electorate": 0, "list": 7, "seats": 7},
-    {"id": "tpm", "vote_pct": 0.6, "votes": 13135, "electorate": 5, "list": 0, "seats": 5}
+    {"id": "national", "vote_pct": 29.3, "votes": 686670, "electorate": 42, "list": 0, "seats": 42},
+    {"id": "labour", "vote_pct": 29.2, "votes": 682134, "electorate": 20, "list": 15, "seats": 35},
+    {"id": "greens", "vote_pct": 13.3, "votes": 311240, "electorate": 3, "list": 13, "seats": 16},
+    {"id": "act", "vote_pct": 11.0, "votes": 257578, "electorate": 1, "list": 12, "seats": 13},
+    {"id": "nzfirst", "vote_pct": 9.8, "votes": 229819, "electorate": 0, "list": 12, "seats": 12},
+    {"id": "opportunity", "vote_pct": 6.0, "votes": 139433, "electorate": 0, "list": 7, "seats": 7},
+    {"id": "tpm", "vote_pct": 0.6, "votes": 13228, "electorate": 5, "list": 0, "seats": 5}
   ],
   "tight_races": [
     {"electorate": "Wellington Bays", "places_pct": 97.3, "leader": "Julie Anne Genter", "leader_party": "greens", "trailer": "Craig Renney", "trailer_party": "labour", "margin": 62},
-    {"electorate": "Wairarapa", "places_pct": 84.7, "leader": "Mike Butterick", "leader_party": "national", "trailer": "Kieran McAnulty", "trailer_party": "labour", "margin": 118},
-    {"electorate": "Mt Roskill", "places_pct": 78.0, "leader": "Michael Wood", "leader_party": "labour", "trailer": "Carlos Cheung", "trailer_party": "national", "margin": 155},
+    {"electorate": "Mt Roskill", "places_pct": 79.0, "leader": "Michael Wood", "leader_party": "labour", "trailer": "Carlos Cheung", "trailer_party": "national", "margin": 279},
+    {"electorate": "Wairarapa", "places_pct": 88.2, "leader": "Mike Butterick", "leader_party": "national", "trailer": "Kieran McAnulty", "trailer_party": "labour", "margin": 282},
     {"electorate": "Hamilton East", "places_pct": 97.2, "leader": "Ryan Hamilton", "leader_party": "national", "trailer": "Georgie Dansey", "trailer_party": "labour", "margin": 456},
-    {"electorate": "Te Tai Tokerau", "places_pct": 89.5, "leader": "Aperahama Edwards", "leader_party": "tpm", "trailer": "Hūhana Lyndon", "trailer_party": "greens", "margin": 458},
-    {"electorate": "Hutt South", "places_pct": 95.0, "leader": "Ginny Andersen", "leader_party": "labour", "trailer": "Chris Bishop", "trailer_party": "national", "margin": 942},
-    {"electorate": "Whangārei", "places_pct": 93.7, "leader": "Lloyd Budd", "leader_party": "national", "trailer": "Gary Payinda", "trailer_party": "labour", "margin": 998}
+    {"electorate": "Te Tai Tokerau", "places_pct": 90.4, "leader": "Aperahama Edwards", "leader_party": "tpm", "trailer": "Hūhana Lyndon", "trailer_party": "greens", "margin": 459},
+    {"electorate": "Hutt South", "places_pct": 96.2, "leader": "Ginny Andersen", "leader_party": "labour", "trailer": "Chris Bishop", "trailer_party": "national", "margin": 908}
   ]
 }

@@ -1,3 +1,13 @@
+## 2026-11-07 ~11:30pm NZDT — election-night dashboard refresh
+
+Electoral Commission preliminary via RNZ (party page stamped 11:30pm; electorates 11:31pm): **92.8%** of voting places, **2,340,053** party votes.
+National 29.3% (686,670, 42), Labour 29.2% (682,134, 35), Greens 13.3% (311,240, 16), ACT 11.0% (257,578, 13), NZ First 9.8% (229,819, 12), Opportunity 6.0% (139,433, 7), Te Pāti Māori 0.6% (13,228, 5). Parliament 130 / overhang 10 / 66 to govern. Right 67; left 56; left+Opportunity 63.
+
+Tight races under 1,000: Wellington Bays Greens Genter by 62; Mt Roskill Labour Wood by 279; Wairarapa National Butterick by 282; Hamilton East National Hamilton by 456; Te Tai Tokerau TPM Edwards by 459; Hutt South Labour Andersen by 908. Whangārei moved above 1,000 (National Budd by 1,072) and dropped off the list. No seat/bloc change vs 11:23pm; no leader flips.
+
+— Grok Bot, 7 November 2026 ~11:31pm NZDT. Re-check against the wiki/live system if this is more than 2 weeks old.
+
+
 # Changelog
 
 ## 2026-11-07 ~11:00pm NZDT — election-night dashboard refresh
