@@ -1,36 +1,36 @@
 {
-  "as_at": "2026-11-07T23:46:00+13:00",
-  "as_at_label": "11:46pm Saturday 7 November 2026 (NZDT)",
-  "places_pct": 94.5,
-  "party_votes": 2359834,
+  "as_at": "2026-11-07T23:50:00+13:00",
+  "as_at_label": "11:50pm Saturday 7 November 2026 (NZDT)",
+  "places_pct": 95.1,
+  "party_votes": 2367031,
   "source_name": "RNZ",
   "source_url": "https://www.rnz.co.nz/news/election-2026-results",
   "electorates_source_url": "https://www.rnz.co.nz/news/election-2026-results/electorates",
   "source_note": "Electoral Commission preliminary figures via RNZ. Special votes are not included. Official results are expected on Friday 27 November 2026. The percentage counted is voting places reporting, not the share of all votes. Electorate leads are current leads, not confirmed wins.",
-  "parliament": 129,
-  "overhang": 9,
-  "majority": 65,
+  "parliament": 130,
+  "overhang": 10,
+  "majority": 66,
   "parties": [
     {
       "id": "national",
       "vote_pct": 29.3,
-      "votes": 691812,
-      "electorate": 41,
+      "votes": 693987,
+      "electorate": 42,
       "list": 0,
-      "seats": 41
+      "seats": 42
     },
     {
       "id": "labour",
       "vote_pct": 29.2,
-      "votes": 688457,
-      "electorate": 21,
-      "list": 14,
+      "votes": 690751,
+      "electorate": 20,
+      "list": 15,
       "seats": 35
     },
     {
       "id": "greens",
       "vote_pct": 13.3,
-      "votes": 313981,
+      "votes": 314812,
       "electorate": 3,
       "list": 13,
       "seats": 16
@@ -38,7 +38,7 @@
     {
       "id": "act",
       "vote_pct": 11.0,
-      "votes": 259502,
+      "votes": 260234,
       "electorate": 1,
       "list": 12,
       "seats": 13
@@ -46,7 +46,7 @@
     {
       "id": "nzfirst",
       "vote_pct": 9.8,
-      "votes": 231652,
+      "votes": 232209,
       "electorate": 0,
       "list": 12,
       "seats": 12
@@ -54,7 +54,7 @@
     {
       "id": "opportunity",
       "vote_pct": 6.0,
-      "votes": 140941,
+      "votes": 141447,
       "electorate": 0,
       "list": 7,
       "seats": 7
@@ -62,7 +62,7 @@
     {
       "id": "tpm",
       "vote_pct": 0.6,
-      "votes": 13356,
+      "votes": 13390,
       "electorate": 5,
       "list": 0,
       "seats": 5
@@ -71,12 +71,12 @@
   "tight_races": [
     {
       "electorate": "Wairarapa",
-      "places_pct": 92.9,
-      "leader": "Kieran McAnulty",
-      "leader_party": "labour",
-      "trailer": "Mike Butterick",
-      "trailer_party": "national",
-      "margin": 54
+      "places_pct": 94.1,
+      "leader": "Mike Butterick",
+      "leader_party": "national",
+      "trailer": "Kieran McAnulty",
+      "trailer_party": "labour",
+      "margin": 62
     },
     {
       "electorate": "Wellington Bays",
@@ -89,12 +89,12 @@
     },
     {
       "electorate": "Mt Roskill",
-      "places_pct": 83.0,
+      "places_pct": 87.0,
       "leader": "Michael Wood",
       "leader_party": "labour",
       "trailer": "Carlos Cheung",
       "trailer_party": "national",
-      "margin": 284
+      "margin": 174
     },
     {
       "electorate": "Hamilton East",
@@ -107,12 +107,12 @@
     },
     {
       "electorate": "Te Tai Tokerau",
-      "places_pct": 91.6,
+      "places_pct": 92.0,
       "leader": "Aperahama Edwards",
       "leader_party": "tpm",
       "trailer": "Hūhana Lyndon",
       "trailer_party": "greens",
-      "margin": 462
+      "margin": 468
     },
     {
       "electorate": "Hutt South",
