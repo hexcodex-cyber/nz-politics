@@ -144,3 +144,8 @@ body.night .party a:hover{box-shadow:0 8px 24px rgba(0,0,0,.28)}
 @media (max-width:720px){
   .dash-focus-cards{grid-template-columns:1fr}
 }
+
+.dash-dev{list-style:none;padding:0;margin:.8rem 0 0}
+.dash-dev li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.85rem 1rem;margin:.55rem 0}
+.dash-dev time{display:block;font-size:.8rem;color:var(--muted);font-weight:700;margin-bottom:.2rem}
+.dash-dev p{margin:0}

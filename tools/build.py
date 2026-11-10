@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Saturday 7 November 2026, 11:50pm (NZDT)"
+UPDATED = "Tuesday 10 November 2026, 10:45pm (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -42,7 +42,7 @@ def srcname(u):
             "labour.org.nz":"Labour Party","greens.org.nz":"Green Party","teaonews.co.nz":"Te Ao Māori News","govt.nz":"govt.nz",
             "vote.nz":"Vote.nz","farmersweekly.co.nz":"Farmers Weekly","odt.co.nz":"ODT","pmn.co.nz":"Pacific Media Network",
             "interest.co.nz":"interest.co.nz","asiapacificreport.nz":"Asia Pacific Report","community.scoop.co.nz":"Scoop",
-            "newzeal.org.nz":"NewZeal","act.org.nz":"ACT Party","silvereye.co.nz":"Silvereye","democracyproject.org.nz":"Democracy Project","times.co.nz":"Times Media","linkedin.com":"LinkedIn","newswire.nz":"newswire.nz"}.get(h, h)
+            "newzeal.org.nz":"NewZeal","act.org.nz":"ACT Party","silvereye.co.nz":"Silvereye","democracyproject.org.nz":"Democracy Project","times.co.nz":"Times Media","linkedin.com":"LinkedIn","newswire.nz":"newswire.nz","bbc.com":"BBC","bbc.co.uk":"BBC"}.get(h, h)
 
 ALLPARTIES = PARTIES + OUTSIDE
 PARTY = {p["id"]: p for p in ALLPARTIES}
@@ -208,12 +208,31 @@ def dash_home():
         "Leads of under 1,000 votes that do not change National's electorate total. These are current leads, not confirmed wins, and special votes are not included.",
         other_races,
     )
+    devs = R.get("developments") or []
+    dev_html = ""
+    if devs:
+        dev_items = ""
+        for d in devs:
+            dsrc = link(d["url"], d.get("source") or srcname(d["url"]))
+            dev_items += (
+                f'<li><time datetime="{e(d["date"])}">{fmtdate(d["date"])}</time>'
+                f'<p>{e(d["text"])} <span class="src">[{dsrc}]</span></p></li>'
+            )
+        intro = R.get("developments_intro") or ""
+        title = R.get("developments_title") or "Since election night"
+        intro_p = f'<p class="dash-note">{e(intro)}</p>' if intro else ""
+        dev_html = (
+            f'<section aria-labelledby="since"><h2 id="since">{e(title)}</h2>'
+            f'{intro_p}<ul class="dash-dev">{dev_items}</ul></section>'
+        )
+
     return f"""<section class="dash-hero">
-<p class="kicker">Election night · preliminary count</p>
+<p class="kicker">Final preliminary count · special votes still to come</p>
 <h1>What decides the government</h1>
 <p class="dash-sub">{R["places_pct"]:g}% of voting places in · {_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}</p>
 <p class="dash-note">{e(R["source_note"])} Source: {src}.</p>
 </section>
+{dev_html}
 <section class="dash-focus" aria-labelledby="focus">
 <h2 id="focus">What matters now</h2>
 <p class="dash-note">The right's path is National's electorate seats plus ACT plus NZ First. National has no list MPs, so each electorate it loses shrinks both National and the House.</p>
@@ -268,9 +287,9 @@ def dash_home():
 
 body = dash_home()
 write("index.html", page(
-    "Election night",
+    "Final preliminary count",
     body,
-    desc="Live-style preliminary parliament and party-vote dashboard for New Zealand's 7 November 2026 election, from Electoral Commission figures via RNZ.",
+    desc="Final preliminary parliament and party-vote dashboard for New Zealand's 7 November 2026 election, from Electoral Commission figures via RNZ, plus sourced notes on talks since election night. Special votes are still to come.",
     body_class="night",
 ))
 
@@ -355,7 +374,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-07", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-10", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],

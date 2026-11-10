@@ -1,127 +1,64 @@
 {
-  "as_at": "2026-11-07T23:50:00+13:00",
-  "as_at_label": "11:50pm Saturday 7 November 2026 (NZDT)",
-  "places_pct": 95.1,
-  "party_votes": 2367031,
+  "as_at": "2026-11-08T03:45:00+13:00",
+  "as_at_label": "3:45am Sunday 8 November 2026 (NZDT) — final preliminary, all voting places",
+  "places_pct": 100,
+  "party_votes": 2418565,
   "source_name": "RNZ",
   "source_url": "https://www.rnz.co.nz/news/election-2026-results",
   "electorates_source_url": "https://www.rnz.co.nz/news/election-2026-results/electorates",
-  "source_note": "Electoral Commission preliminary figures via RNZ. Special votes are not included. Official results are expected on Friday 27 November 2026. The percentage counted is voting places reporting, not the share of all votes. Electorate leads are current leads, not confirmed wins.",
-  "parliament": 130,
-  "overhang": 10,
+  "source_note": "Electoral Commission preliminary figures via RNZ, after all voting places reported. This is the completed election-night preliminary count. Special votes are not included, and ordinary votes will be recounted. Official results are expected on Friday 27 November 2026. Electorate leads are current leads, not confirmed wins.",
+  "parliament": 131,
+  "overhang": 11,
   "majority": 66,
   "parties": [
-    {
-      "id": "national",
-      "vote_pct": 29.3,
-      "votes": 693987,
-      "electorate": 42,
-      "list": 0,
-      "seats": 42
-    },
-    {
-      "id": "labour",
-      "vote_pct": 29.2,
-      "votes": 690751,
-      "electorate": 20,
-      "list": 15,
-      "seats": 35
-    },
-    {
-      "id": "greens",
-      "vote_pct": 13.3,
-      "votes": 314812,
-      "electorate": 3,
-      "list": 13,
-      "seats": 16
-    },
-    {
-      "id": "act",
-      "vote_pct": 11.0,
-      "votes": 260234,
-      "electorate": 1,
-      "list": 12,
-      "seats": 13
-    },
-    {
-      "id": "nzfirst",
-      "vote_pct": 9.8,
-      "votes": 232209,
-      "electorate": 0,
-      "list": 12,
-      "seats": 12
-    },
-    {
-      "id": "opportunity",
-      "vote_pct": 6.0,
-      "votes": 141447,
-      "electorate": 0,
-      "list": 7,
-      "seats": 7
-    },
-    {
-      "id": "tpm",
-      "vote_pct": 0.6,
-      "votes": 13390,
-      "electorate": 5,
-      "list": 0,
-      "seats": 5
-    }
+    {"id": "national", "vote_pct": 29.2, "votes": 706680, "electorate": 42, "list": 0, "seats": 42},
+    {"id": "labour", "vote_pct": 29.4, "votes": 710330, "electorate": 21, "list": 15, "seats": 36},
+    {"id": "greens", "vote_pct": 13.3, "votes": 321902, "electorate": 2, "list": 14, "seats": 16},
+    {"id": "act", "vote_pct": 10.9, "votes": 264121, "electorate": 1, "list": 12, "seats": 13},
+    {"id": "nzfirst", "vote_pct": 9.8, "votes": 236630, "electorate": 0, "list": 12, "seats": 12},
+    {"id": "opportunity", "vote_pct": 6.0, "votes": 144298, "electorate": 0, "list": 7, "seats": 7},
+    {"id": "tpm", "vote_pct": 0.6, "votes": 13845, "electorate": 5, "list": 0, "seats": 5}
   ],
   "tight_races": [
+    {"electorate": "Wairarapa", "places_pct": 100.0, "leader": "Mike Butterick", "leader_party": "national", "trailer": "Kieran McAnulty", "trailer_party": "labour", "margin": 139},
+    {"electorate": "Wellington Bays", "places_pct": 100.0, "leader": "Craig Renney", "leader_party": "labour", "trailer": "Julie Anne Genter", "trailer_party": "greens", "margin": 140},
+    {"electorate": "Mt Roskill", "places_pct": 100.0, "leader": "Michael Wood", "leader_party": "labour", "trailer": "Carlos Cheung", "trailer_party": "national", "margin": 262},
+    {"electorate": "Te Tai Tokerau", "places_pct": 100.0, "leader": "Aperahama Edwards", "leader_party": "tpm", "trailer": "Hūhana Lyndon", "trailer_party": "greens", "margin": 436},
+    {"electorate": "Hamilton East", "places_pct": 100.0, "leader": "Ryan Hamilton", "leader_party": "national", "trailer": "Georgie Dansey", "trailer_party": "labour", "margin": 456},
+    {"electorate": "Hutt South", "places_pct": 100.0, "leader": "Ginny Andersen", "leader_party": "labour", "trailer": "Chris Bishop", "trailer_party": "national", "margin": 889}
+  ],
+  "developments_title": "Since election night",
+  "developments_intro": "Formal coalition negotiations have been put off until the official results on Friday 27 November. The figures above exclude special votes. About 399,000 special votes, roughly one in seven, are still to be counted.",
+  "developments": [
     {
-      "electorate": "Wairarapa",
-      "places_pct": 94.1,
-      "leader": "Mike Butterick",
-      "leader_party": "national",
-      "trailer": "Kieran McAnulty",
-      "trailer_party": "labour",
-      "margin": 62
+      "date": "2026-11-09",
+      "text": "RNZ analysis set out how a handful of close electorates or a small shift in the party vote could remove the right's one-seat majority, or leave Opportunity able to give either side 66 seats. National's party vote is currently worth 35 of the 120 standard seats, so it keeps all 42 electorate leads as overhang; Te Pāti Māori's party vote is worth one seat, with four more overhang. On a strictly proportional 120-seat basis the two blocs would be tied at 60.",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2448587/how-399-000-votes-could-cost-christopher-luxon-his-majority"
     },
     {
-      "electorate": "Wellington Bays",
-      "places_pct": 97.3,
-      "leader": "Julie Anne Genter",
-      "leader_party": "greens",
-      "trailer": "Craig Renney",
-      "trailer_party": "labour",
-      "margin": 62
+      "date": "2026-11-10",
+      "text": "National's Christopher Luxon met Opportunity leader Qiulae Wong for an hour in his office on Monday night, after ruling her party out during the campaign. On Tuesday he called the conversation \"very positive, very constructive\". He said formal talks with ACT and NZ First would wait until the specials were counted, and, asked about the finance portfolio, said: \"That'll be a National Party MP.\" He also said he had spoken briefly with David Seymour and Winston Peters to congratulate them.",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2488950/very-constructive-conversation-luxon-holds-hour-long-meeting-with-opportunity-s-qiulae-wong"
     },
     {
-      "electorate": "Mt Roskill",
-      "places_pct": 87.0,
-      "leader": "Michael Wood",
-      "leader_party": "labour",
-      "trailer": "Carlos Cheung",
-      "trailer_party": "national",
-      "margin": 174
+      "date": "2026-11-10",
+      "text": "Wong met Labour's Chris Hipkins for about an hour on Tuesday. An Opportunity spokesperson said they talked generally about the campaign and a desire for more collaboration, and that negotiations would wait until the final count. Wong told 1News the party would first talk with National, as the largest party, and \"will certainly speak to Labour\" if those talks cannot move forward. A spokesperson said Opportunity had had no word from Winston Peters or David Seymour at that stage, had exchanged contact details after bumping into Te Pāti Māori members, and was due to meet Green co-leader Chlöe Swarbrick later on Tuesday evening. Whether that Green meeting took place has not been independently confirmed here.",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/politics/2504189/opportunity-s-qiulae-wong-meets-with-chris-hipkins"
     },
     {
-      "electorate": "Hamilton East",
-      "places_pct": 100.0,
-      "leader": "Ryan Hamilton",
-      "leader_party": "national",
-      "trailer": "Georgie Dansey",
-      "trailer_party": "labour",
-      "margin": 456
+      "date": "2026-11-08",
+      "text": "On Sunday, Swarbrick welcomed Opportunity into Parliament but said \"it's time to pick a side\" and that the party no longer got to \"sit on the fence\". The same morning on Q+A, NZ First deputy Shane Jones said the party would \"just wait until what the specials reveal\" and was happy it appeared the existing National–ACT–NZ First arrangement could be retained. National campaign chair Simeon Brown called the result \"bittersweet\" because of senior MPs likely to leave Parliament, and said a hung Parliament \"would ultimately mean another election\".",
+      "source": "1News",
+      "url": "https://www.1news.co.nz/2026/11/08/swarbrick-tells-opportunity-its-time-to-choose-a-side/"
     },
     {
-      "electorate": "Te Tai Tokerau",
-      "places_pct": 92.0,
-      "leader": "Aperahama Edwards",
-      "leader_party": "tpm",
-      "trailer": "Hūhana Lyndon",
-      "trailer_party": "greens",
-      "margin": 468
-    },
-    {
-      "electorate": "Hutt South",
-      "places_pct": 96.2,
-      "leader": "Ginny Andersen",
-      "leader_party": "labour",
-      "trailer": "Chris Bishop",
-      "trailer_party": "national",
-      "margin": 908
+      "date": "2026-11-10",
+      "text": "National has no list seats on the preliminary count, so list-only MPs Nicola Willis, Paul Goldsmith and Gerry Brownlee are out unless that changes. Chris Bishop, also a list candidate, trails in Hutt South by 889 votes. On Monday night he posted that he had rung Ginny Andersen to concede, describing election night as \"soul-destroying\" and saying that although specials remain, they were unlikely to reverse the result. On Tuesday he told Morning Report the vote-splitting and overhang campaigns were \"terribly confusing for voters\".",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2486133/a-lot-to-answer-for-chris-bishop-slams-vote-splitting-campaigns-as-he-farewells-parliament"
     }
   ]
 }

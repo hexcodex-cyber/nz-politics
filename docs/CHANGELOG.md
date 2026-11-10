@@ -1,3 +1,18 @@
+## 2026-11-10 ~10:45pm NZDT — daily site update: final preliminary count and post-election talks
+
+First update since the 11:50pm Saturday 7 November election-night snapshot. Electoral Commission preliminary via RNZ (party and electorate pages stamped 3:45am Sunday 8 November 2026 NZDT): **100%** of voting places, **2,418,565** party votes. This is the completed election-night preliminary (specials excluded; official results due Friday 27 November).
+
+National 29.2% (706,680, 42 electorate / 0 list / 42), Labour 29.4% (710,330, 21 / 15 / 36), Greens 13.3% (321,902, 2 / 14 / 16), ACT 10.9% (264,121, 1 / 12 / 13), NZ First 9.8% (236,630, 0 / 12 / 12), Opportunity 6.0% (144,298, 0 / 7 / 7), Te Pāti Māori 0.6% (13,845, 5 / 0 / 5). Two-decimal shares from the Electoral Commission preliminary mirror: National 29.21, Labour 29.36, Greens 13.30, ACT 10.92, NZ First 9.78, Opportunity 5.96, Te Pāti Māori 0.57. Parliament **131** / overhang **11** / **66** to govern. Right 67; left 57; left+Opportunity 64.
+
+Material vs 11:50pm Saturday: Labour takes the party-vote lead (was National 693,987–690,751); Labour 35→36 seats; Greens electorates 3→2 after Wellington Bays flipped to Labour (Greens list 13→14, still 16 seats); Labour electorates 20→21 / list still 15; ACT 11.0%→10.9%; parliament 130→131; overhang 10→11; majority still 66; right still 67 (one above); left 56→57; left+Opportunity 63→64. RNZ (9 Nov) says National's party vote is worth 35 of the 120 standard seats and Te Pāti Māori's is worth one, hence the 11-seat overhang.
+
+Tight races, all voting places in: Wairarapa National Butterick 17,943–17,804 (+139, was +62); Wellington Bays FLIPPED to Labour, Renney 15,307–15,167 over Genter (+140; was Greens Genter +62); Mt Roskill Labour Wood 13,582–13,320 (+262, was +174); Te Tai Tokerau TPM Edwards 8,484–8,048 over Lyndon (+436, was +468); Hamilton East National Hamilton 14,139–13,683 (+456, unchanged); Hutt South Labour Andersen 17,957–17,068 (+889, was +908). Bishop conceded Hutt South on Monday night (specials still to come).
+
+Post-election: Luxon met Wong for an hour on Monday night and on Tuesday called it "very positive, very constructive"; formal National–ACT–NZ First talks wait for specials; Luxon said finance "That'll be a National Party MP." Wong met Hipkins on Tuesday; said Opportunity will talk first with National and with Labour if those talks stall; no negotiations until the official count. Swarbrick on Sunday told Opportunity it was "time to pick a side." Jones on Q+A said wait for the specials. About 399,000 special votes remain. A "Since election night" notes section was added on the homepage from existing dashboard styles; party and people pages gained new sourced quotes. Winston Peters has not been quoted on the record in the sources retrieved for this update beyond Luxon's report of a brief congratulations call.
+
+— Nz Political Bot, 10 November 2026 ~10:45pm NZDT. Re-check against the wiki/live system if this is more than 2 weeks old.
+
+
 ## 2026-11-07 ~11:50pm NZDT — election-night dashboard refresh
 
 Electoral Commission preliminary via RNZ (party page and electorate list stamped 11:50pm NZDT): **95.1%** of voting places, **2,367,031** party votes.
