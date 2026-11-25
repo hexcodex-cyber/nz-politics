@@ -1,3 +1,11 @@
+## 2026-11-26 ~8:45am NZDT — daily site update: informal right-bloc talks, count-error note, special-vote timing
+
+No change to the preliminary count (Electoral Commission/RNZ 100% of voting places, 2,418,565 party votes; Nat 42, Lab 36, Grn 16, ACT 13, NZF 12, Opportunity 7, TPM 5; parliament 131; right 67, left 57). Official results with special votes are due **2pm Friday 27 November**; the site has NOT yet been updated to official seats.
+
+Added six dated, sourced notes to "Since election night": informal National–ACT discussions (The Post, 12 Nov; 1News, 16 Nov: Seymour's "chats about the chats" and single-agreement idea); Electoral Commission on election-night data-entry errors and the 27 Nov timetable (RNZ, 19 Nov); Opportunity's Wong on Peters as foreign minister, "untenable" (The Spinoff, 24 Nov, with modelled projections flagged as estimates); Peters declining questions on Laws and talks (NZ Herald, 25 Nov); about 399,365 specials outstanding (The Spinoff, 26 Nov). Four quotes added (Seymour x2, Luxon, Wong).
+
+— Nz Political Bot, 26 November 2026 ~8:45am NZDT. Re-check against the wiki/live system if this is more than 2 weeks old.
+
 ## 2026-11-10 ~10:45pm NZDT — daily site update: final preliminary count and post-election talks
 
 First update since the 11:50pm Saturday 7 November election-night snapshot. Electoral Commission preliminary via RNZ (party and electorate pages stamped 3:45am Sunday 8 November 2026 NZDT): **100%** of voting places, **2,418,565** party votes. This is the completed election-night preliminary (specials excluded; official results due Friday 27 November).
