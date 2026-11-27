@@ -5,7 +5,7 @@ from data import *
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT", os.path.dirname(HERE))  # repo root (tools/..)
 TZ = zoneinfo.ZoneInfo("Pacific/Auckland")
-UPDATED = "Thursday 26 November 2026, 8:45am (NZDT)"
+UPDATED = "Friday 27 November 2026, 2:10pm (NZDT)"
 e = html.escape
 MONTHS = "January February March April May June July August September October November December".split()
 
@@ -31,9 +31,24 @@ for l in open(os.path.join(HERE, "quotes.jsonl")):
     Q[x["p"]].append(x)
 for k in Q:
     Q[k].sort(key=lambda x: x["d"], reverse=True)
-    if len(Q[k]) > 8:  # keep a spread across the period rather than only the newest
-        n = len(Q[k]); idx = sorted(set(round(i*(n-1)/7) for i in range(8)))
-        Q[k] = [Q[k][i] for i in idx]
+    if len(Q[k]) > 8:  # keep every quote from the newest date, then a spread of older ones
+        newest = Q[k][0]["d"]
+        pinned = [x for x in Q[k] if x["d"] == newest][:8]
+        rest = [x for x in Q[k] if x["d"] != newest]
+        need = 8 - len(pinned)
+        if need <= 0:
+            Q[k] = pinned
+        elif len(rest) <= need:
+            Q[k] = pinned + rest
+        else:
+            idx = sorted(set(round(i * (len(rest) - 1) / max(need - 1, 1)) for i in range(need)))
+            chosen = [rest[i] for i in idx]
+            for x in rest:
+                if len(chosen) >= need:
+                    break
+                if x not in chosen:
+                    chosen.append(x)
+            Q[k] = pinned + chosen[:need]
 
 def srcname(u):
     h = re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
@@ -42,7 +57,7 @@ def srcname(u):
             "labour.org.nz":"Labour Party","greens.org.nz":"Green Party","teaonews.co.nz":"Te Ao Māori News","govt.nz":"govt.nz",
             "vote.nz":"Vote.nz","farmersweekly.co.nz":"Farmers Weekly","odt.co.nz":"ODT","pmn.co.nz":"Pacific Media Network",
             "interest.co.nz":"interest.co.nz","asiapacificreport.nz":"Asia Pacific Report","community.scoop.co.nz":"Scoop",
-            "newzeal.org.nz":"NewZeal","act.org.nz":"ACT Party","silvereye.co.nz":"Silvereye","democracyproject.org.nz":"Democracy Project","times.co.nz":"Times Media","linkedin.com":"LinkedIn","newswire.nz":"newswire.nz","bbc.com":"BBC","bbc.co.uk":"BBC"}.get(h, h)
+            "newzeal.org.nz":"NewZeal","act.org.nz":"ACT Party","silvereye.co.nz":"Silvereye","democracyproject.org.nz":"Democracy Project","times.co.nz":"Times Media","linkedin.com":"LinkedIn","newswire.nz":"newswire.nz","bbc.com":"BBC","bbc.co.uk":"BBC","youtube.com":"YouTube","youtu.be":"YouTube","electionresults.govt.nz":"Electoral Commission","media.election.net.nz":"Electoral Commission"}.get(h, h)
 
 ALLPARTIES = PARTIES + OUTSIDE
 PARTY = {p["id"]: p for p in ALLPARTIES}
@@ -173,20 +188,26 @@ def dash_home():
         if race.get("trailer"):
             tshort = tp.get("short") or ""
             trail = f'<span class="dash-trail">ahead of {e(race["trailer"])} ({e(tshort)})</span>'
+        note = ""
+        if race.get("note"):
+            note = f'<span class="dash-race-note">{e(race["note"])}</span>'
+        official = R.get("count") == "official"
+        meta = "official count" if official else f'{race["places_pct"]:g}% of places in'
         return (
             f'<li class="dash-race" style="--pc:{colour}">'
             f'<span class="dash-race-elect">{e(race["electorate"])}</span>'
             f'<span class="dash-race-margin">{_fmt_int(race["margin"])} <small>votes</small></span>'
             f'<span class="dash-race-lead">{e(race["leader"])} · {e(lp.get("short", ""))}</span>'
             f'{trail}'
-            f'<span class="dash-race-meta">{race["places_pct"]:g}% of places in</span>'
+            f'{note}'
+            f'<span class="dash-race-meta">{meta}</span>'
             f'</li>'
         )
 
     def race_section(sid, title, note, items):
         if not items:
             return ""
-        el_src = link(R.get("electorates_source_url") or R["source_url"], "RNZ electorate results")
+        el_src = link(R.get("electorates_source_url") or R["source_url"], R.get("source_name") or "Electoral Commission")
         cards = "".join(race_card(r) for r in items)
         return (
             f'<section aria-labelledby="{sid}"><h2 id="{sid}">{e(title)}</h2>'
@@ -196,18 +217,19 @@ def dash_home():
 
     nat_races = [r for r in races if r.get("leader_party") == "national" or r.get("trailer_party") == "national"]
     other_races = [r for r in races if r not in nat_races]
-    nat_html = race_section(
-        "nat-races",
-        "National electorates still close",
-        "Leads of under 1,000 votes in seats National is contesting. These are current leads, not confirmed wins, and special votes are not included. Because National has no list seats, a lost electorate shrinks both National and parliament.",
-        nat_races,
-    )
-    other_html = race_section(
-        "tight",
-        "Other tight electorate races",
-        "Leads of under 1,000 votes that do not change National's electorate total. These are current leads, not confirmed wins, and special votes are not included.",
-        other_races,
-    )
+    official = R.get("count") == "official"
+    if official:
+        nat_note = "Official margins in electorates National won or contested, including seats that flipped on the official count. These results can still change if a judicial recount is granted. Because National has no list seats, a lost electorate shrinks both National and parliament."
+        other_note = "Official margins in other watched or close electorates, including seats that flipped on the official count. These results can still change if a judicial recount is granted."
+        nat_title = "National seats and close official races"
+        other_title = "Other official electorate results to watch"
+    else:
+        nat_note = "Leads of under 1,000 votes in seats National is contesting. These are current leads, not confirmed wins, and special votes are not included. Because National has no list seats, a lost electorate shrinks both National and parliament."
+        other_note = "Leads of under 1,000 votes that do not change National's electorate total. These are current leads, not confirmed wins, and special votes are not included."
+        nat_title = "National electorates still close"
+        other_title = "Other tight electorate races"
+    nat_html = race_section("nat-races", nat_title, nat_note, nat_races)
+    other_html = race_section("tight", other_title, other_note, other_races)
     devs = R.get("developments") or []
     dev_html = ""
     if devs:
@@ -226,16 +248,23 @@ def dash_home():
             f'{intro_p}<ul class="dash-dev">{dev_items}</ul></section>'
         )
 
+    kicker = R.get("kicker") or ("Official results · Friday 27 November 2026" if official else "Final preliminary count · special votes still to come")
+    if official:
+        dash_sub = f'{_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}'
+    else:
+        dash_sub = f'{R["places_pct"]:g}% of voting places in · {_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}'
+    focus_note = R.get("focus_note") or "The right's path is National's electorate seats plus ACT plus NZ First. National has no list MPs, so each electorate it loses shrinks both National and the House."
+    opp_tag = R.get("opportunity_tag") or ("needed by the right to govern" if right < maj else "not needed by the right")
     return f"""<section class="dash-hero">
-<p class="kicker">Final preliminary count · special votes still to come</p>
+<p class="kicker">{e(kicker)}</p>
 <h1>What decides the government</h1>
-<p class="dash-sub">{R["places_pct"]:g}% of voting places in · {_fmt_int(R["party_votes"])} party votes · {e(R["as_at_label"])}</p>
+<p class="dash-sub">{dash_sub}</p>
 <p class="dash-note">{e(R["source_note"])} Source: {src}.</p>
 </section>
 {dev_html}
 <section class="dash-focus" aria-labelledby="focus">
 <h2 id="focus">What matters now</h2>
-<p class="dash-note">The right's path is National's electorate seats plus ACT plus NZ First. National has no list MPs, so each electorate it loses shrinks both National and the House.</p>
+<p class="dash-note">{e(focus_note)}</p>
 <ul class="dash-focus-cards">
 <li class="dash-focus-card nat" style="--pc:{e(by_id['national']['colour'])}">
 <span class="lbl">National electorates</span>
@@ -265,7 +294,7 @@ def dash_home():
 <ul class="dash-blocs">
 <li class="dash-bloc right"><span class="lbl">Right</span><span class="n">{right}</span><span class="who">National + ACT + NZ First</span><span class="tag">{shy(right)}</span></li>
 <li class="dash-bloc left"><span class="lbl">Left</span><span class="n">{left}</span><span class="who">Labour + Greens + Te Pāti Māori</span><span class="tag">{shy(left)}</span></li>
-<li class="dash-bloc opp"><span class="lbl">Opportunity</span><span class="n">{opp}</span><span class="who">unaligned</span><span class="tag">not needed by the right</span></li>
+<li class="dash-bloc opp"><span class="lbl">Opportunity</span><span class="n">{opp}</span><span class="who">unaligned</span><span class="tag">{e(opp_tag)}</span></li>
 <li class="dash-bloc leftopp"><span class="lbl">Left + Opportunity</span><span class="n">{leftopp}</span><span class="who">if they dealt together</span><span class="tag">{shy(leftopp)}</span></li>
 </ul>
 </section>
@@ -286,10 +315,16 @@ def dash_home():
 
 
 body = dash_home()
+page_title = "Official results" if RESULTS.get("count") == "official" else "Final preliminary count"
+page_desc = (
+    "Official Electoral Commission results for New Zealand's 7 November 2026 general election, published 27 November 2026, with party votes, seats, electorate flips versus the preliminary count, and sourced notes on government formation."
+    if RESULTS.get("count") == "official"
+    else "Final preliminary parliament and party-vote dashboard for New Zealand's 7 November 2026 election, from Electoral Commission figures via RNZ, plus sourced notes on talks since election night. Special votes are still to come."
+)
 write("index.html", page(
-    "Final preliminary count",
+    page_title,
     body,
-    desc="Final preliminary parliament and party-vote dashboard for New Zealand's 7 November 2026 election, from Electoral Commission figures via RNZ, plus sourced notes on talks since election night. Special votes are still to come.",
+    desc=page_desc,
     body_class="night",
 ))
 
@@ -374,7 +409,7 @@ body = f"""<h1>Sources &amp; methodology</h1>
 write("sources.html", page("Sources & methodology", body))
 
 # ---- JSON
-data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-10", timezone="Pacific/Auckland",
+data = dict(meta=dict(title="NZ Politics 2026: What they actually said", last_updated="2026-11-27", timezone="Pacific/Auckland",
                      election=ELECTION, context=CONTEXT, polls=[dict(poll=a, fieldwork=b, published=c, url=d, verified_against_publisher=v, party_vote=f) for a,b,c,d,v,f in POLLS],
                      other_parties_note=OTHER_NOTE),
             parties=[dict(p, in_parliament=p not in OUTSIDE) for p in ALLPARTIES],

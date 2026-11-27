@@ -128,6 +128,7 @@ body.night .party a:hover{box-shadow:0 8px 24px rgba(0,0,0,.28)}
 .dash-race-margin small{font-size:.8rem;font-weight:700;color:var(--muted);letter-spacing:0}
 .dash-race-lead{font-weight:700}
 .dash-trail{font-size:.88rem;color:var(--muted)}
+.dash-race-note{font-size:.85rem;color:var(--muted);margin-top:.15rem}
 .dash-race-meta{font-size:.8rem;color:var(--muted);margin-top:.3rem}
 
 .dash-focus{margin:1.1rem 0 1.4rem}

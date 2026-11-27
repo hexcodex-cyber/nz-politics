@@ -1,68 +1,70 @@
 {
- "as_at": "2026-11-08T03:45:00+13:00",
- "as_at_label": "3:45am Sunday 8 November 2026 (NZDT) — final preliminary, all voting places",
+ "as_at": "2026-11-27T14:00:00+13:00",
+ "as_at_label": "2:00pm Friday 27 November 2026 (NZDT) — official results",
+ "count": "official",
+ "kicker": "Official results · Friday 27 November 2026",
  "places_pct": 100,
- "party_votes": 2418565,
- "source_name": "RNZ",
- "source_url": "https://www.rnz.co.nz/news/election-2026-results",
- "electorates_source_url": "https://www.rnz.co.nz/news/election-2026-results/electorates",
- "source_note": "Electoral Commission preliminary figures via RNZ, after all voting places reported. This is the completed election-night preliminary count. Special votes are not included, and ordinary votes will be recounted. Official results are expected on Friday 27 November 2026. Electorate leads are current leads, not confirmed wins.",
- "parliament": 131,
- "overhang": 11,
+ "party_votes": 2888890,
+ "source_name": "Electoral Commission",
+ "source_url": "https://www.electionresults.govt.nz/electionresults_2026/",
+ "electorates_source_url": "https://www.electionresults.govt.nz/electionresults_2026/electorate-status.html",
+ "source_note": "Electoral Commission official results, published 2pm Friday 27 November 2026, including special votes and a second count of ordinary votes. The Commission declares the official count by publishing a notice in the NZ Gazette. Candidates have three working days from this declaration to apply for a judicial recount (deadline Wednesday 2 December). The writ is due back on Thursday 3 December if nobody applies.",
+ "parliament": 130,
+ "overhang": 10,
  "majority": 66,
  "parties": [
   {
    "id": "national",
-   "vote_pct": 29.2,
-   "votes": 706680,
-   "electorate": 42,
+   "vote_pct": 28.35,
+   "votes": 819012,
+   "electorate": 40,
    "list": 0,
-   "seats": 42
+   "seats": 40
   },
   {
    "id": "labour",
-   "vote_pct": 29.4,
-   "votes": 710330,
-   "electorate": 21,
-   "list": 15,
+   "vote_pct": 29.88,
+   "votes": 863238,
+   "electorate": 22,
+   "list": 14,
    "seats": 36
   },
   {
    "id": "greens",
-   "vote_pct": 13.3,
-   "votes": 321902,
-   "electorate": 2,
+   "vote_pct": 14.06,
+   "votes": 406356,
+   "electorate": 3,
    "list": 14,
-   "seats": 16
+   "seats": 17
   },
   {
    "id": "act",
-   "vote_pct": 10.9,
-   "votes": 264121,
+   "vote_pct": 10.54,
+   "votes": 304521,
    "electorate": 1,
    "list": 12,
    "seats": 13
   },
   {
    "id": "nzfirst",
-   "vote_pct": 9.8,
-   "votes": 236630,
+   "vote_pct": 9.6,
+   "votes": 277565,
    "electorate": 0,
    "list": 12,
    "seats": 12
   },
   {
    "id": "opportunity",
-   "vote_pct": 6.0,
-   "votes": 144298,
+   "vote_pct": 6.06,
+   "votes": 175093,
    "electorate": 0,
    "list": 7,
    "seats": 7
   },
   {
    "id": "tpm",
-   "vote_pct": 0.6,
-   "votes": 13845,
+   "vote_pct": 0.63,
+   "votes": 18310,
    "electorate": 5,
    "list": 0,
    "seats": 5
@@ -72,29 +74,31 @@
   {
    "electorate": "Wairarapa",
    "places_pct": 100.0,
-   "leader": "Mike Butterick",
-   "leader_party": "national",
-   "trailer": "Kieran McAnulty",
-   "trailer_party": "labour",
-   "margin": 139
-  },
-  {
-   "electorate": "Wellington Bays",
-   "places_pct": 100.0,
-   "leader": "Craig Renney",
+   "leader": "Kieran McAnulty",
    "leader_party": "labour",
-   "trailer": "Julie Anne Genter",
-   "trailer_party": "greens",
-   "margin": 140
-  },
-  {
-   "electorate": "Mt Roskill",
-   "places_pct": 100.0,
-   "leader": "Michael Wood",
-   "leader_party": "labour",
-   "trailer": "Carlos Cheung",
+   "trailer": "Mike Butterick",
    "trailer_party": "national",
-   "margin": 262
+   "margin": 81,
+   "note": "Flipped from National (preliminary margin 139 the other way)"
+  },
+  {
+   "electorate": "Hamilton East",
+   "places_pct": 100.0,
+   "leader": "Georgie Dansey",
+   "leader_party": "labour",
+   "trailer": "Ryan Hamilton",
+   "trailer_party": "national",
+   "margin": 173,
+   "note": "Flipped from National (preliminary margin 456 the other way)"
+  },
+  {
+   "electorate": "Takanini",
+   "places_pct": 100.0,
+   "leader": "Rima Nakhle",
+   "leader_party": "national",
+   "trailer": "Kharag Singh",
+   "trailer_party": "labour",
+   "margin": 459
   },
   {
    "electorate": "Te Tai Tokerau",
@@ -103,16 +107,37 @@
    "leader_party": "tpm",
    "trailer": "Hūhana Lyndon",
    "trailer_party": "greens",
-   "margin": 436
+   "margin": 583,
+   "note": "Held; preliminary margin 436"
   },
   {
-   "electorate": "Hamilton East",
+   "electorate": "Whangārei",
    "places_pct": 100.0,
-   "leader": "Ryan Hamilton",
+   "leader": "Lloyd Sam Budd",
    "leader_party": "national",
-   "trailer": "Georgie Dansey",
+   "trailer": "Gary Payinda",
    "trailer_party": "labour",
-   "margin": 456
+   "margin": 685
+  },
+  {
+   "electorate": "Nelson",
+   "places_pct": 100.0,
+   "leader": "Blair Cameron",
+   "leader_party": "national",
+   "trailer": "Rachel Boyack",
+   "trailer_party": "labour",
+   "margin": 1083,
+   "note": "Held by National; did not flip"
+  },
+  {
+   "electorate": "Mt Roskill",
+   "places_pct": 100.0,
+   "leader": "Michael Wood",
+   "leader_party": "labour",
+   "trailer": "Carlos Cheung",
+   "trailer_party": "national",
+   "margin": 1128,
+   "note": "Held by Labour; preliminary margin 262"
   },
   {
    "electorate": "Hutt South",
@@ -121,12 +146,49 @@
    "leader_party": "labour",
    "trailer": "Chris Bishop",
    "trailer_party": "national",
-   "margin": 889
+   "margin": 1485,
+   "note": "Held by Labour; preliminary margin 889"
+  },
+  {
+   "electorate": "Wellington Bays",
+   "places_pct": 100.0,
+   "leader": "Julie Anne Genter",
+   "leader_party": "greens",
+   "trailer": "Craig Renney",
+   "trailer_party": "labour",
+   "margin": 1610,
+   "note": "Flipped from Labour (preliminary margin 140 the other way)"
   }
  ],
- "developments_title": "Since election night",
- "developments_intro": "Formal coalition negotiations have been put off until the official results on Friday 27 November. The figures above exclude special votes. About 399,000 special votes, roughly one in seven, are still to be counted.",
+ "developments_title": "Official count and talks",
+ "developments_intro": "These are the official Electoral Commission results published at 2pm on Friday 27 November 2026, including special votes and a second count of ordinary votes. Compared with the election-night preliminary count, National lost two seats and the Greens gained one. The House has 130 seats (10 overhang) and 66 are needed to govern. The right bloc and the left-plus-Opportunity grouping are tied on 65. Candidates have three working days to apply for a judicial recount (deadline Wednesday 2 December).",
+ "focus_note": "On the official count the right bloc (National + ACT + NZ First) has 65 seats in a 130-seat House, one short of the 66 needed to govern. Opportunity's seven seats would take the right to 72, or leave a 65–65 hung parliament if it sided with the left (Labour + Greens + Te Pāti Māori + Opportunity also total 65). National still has no list MPs, so a recount that flipped one of its electorates would shrink both National and the House.",
+ "opportunity_tag": "needed by the right to govern",
  "developments": [
+  {
+   "date": "2026-11-27",
+   "text": "The Electoral Commission published the official results at 2pm on Friday 27 November. Labour 29.88% (863,238 party votes, 22 electorate and 14 list, 36 seats), National 28.35% (819,012, 40 electorate and 0 list, 40), Greens 14.06% (406,356, 3 and 14, 17), ACT 10.54% (304,521, 1 and 12, 13), NZ First 9.60% (277,565, 0 and 12, 12), Opportunity 6.06% (175,093, 0 and 7, 7), Te Pāti Māori 0.63% (18,310, 5 and 0, 5). Total party votes 2,888,890. The House has 130 seats, with a 10-seat overhang (six from National, four from Te Pāti Māori), and 66 are needed to govern. Compared with the preliminary count, National lost two seats and the Greens gained one; other party totals are unchanged. The right bloc (National, ACT and NZ First) has 65 seats and the left (Labour, Greens and Te Pāti Māori) 58; left plus Opportunity is also 65.",
+   "source": "Electoral Commission",
+   "url": "https://www.electionresults.govt.nz/electionresults_2026/"
+  },
+  {
+   "date": "2026-11-27",
+   "text": "Three electorates flipped from the preliminary count. Labour's Kieran McAnulty took Wairarapa from National's Mike Butterick by 81 votes (Butterick led by 139 on election night). Labour's Georgie Dansey took Hamilton East from National's Ryan Hamilton by 173 votes (Hamilton led by 456). The Greens' Julie Anne Genter took Wellington Bays from Labour's Craig Renney by 1,610 votes (Renney led by 140); Renney is replaced by Labour's next list candidate. Watched seats that did not flip: Labour's Michael Wood held Mt Roskill, ahead of National's Carlos Cheung by 1,128 (was 262); Te Pāti Māori's Aperahama Edwards held Te Tai Tokerau, ahead of the Greens' Hūhana Lyndon by 583 (was 436); Labour's Ginny Andersen held Hutt South, ahead of National's Chris Bishop by 1,485 (was 889); National's Blair Cameron held Nelson, ahead of Labour's Rachel Boyack by 1,083. Other close official margins include National's Rima Nakhle in Takanini by 459 and National's Lloyd Budd in Whangārei by 685. Candidates have three working days from the official declaration to apply for a judicial recount (deadline Wednesday 2 December). RNZ said a recount in Wairarapa is likely.",
+   "source": "Electoral Commission",
+   "url": "https://www.electionresults.govt.nz/electionresults_2026/electorate-status.html"
+  },
+  {
+   "date": "2026-11-27",
+   "text": "RNZ reports that the official count has erased the coalition's majority, leaving Christopher Luxon reliant on Opportunity to break a deadlock and avoid a return to the polls. Opportunity is pivotal but, in RNZ's wording, short of being a true kingmaker, because Labour, the Greens, Te Pāti Māori and Opportunity together also have 65 seats, one short of a majority. RNZ said the most plausible path is for Opportunity to support the centre-right on key votes, or to abstain, in exchange for policy concessions; Qiulae Wong could also seek ministerial jobs or a four-party coalition. RNZ understands all four parties have had very preliminary staff discussions, mostly on the rules of engagement. Final turnout was 77.2% of enrolled voters (78.2% in 2023), and about 26,000 votes were disallowed. The government stays in caretaker mode until a new administration is sworn in. Parliament must meet by 14 January 2027.",
+   "source": "RNZ",
+   "url": "https://www.rnz.co.nz/news/politics_election-2026/2820329/election-2026-final-results-coalition-loses-majority-another-election-possible"
+  },
+  {
+   "date": "2026-11-27",
+   "text": "On Ryan Bridge TODAY, before the official count was released, ACT leader David Seymour said a four-party government \"may well be necessary… unless there are four parties\", that ACT had talked \"to Opportunity, New Zealand First and National at leader and staff level… all pretty preliminary\", and that \"you can definitely do two. You can do one, but it's touch and go.\"",
+   "source": "Ryan Bridge TODAY",
+   "url": "https://www.youtube.com/watch?v=8T70QhoCZMI"
+  },
   {
    "date": "2026-11-09",
    "text": "RNZ analysis set out how a handful of close electorates or a small shift in the party vote could remove the right's one-seat majority, or leave Opportunity able to give either side 66 seats. National's party vote is currently worth 35 of the 120 standard seats, so it keeps all 42 electorate leads as overhang; Te Pāti Māori's party vote is worth one seat, with four more overhang. On a strictly proportional 120-seat basis the two blocs would be tied at 60.",
